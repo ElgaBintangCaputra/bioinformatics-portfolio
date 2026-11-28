@@ -1,0 +1,4 @@
+Tugas_Evaluasi,Sweeney_Gen_Tersedia,AUC_TB_Signature_8Gen,AUC_Sweeney_3Gen,AUC_GBP5_Single,PR_AUC_8Gen,PR_AUC_Sweeney,PR_AUC_GBP5_Single
+Active TB vs Latent TB,GBP5+DUSP3+KLF2,0.9221,0.926,0.8363,0.9348,0.9416,0.8495
+Active TB vs Other Disease,GBP5+DUSP3+KLF2,0.7015,0.8703,0.8001,0.7437,0.8819,0.7582
+Active TB vs Semua Non-TB,GBP5+DUSP3+KLF2,0.8092,0.8975,0.8178,0.7178,0.8475,0.6714

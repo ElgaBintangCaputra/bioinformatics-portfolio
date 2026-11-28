@@ -1,0 +1,10 @@
+# 📋 Kamus Data & Dokumentasi Input–Proses–Output (NusantaraRhino)
+
+| Tahap | File / Skrip | Input | Proses | Output |
+|---|---|---|---|---|
+| **0. Protokol Riset** | `docs/RESEARCH_PROTOCOL_v1.0.md` | Literatur CPSG 2015, mtDNA 2020, IUCN, BRIN 2026 | Kunci hipotesis H1–H4, guardrail epistemik, arsitektur 3 mesin | Protokol Metodologi v1.0 |
+| **1. Inventaris & Validasi** | `data/parameters.csv`, `src/models/parameters.py` | 30 parameter berprovenance 9-kolom + `configs/scenarios.yaml` (5 skenario faktorial A, B, C1, C2, D) | Validasi Pydantic (`assumption_type`, batas biologis) | Skema tervalidasi + `Table1` & `Table2` |
+| **2. Tiga Mesin Simulasi** | `src/engines/demographic.py`, `genetics.py`, `environment.py`, `simulator.py` | Parameter + 5 skenario faktorial (300 replikasi × 100 tahun) | IBM $I_i$ (`min_interbirth_years = 3`), 20 lokus diploid + IBD + depresi inbreeding tahun pertama $S_{\text{calf},0}\exp(-B\cdot F_i)$, kopula bencana $\rho$, 95% Wilson CI | `yearly_trajectories_summary.csv`, `Table3`, `Table4`, `wright_fisher_baselines.csv` |
+| **3. Lima Eksperimen Sensitivitas** | `src/experiments/run_experiments.py` | Skenario + rentang ketidakpastian | Latin Hypercube Sampling (`scipy.stats.qmc.LatinHypercube`, $N=48$) + **True PRCC** & Spearman (Exp 1), $B \times H_0$ (Exp 2), $\rho \times \text{sev}$ (Exp 3), $K$ (Exp 4), Robustness 5 Strategi (Exp 5) | `Table5_Sensitivity_PRCC.csv`, `exp1_..exp5_*.csv` |
+| **4. Validasi 5-Lapis & Vortex Bridge** | `tests/test_nusantara_rhino.py`, `src/validation/vortex_bridge.py` | Model & data historis 1970–2020 | 4 unit test `pytest`, cek pertumbuhan 50 thn, ekspor XML/CSV Vortex 10 | `validation_historical_window.csv`, `Table6_Python_vs_Vortex.csv`, `results/vortex/*` |
+| **5. Visualisasi & Publikasi** | `src/visualization/make_figures.py`, `manuscript/MANUSCRIPT_DRAFT.md`, `app.py` | Semua tabel hasil `results/tables/` | Buat 6 grafik publikasi (PNG+PDF), draft manuskrip IMRaD, dashboard Streamlit | `Figure1`–`Figure6`, `MANUSCRIPT_DRAFT.md`, `app.py` |

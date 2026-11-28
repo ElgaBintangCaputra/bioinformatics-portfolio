@@ -1,0 +1,230 @@
+accession,species,family,genus,length,ambiguous_frac,country,country_detail,lat,lon,voucher,plot_lat,plot_lon,coord_source
+MN243479.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,680,0.0,Indonesia,Indonesia,-4.83,105.86,Wk3_03,-4.83,105.86,Koordinat asli GenBank
+MN243478.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,680,0.0,Indonesia,Indonesia,-4.83,105.86,Wk3_02,-4.83,105.86,Koordinat asli GenBank
+GU673901.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7513,-8.75,115.167,Koordinat asli GenBank
+GU673900.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7512,-8.75,115.167,Koordinat asli GenBank
+PZ298686.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,639,0.0,Indonesia,"Indonesia: Singkil Peat Swamp, Aceh Province",,,R_38_Lutjanus_argentimaculatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ298685.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,639,0.0,Indonesia,"Indonesia: Singkil Peat Swamp, Aceh Province",,,R_37_Lutjanus_argentimaculatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ298684.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,639,0.0,Indonesia,"Indonesia: Singkil Peat Swamp, Aceh Province",,,SM_62_Lutjanus_argentimaculatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX491277.1,Lutjanus argentimaculatus,Lutjanidae,Lutjanus,627,0.0,Indonesia,"Indonesia: Central Java, Gombong",,,Abangan,-2.5,118.0,Pusat negara (tanpa lat_lon)
+GU673870.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7549,-8.75,115.167,Koordinat asli GenBank
+GU673869.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7548,-8.75,115.167,Koordinat asli GenBank
+GU673867.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7550,-8.75,115.167,Koordinat asli GenBank
+OR758627.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,665,0.0,Indonesia,Indonesia: Kupang,,,M6,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR758626.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,665,0.0,Indonesia,Indonesia: Kupang,,,M5-2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR758625.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,665,0.0,Indonesia,Indonesia: Kupang,,,M5,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR758624.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,665,0.0,Indonesia,Indonesia: Kupang,,,M4-2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR758623.1,Lutjanus malabaricus,Lutjanidae,Lutjanus,665,0.0,Indonesia,Indonesia: Kupang,,,M4-1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+GU673841.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7580,-8.75,115.167,Koordinat asli GenBank
+PQ812447.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_18,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812446.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_17,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812445.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_16,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812444.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_15,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812443.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_13,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812442.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_10,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812441.1,Lutjanus erythropterus,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B81_09,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736193.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B175.01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736192.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.24,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736191.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.22,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736190.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.21,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736189.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.20,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736188.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.19,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736187.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.18,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX736186.1,Lutjanus johnii,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B174.17,-2.5,118.0,Pusat negara (tanpa lat_lon)
+MN870188.1,Lutjanus sebae,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-717.2,-3.6876,128.183,Koordinat asli GenBank
+HQ564451.1,Lutjanus sebae,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A8706,-8.75,115.15,Koordinat asli GenBank
+PQ804623.1,Lutjanus sebae,Lutjanidae,Lutjanus,654,0.0,Indonesia,"Indonesia: Papua Barat, Fak-Fak",,,Fak-Fak_B40_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV035006.1,Lutjanus sebae,Lutjanidae,Lutjanus,655,0.0,Australia,"Australia: Cassini Island, E side",-13.93888888,125.63416666,WAM:35547-001PT41,-13.93888888,125.63416666,Koordinat asli GenBank
+OQ553263.1,Lutjanus sebae,Lutjanidae,Lutjanus,655,0.0,China,China,21.03,109.71,GOU100516,21.03,109.71,Koordinat asli GenBank
+OQ386404.1,Lutjanus sebae,Lutjanidae,Lutjanus,655,0.0,Philippines,"Philippines: Philippines, Metro Manila, Quezon City, Munoz market",14.657,121.02,PI-0135,14.657,121.02,Koordinat asli GenBank
+EF609401.1,Lutjanus sebae,Lutjanidae,Lutjanus,655,0.0031,Australia,Australia: Western Australia,-19.58,116.67,BIOUG<CAN>:BW-A1030,-19.58,116.67,Koordinat asli GenBank
+EU600106.1,Lutjanus sebae,Lutjanidae,Lutjanus,653,0.0,China,China: South China Sea,21.11,110.23,SNA-QN3,21.11,110.23,Koordinat asli GenBank
+GU674071.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7024,-8.75,115.167,Koordinat asli GenBank
+GU673734.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,116.583,BW-A7707,-8.75,116.583,Koordinat asli GenBank
+GU673733.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,116.583,BW-A7706,-8.75,116.583,Koordinat asli GenBank
+MN870581.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-158.2,-3.6876,128.183,Koordinat asli GenBank
+MN870575.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0015,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-76.2,-3.6876,128.183,Koordinat asli GenBank
+MN870401.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-305.2,-3.6876,128.183,Koordinat asli GenBank
+MN870348.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-77.2,-3.6876,128.183,Koordinat asli GenBank
+MN869991.1,Lutjanus gibbus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-78.2,-3.6876,128.183,Koordinat asli GenBank
+PX738101.1,Lutjanus bohar,Lutjanidae,Lutjanus,655,0.0,Indonesia,Indonesia: Sorong,,,B185.01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV050458.1,Lutjanus bohar,Lutjanidae,Lutjanus,645,0.0,Wallis and Futuna,"Wallis and Futuna: Alofi Island, southeast point on outer reef, scoured low corals and spur and groove with sand bottom.",-14.34869,-178.0212,USNM:FISH:446479,-14.34869,-178.0212,Koordinat asli GenBank
+PP449208.1,Lutjanus bohar,Lutjanidae,Lutjanus,654,0.0,Philippines,Philippines,,,DOS09709-1,12.8,121.8,Pusat negara (tanpa lat_lon)
+PX117337.1,Lutjanus bohar,Lutjanidae,Lutjanus,604,0.0033,Indian Ocean,Indian Ocean: (FAO fishing area 57),,,MB-282-15,,,Tidak terpetakan
+PX117336.1,Lutjanus bohar,Lutjanidae,Lutjanus,604,0.0,Indian Ocean,Indian Ocean: (FAO fishing area 51),,,MB-24-0618,,,Tidak terpetakan
+PX117335.1,Lutjanus bohar,Lutjanidae,Lutjanus,604,0.0,Indian Ocean,Indian Ocean: (FAO fishing area 51),,,MB-24-0617,,,Tidak terpetakan
+PX117333.1,Lutjanus bohar,Lutjanidae,Lutjanus,604,0.0,Indian Ocean,Indian Ocean: (FAO fishing area 51),,,MB-24-0535,,,Tidak terpetakan
+PX117332.1,Lutjanus bohar,Lutjanidae,Lutjanus,604,0.0,Indian Ocean,Indian Ocean: (FAO fishing area 51),,,MB-24-0534,,,Tidak terpetakan
+MN870516.1,Lutjanus fulvus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-738.2,-3.6876,128.183,Koordinat asli GenBank
+MN870512.1,Lutjanus fulvus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-414.2,-3.6876,128.183,Koordinat asli GenBank
+MN870491.1,Lutjanus fulvus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-307.2,-3.6876,128.183,Koordinat asli GenBank
+MN870061.1,Lutjanus fulvus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-557.2,-3.6876,128.183,Koordinat asli GenBank
+MN870025.1,Lutjanus fulvus,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-578.2,-3.6876,128.183,Koordinat asli GenBank
+MN870452.1,Lutjanus fulvus,Lutjanidae,Lutjanus,635,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-161.2,-3.6876,128.183,Koordinat asli GenBank
+GU674290.1,Lutjanus fulvus,Lutjanidae,Lutjanus,632,0.0,Indonesia,Indonesia,-8.15,114.383,BW-A7149,-8.15,114.383,Koordinat asli GenBank
+JN311978.1,Lutjanus fulvus,Lutjanidae,Lutjanus,629,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A11228,-8.75,115.15,Koordinat asli GenBank
+MN869949.1,Lutjanus russellii,Lutjanidae,Lutjanus,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-689.2,-3.6876,128.183,Koordinat asli GenBank
+HQ564446.1,Lutjanus russellii,Lutjanidae,Lutjanus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A8701,-8.75,115.15,Koordinat asli GenBank
+PQ804624.1,Lutjanus russellii,Lutjanidae,Lutjanus,654,0.0,Indonesia,"Indonesia: Papua Barat, Fak-Fak",,,Fak-Fak_B44_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+MN623872.1,Lutjanus russellii,Lutjanidae,Lutjanus,662,0.0,India,India,19.2527,84.9035,Q276,19.2527,84.9035,Koordinat asli GenBank
+PP354337.1,Lutjanus russellii,Lutjanidae,Lutjanus,655,0.0,China,China: South China Sea,18.51,108.16,SCS4202,18.51,108.16,Koordinat asli GenBank
+OQ553262.1,Lutjanus russellii,Lutjanidae,Lutjanus,655,0.0,China,China,19.12,108.65,GOU101103,19.12,108.65,Koordinat asli GenBank
+OQ387794.1,Lutjanus russellii,Lutjanidae,Lutjanus,655,0.0,Philippines,"Philippines: Ilocos Sur, Philippines, Luzon, Ilocos Sur, Candon City public market. Vendors claim catch originated from Paypayad River.",17.192,120.448,PHISH-600,17.192,120.448,Koordinat asli GenBank
+PQ812611.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fakfak_B150_05,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812609.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fakfak_B150_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ553265.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,China,China,19.12,108.65,GOU101068,19.12,108.65,Koordinat asli GenBank
+OQ386198.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,Philippines,"Philippines: Philippines, Metro Manila, Quezon City, Munoz market",14.657,121.02,PI-0129,14.657,121.02,Koordinat asli GenBank
+OQ385788.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,Philippines,"Philippines: Quezon, Philippines, Quezon Province, Atimonan fish market, Lamon Bay.",13.942,121.988,LUZ-117,13.942,121.988,Koordinat asli GenBank
+OQ385741.1,Lutjanus vitta,Lutjanidae,Lutjanus,655,0.0,Philippines,"Philippines: Quezon, Philippines, Quezon Province, Infanta, Dinahican retail fish port Lamon Bay.",14.726,121.663,LUZ-094,14.726,121.663,Koordinat asli GenBank
+OR918623.1,Lutjanus vitta,Lutjanidae,Lutjanus,651,0.0,Pacific Ocean,"Pacific Ocean: South China Sea, Malaysia, St.28",6.625,103.208,EEZ052,6.625,103.208,Koordinat asli GenBank
+OR524481.1,Lutjanus vitta,Lutjanidae,Lutjanus,666,0.0,Philippines,"Philippines: Davao Oriental, Governor Generoso",,,FDP_GOVG_2208_017A,12.8,121.8,Pusat negara (tanpa lat_lon)
+JN311851.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,652,0.0,Indonesia,Indonesia,-7.03,106.53,BW-A10366,-7.03,106.53,Koordinat asli GenBank
+MN870225.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,650,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-764.2,-3.6876,128.183,Koordinat asli GenBank
+GU674155.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,636,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A6944,-8.75,115.167,Koordinat asli GenBank
+OR654025.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,668,0.0,Indonesia,Indonesia: Kupang,,,A04,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR636715.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,665,0.0,Indonesia,Indonesia: Kupang,,,AB13,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR636714.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,665,0.0,Indonesia,Indonesia: Kupang,,,AB5,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR633680.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,665,0.0,Indonesia,Indonesia: Kupang,,,AB20,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OR633679.1,Pristipomoides multidens,Lutjanidae,Pristipomoides,665,0.0,Indonesia,Indonesia: Kupang,,,AB16,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ794527.1,Epinephelus coioides,Epinephelidae,Epinephelus,705,0.0043,Indonesia,"Indonesia: West Java, Pangandaran",,,B1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ794529.1,Epinephelus coioides,Epinephelidae,Epinephelus,704,0.0043,Indonesia,"Indonesia: West Java, Pangandaran",,,L1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ794530.1,Epinephelus coioides,Epinephelidae,Epinephelus,697,0.0029,Indonesia,"Indonesia: West Java, Pangandaran",,,L2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PZ794528.1,Epinephelus coioides,Epinephelidae,Epinephelus,695,0.0029,Indonesia,"Indonesia: West Java, Pangandaran",,,B2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV877696.1,Epinephelus coioides,Epinephelidae,Epinephelus,579,0.0,Indonesia,"Indonesia: West Nusa Tenggara, Sumbawa'', ''Saleh Bay",,,Saleh_Bay IDgrouper25_30,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV877695.1,Epinephelus coioides,Epinephelidae,Epinephelus,579,0.0,Indonesia,"Indonesia: West Nusa Tenggara, Sumbawa'', ''Saleh Bay",,,Saleh_Bay IDgrouper25_29,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV877694.1,Epinephelus coioides,Epinephelidae,Epinephelus,579,0.0,Indonesia,"Indonesia: West Nusa Tenggara, Sumbawa'', ''Saleh Bay",,,Saleh_Bay IDgrouper25_28,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV877693.1,Epinephelus coioides,Epinephelidae,Epinephelus,579,0.0,Indonesia,"Indonesia: West Nusa Tenggara, Sumbawa'', ''Saleh Bay",,,Saleh_Bay IDgrouper25_27,-2.5,118.0,Pusat negara (tanpa lat_lon)
+JN313043.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10514,-8.75,115.15,Koordinat asli GenBank
+PQ813541.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B105_03,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ813508.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fak-Fak_B22_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812465.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B105_02,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812464.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B98_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+MN708926.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,658,0.0,Viet Nam,"Viet Nam: Khanh Hoa, Nha Trang",12.2494,109.196,090416-8,12.2494,109.196,Koordinat asli GenBank
+OQ386702.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,Philippines,"Philippines: Palawan, Philippines, Palawan, Puerto Princesa City market vendor claimed fish were caught in Barangay Napsan, western Palawan in South China Sea.",9.783,118.745,PIL-111,9.783,118.745,Koordinat asli GenBank
+FJ237599.1,Epinephelus malabaricus,Epinephelidae,Epinephelus,655,0.0,India,India,9.16,79.08,NBFGR:1106A,9.16,79.08,Koordinat asli GenBank
+JN313141.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10689,-8.75,115.15,Koordinat asli GenBank
+OM273131.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_34_Epinephelus_fuscoguttatus ,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273130.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_33_Epinephelus_fuscoguttatus ,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273129.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_32_Epinephelus_fuscoguttatus ,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273128.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_106_Epinephelus_fuscoguttatu s,-2.5,118.0,Pusat negara (tanpa lat_lon)
+MN708920.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,667,0.0,Viet Nam,"Viet Nam: Khanh Hoa, Ninh Diem's market, Fish market",12.5374,109.216,240518-KH11,12.5374,109.216,Koordinat asli GenBank
+MN708922.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,659,0.0,Viet Nam,"Viet Nam: Khanh Hoa, Nha Trang",12.2494,109.196,090416-7,12.2494,109.196,Koordinat asli GenBank
+EU600140.1,Epinephelus fuscoguttatus,Epinephelidae,Epinephelus,656,0.0,China,China: South China Sea,21.11,110.23,EPI-ZD2,21.11,110.23,Koordinat asli GenBank
+OQ387073.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,655,0.0,Philippines,"Philippines: Palawan, Philippines, Palawan, Puerto Princesa City market vendor claimed fish were caught in Honda Bay.",9.783,118.745,PIL-127,9.783,118.745,Koordinat asli GenBank
+OQ386067.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,655,0.0,Philippines,"Philippines: Palawan, Philippines, Palawan, Puerto Princesa City market vendor claimed fish were caught in Honda Bay.",9.783,118.745,PIL-131,9.783,118.745,Koordinat asli GenBank
+HQ174837.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+HQ174836.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+HQ174835.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+HQ174834.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+HQ174833.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+HQ174832.1,Epinephelus lanceolatus,Epinephelidae,Epinephelus,1551,0.0,China,China,,,,35.9,104.2,Pusat negara (tanpa lat_lon)
+PQ812608.1,Epinephelus areolatus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fakfak_B149_08,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812607.1,Epinephelus areolatus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fakfak_B149_05,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ812606.1,Epinephelus areolatus,Epinephelidae,Epinephelus,655,0.0,Indonesia,"Indonesia: Fak-Fak, Papua Barat",,,Fakfak_B149_04,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273116.1,Epinephelus areolatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_02_Epinephelus_areolatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273115.1,Epinephelus areolatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_SML_01_Epinephelus_areolatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273114.1,Epinephelus areolatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_PB_11_Epinephelus_areolatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273113.1,Epinephelus areolatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_PB_09_Epinephelus_areolatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OM273112.1,Epinephelus areolatus,Epinephelidae,Epinephelus,639,0.0,Indonesia,Indonesia: Aceh,,,GENBIO_PB_08_Epinephelus_areolatus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+JN312976.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,652,0.0,Indonesia,Indonesia,-7.03,106.53,BW-A10373,-7.03,106.53,Koordinat asli GenBank
+MN708865.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,682,0.0,Viet Nam,"Viet Nam: Ninh Thuan, Ninh Thun",11.5661,109.031,311015-A,11.5661,109.031,Koordinat asli GenBank
+MN708866.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,660,0.0,Viet Nam,"Viet Nam: Kien Giang, Duong Dong, Phu Quoc",10.2187,103.96,140716-12,10.2187,103.96,Koordinat asli GenBank
+MN708860.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,660,0.0,Viet Nam,"Viet Nam: Hai Phong, Do Son",20.7116,106.773,DS0616-33,20.7116,106.773,Koordinat asli GenBank
+MN708863.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,659,0.003,Viet Nam,"Viet Nam: Ba Ria-Vung Tau, Con Son, Con Dao",8.6864,106.608,D16.040616 CD,8.6864,106.608,Koordinat asli GenBank
+MN708861.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,659,0.0,Viet Nam,"Viet Nam: Khanh Hoa, Nha Trang",12.2494,109.196,Kh1005,12.2494,109.196,Koordinat asli GenBank
+MN708859.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,659,0.0,Viet Nam,"Viet Nam: Ninh Thuan, Ninh Thuan, Fish market",11.5661,109.031,200316-B,11.5661,109.031,Koordinat asli GenBank
+PP354710.1,Epinephelus bleekeri,Epinephelidae,Epinephelus,655,0.0,China,China: South China Sea,19.49,107.65,SCS1183,19.49,107.65,Koordinat asli GenBank
+JN313058.1,Plectropomus leopardus,Epinephelidae,Plectropomus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10543,-8.75,115.15,Koordinat asli GenBank
+GU674047.1,Plectropomus leopardus,Epinephelidae,Plectropomus,648,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7038,-8.75,115.167,Koordinat asli GenBank
+GU673949.1,Plectropomus leopardus,Epinephelidae,Plectropomus,648,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7468,-8.75,115.167,Koordinat asli GenBank
+JN313059.1,Plectropomus leopardus,Epinephelidae,Plectropomus,633,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10544,-8.75,115.15,Koordinat asli GenBank
+JN313060.1,Plectropomus leopardus,Epinephelidae,Plectropomus,630,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10545,-8.75,115.15,Koordinat asli GenBank
+PQ656568.1,Plectropomus leopardus,Epinephelidae,Plectropomus,684,0.0,Indonesia,Indonesia: Makassar Strait,,,UNH24-PAN006,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ656567.1,Plectropomus leopardus,Epinephelidae,Plectropomus,684,0.0,Indonesia,Indonesia: Makassar Strait,,,UNH24-PAN005,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ656566.1,Plectropomus leopardus,Epinephelidae,Plectropomus,684,0.0,Indonesia,Indonesia: Makassar Strait,,,UNH24-PAN004,-2.5,118.0,Pusat negara (tanpa lat_lon)
+JN313062.1,Plectropomus maculatus,Epinephelidae,Plectropomus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10547,-8.75,115.15,Koordinat asli GenBank
+JN313061.1,Plectropomus maculatus,Epinephelidae,Plectropomus,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10546,-8.75,115.15,Koordinat asli GenBank
+GU673821.1,Plectropomus maculatus,Epinephelidae,Plectropomus,648,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A7039,-8.75,115.167,Koordinat asli GenBank
+PX905036.1,Plectropomus maculatus,Epinephelidae,Plectropomus,565,0.0,Indonesia,Indonesia: Karimunjawa,,,KNA044,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX905035.1,Plectropomus maculatus,Epinephelidae,Plectropomus,565,0.0,Indonesia,Indonesia: Karimunjawa,,,KNA045,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX905034.1,Plectropomus maculatus,Epinephelidae,Plectropomus,565,0.0,Indonesia,Indonesia: Karimunjawa,,,KNA043,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX905033.1,Plectropomus maculatus,Epinephelidae,Plectropomus,565,0.0,Indonesia,Indonesia: Karimunjawa,,,KNA041,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX905032.1,Plectropomus maculatus,Epinephelidae,Plectropomus,565,0.0,Indonesia,Indonesia: Karimunjawa,,,KNA042,-2.5,118.0,Pusat negara (tanpa lat_lon)
+GU673954.1,Cromileptes altivelis,Epinephelidae,Cromileptes,652,0.0,Indonesia,Indonesia,-8.75,115.167,BW-A6954,-8.75,115.167,Koordinat asli GenBank
+JN313065.1,Cromileptes altivelis,Epinephelidae,Cromileptes,652,0.0,Indonesia,Indonesia,-8.75,115.15,BW-A10550,-8.75,115.15,Koordinat asli GenBank
+OP062115.1,Cromileptes altivelis,Epinephelidae,Cromileptes,657,0.0,Indonesia,Indonesia: East Java or Bali,,,ABZ_02,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OP062114.1,Cromileptes altivelis,Epinephelidae,Cromileptes,657,0.0,Indonesia,Indonesia: East Java or Bali,,,ABZ_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX905051.1,Cromileptes altivelis,Epinephelidae,Cromileptes,565,0.0,Indonesia,Indonesia: Kei,,,KKE019,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PV035021.1,Cromileptes altivelis,Epinephelidae,Cromileptes,655,0.0,Australia,Australia: SW Long Reef,-14.02444444,125.77444444,WAM:35554-001PT60,-14.02444444,125.77444444,Koordinat asli GenBank
+OQ387738.1,Cromileptes altivelis,Epinephelidae,Cromileptes,655,0.0,Philippines,"Philippines: Palawan, Philippines, east Palawan, Roxas City market vendor claimed fish were caught in Green Island Bay",10.319,119.341,PIL-065,10.319,119.341,Koordinat asli GenBank
+OQ387630.1,Cromileptes altivelis,Epinephelidae,Cromileptes,655,0.0,Philippines,"Philippines: Davao del Sur, Philippines, Davao del Sur, purchased from Toril Public Market, Davao City. Vendor stated that fish was caught in vicinity of Surigao, Mindanao",7.019,125.496,RP-002,7.019,125.496,Koordinat asli GenBank
+GU674361.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,Indonesia,-8.75,116.583,BW-A7636,-8.75,116.583,Koordinat asli GenBank
+GU674280.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,Indonesia,-8.15,114.383,BW-A7163,-8.15,114.383,Koordinat asli GenBank
+MN870587.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-27.2,-3.6876,128.183,Koordinat asli GenBank
+MN870577.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-28.2,-3.6876,128.183,Koordinat asli GenBank
+MN870379.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-26.2,-3.6876,128.183,Koordinat asli GenBank
+MN870343.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-29.2,-3.6876,128.183,Koordinat asli GenBank
+MN870181.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,"Indonesia: Maluku, Ambon Island, Ambon, Pasar ikan Arumbai",-3.6876,128.183,IRD BMF-247.2,-3.6876,128.183,Koordinat asli GenBank
+JN312973.1,Cephalopholis miniata,Epinephelidae,Cephalopholis,652,0.0,Indonesia,Indonesia,-7.03,106.53,BW-A10370,-7.03,106.53,Koordinat asli GenBank
+PX363004.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_105_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363003.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_104_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363002.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_90_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363001.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_89_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363000.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_88_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX362999.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_85_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX362998.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_84_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX362997.1,Thunnus albacares,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_78_Thunnus_albacares,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363011.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_95_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363010.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_15_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363009.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_13_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363008.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_09_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363007.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_04_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX363006.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: East Java, Malang, Pondokdadap Fishing Port",,,348_01_Thunnus_obesus,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ813544.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B119_03,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PQ813543.1,Thunnus obesus,Scombridae,Thunnus,655,0.0,Indonesia,"Indonesia: Kaimana, Papua Barat",,,Kaimana_B119_01,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX802357.1,Thunnus alalunga,Scombridae,Thunnus,693,0.0,Turkey,"Turkey: Antalya Bay, Eastern Mediterranean",36.19071567,31.77516383,TA_Ant_TA_P1_24_6_2018_Sn44,36.19071567,31.77516383,Koordinat asli GenBank
+OQ385548.1,Thunnus alalunga,Scombridae,Thunnus,655,0.0,Philippines,"Philippines: Albay, Philippines, Albay Province, Tabaco City market. Vendors claim fish caught in Lagonoy Gulf.",13.358,123.731,LUZ-285,13.358,123.731,Koordinat asli GenBank
+MT889073.1,Thunnus alalunga,Scombridae,Thunnus,655,0.0,Mauritius,Mauritius: Le Morne,-20.4427,57.3142,F176-3,-20.4427,57.3142,Koordinat asli GenBank
+MT889075.1,Thunnus alalunga,Scombridae,Thunnus,652,0.0015,Mauritius,Mauritius: Flic en Flac,-20.279,57.36,F176-2,-20.279,57.36,Koordinat asli GenBank
+MT889074.1,Thunnus alalunga,Scombridae,Thunnus,652,0.0046,Mauritius,Mauritius: Flic en Flac,-20.279,57.36,F176-1,-20.279,57.36,Koordinat asli GenBank
+PX481760.1,Thunnus alalunga,Scombridae,Thunnus,634,0.0,Turkey,"Turkey: Finike Seamounts, Eastern Mediterranean",35.67,30.5,F32_43_2024_Thunnus alalunga,35.67,30.5,Koordinat asli GenBank
+PX397326.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397325.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.3,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397324.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.4,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397323.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.5,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397322.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.6,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397321.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B306.7,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397320.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B309.2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397319.1,Katsuwonus pelamis,Scombridae,Katsuwonus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B309.1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346137.1,Euthynnus affinis,Scombridae,Euthynnus,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496754,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346136.1,Euthynnus affinis,Scombridae,Euthynnus,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496764,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346135.1,Euthynnus affinis,Scombridae,Euthynnus,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496763,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346134.1,Euthynnus affinis,Scombridae,Euthynnus,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496762,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346133.1,Euthynnus affinis,Scombridae,Euthynnus,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496761,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397333.1,Euthynnus affinis,Scombridae,Euthynnus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B304.1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397332.1,Euthynnus affinis,Scombridae,Euthynnus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B304.2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX397331.1,Euthynnus affinis,Scombridae,Euthynnus,645,0.0,Indonesia,"Indonesia: Cenderawasih Bay, West Papua",,,B304.3,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346145.1,Auxis thazard,Scombridae,Auxis,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496753,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346144.1,Auxis thazard,Scombridae,Auxis,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496752,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346143.1,Auxis thazard,Scombridae,Auxis,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496751,-2.5,118.0,Pusat negara (tanpa lat_lon)
+OQ346142.1,Auxis thazard,Scombridae,Auxis,655,0.0,Indonesia,Indonesia: East Java,,,SUB12496750,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX501052.1,Auxis thazard,Scombridae,Auxis,624,0.0,Indonesia,"Indonesia: Manokwari, Cenderawasih Bay, West Papua",,,BS3,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX501051.1,Auxis thazard,Scombridae,Auxis,624,0.0,Indonesia,"Indonesia: Manokwari, Cenderawasih Bay, West Papua",,,BS2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX501050.1,Auxis thazard,Scombridae,Auxis,624,0.0,Indonesia,"Indonesia: Manokwari, Cenderawasih Bay, West Papua",,,BS1,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX501049.1,Auxis thazard,Scombridae,Auxis,624,0.0,Indonesia,"Indonesia: Manokwari, Cenderawasih Bay, West Papua",,,BS4,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX210229.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,672,0.0,Indonesia,"Indonesia: Gombong, Sungai Ijo",,,Kembung Belo,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PX658229.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,626,0.0,Indonesia,"Indonesia: Cenderawasih Bay, Manokwari, West Papua",,,RK,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PP354855.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China: South China Sea,18.99,107.34,SCS1330,18.99,107.34,Koordinat asli GenBank
+PP354721.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China: South China Sea,19.49,107.65,SCS1194,19.49,107.65,Koordinat asli GenBank
+PP354719.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China: South China Sea,19.49,107.65,SCS1192,19.49,107.65,Koordinat asli GenBank
+PP354596.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China: South China Sea,19.05,107.37,SCS1050,19.05,107.37,Koordinat asli GenBank
+OQ553430.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China,21.03,109.71,GOU100503,21.03,109.71,Koordinat asli GenBank
+OQ553429.1,Rastrelliger kanagurta,Scombridae,Rastrelliger,655,0.0,China,China,18.75,107.25,ZBL000551,18.75,107.25,Koordinat asli GenBank
+PX650279.1,Scomberomorus commerson,Scombridae,Scomberomorus,635,0.0,Indonesia,"Indonesia: Cenderawasih Bay, Manokwari, West Papua",,,BW2,-2.5,118.0,Pusat negara (tanpa lat_lon)
+PP354787.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China: South China Sea,18.01,108.57,SCS1262,18.01,108.57,Koordinat asli GenBank
+PP354737.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China: South China Sea,20.62,108.51,SCS1211,20.62,108.51,Koordinat asli GenBank
+PP354720.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China: South China Sea,19.49,107.65,SCS1193,19.49,107.65,Koordinat asli GenBank
+PP354642.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China: South China Sea,20.13,109.75,SCS1105,20.13,109.75,Koordinat asli GenBank
+PP354630.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China: South China Sea,18.0,108.74,SCS1088,18.0,108.74,Koordinat asli GenBank
+OQ553461.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China,21.03,109.71,GOU100550,21.03,109.71,Koordinat asli GenBank
+OQ553460.1,Scomberomorus commerson,Scombridae,Scomberomorus,655,0.0,China,China,21.03,109.71,GOU100525,21.03,109.71,Koordinat asli GenBank

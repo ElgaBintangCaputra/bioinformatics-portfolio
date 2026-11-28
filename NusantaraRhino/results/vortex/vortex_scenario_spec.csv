@@ -1,0 +1,6 @@
+Scenario,Vortex_Populations,Initial_N_Pop1,Carrying_Capacity_Pop1,Carrying_Capacity_Pop2,Female_Breeding_Age,Male_Breeding_Age,Max_Age,Max_Progeny_Per_Brood,Pct_Adult_Females_Breeding_Approx,Calf_Mortality_Pct,Adult_Mortality_Pct,Lethal_Equivalents_2B,Catastrophe_Prob_Pct,Catastrophe_Survival_Multiplier,Inter_Site_Catastrophe_Corr
+A_Baseline_UKNP,1,76,80,0,6,8,40,1,30.0,12.0,3.0,3.14,2.0,0.65,0.0
+B_Managed_UKNP,1,76,105,0,6,8,40,1,30.0,12.0,3.0,3.14,1.8,0.7,0.0
+C_Metapop_Uncorrelated,2,76,90,70,6,8,40,1,30.0,12.0,3.0,3.14,2.0,0.65,0.0
+C_Metapop_Correlated,2,76,90,70,6,8,40,1,30.0,12.0,3.0,3.14,2.0,0.65,0.6
+D_Integrated_Managed_Metapop,2,76,105,70,6,8,40,1,30.0,12.0,3.0,3.14,1.8,0.7,0.0

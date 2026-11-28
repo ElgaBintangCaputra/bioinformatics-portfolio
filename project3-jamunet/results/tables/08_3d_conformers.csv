@@ -1,0 +1,6 @@
+compound,n_atoms_with_H,n_conformers_sampled,mmff94_energy_kcal_mol,conformer_energy_span_kcal_mol,sdf_file
+quercetin,32,10,43.38,10.42,results/structures/quercetin.sdf
+N-trans-feruloyltyramine,42,10,3.53,11.15,results/structures/N-trans-feruloyltyramine.sdf
+curcumin,47,10,42.97,17.54,results/structures/curcumin.sdf
+berberine,43,10,100.43,0.02,results/structures/berberine.sdf
+naringenin,32,10,23.42,12.06,results/structures/naringenin.sdf

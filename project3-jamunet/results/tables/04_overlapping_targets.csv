@@ -1,0 +1,48 @@
+gene_symbol,n_compounds,compounds,plants,max_pchembl,ensembl_id,gene_name,ot_score
+CA1,5,caffeic acid; coumarin; curcumin; gallic acid; quercetin,Kayu manis; Kunyit; Mahkota dewa; Salam,5.62,ENSG00000133742,carbonic anhydrase 1,0.0763
+CA2,4,caffeic acid; curcumin; gallic acid; quercetin,Kunyit; Mahkota dewa; Salam,6.42,ENSG00000104267,carbonic anhydrase 2,0.3762
+ACHE,4,berberine; palmatine; quercetin; rutin,Brotowali; Salam,7.92,ENSG00000087085,acetylcholinesterase (Yt blood group),0.1102
+DPP4,3,kaempferol; naringenin; quercetin,Mahkota dewa; Salam,6.62,ENSG00000197635,dipeptidyl peptidase 4,0.641
+MAPT,3,curcumin; gallic acid; quercetin,Kunyit; Mahkota dewa; Salam,5.9,ENSG00000186868,microtubule associated protein tau,0.1171
+MMP9,3,caffeic acid; mangiferin; quercetin,Mahkota dewa; Salam,8.0,ENSG00000100985,matrix metallopeptidase 9,0.1089
+CYP1A2,3,kaempferol; naringenin; quercetin,Mahkota dewa; Salam,7.1,ENSG00000140505,cytochrome P450 family 1 subfamily A member 2,0.0727
+CYP19A1,2,naringenin; quercetin,Mahkota dewa; Salam,8.54,ENSG00000137869,cytochrome P450 family 19 subfamily A member 1,0.3367
+XDH,2,kaempferol; quercetin,Mahkota dewa; Salam,6.55,ENSG00000158125,xanthine dehydrogenase,0.3154
+HDAC6,2,kaempferol; quercetin,Mahkota dewa; Salam,6.09,ENSG00000094631,histone deacetylase 6,0.2601
+SOST,2,catechin; coumarin,Kayu manis; Salam,6.64,ENSG00000167941,sclerostin,0.1139
+MPO,2,kaempferol; quercetin,Mahkota dewa; Salam,5.94,ENSG00000005381,myeloperoxidase,0.0985
+APP,2,curcumin; quercetin,Kunyit; Salam,9.68,ENSG00000142192,amyloid beta precursor protein,0.0946
+ABCG2,2,curcumin; quercetin,Kunyit; Salam,7.52,ENSG00000118777,ATP binding cassette subfamily G member 2 (JR blood group),0.0884
+NOX4,2,kaempferol; quercetin,Mahkota dewa; Salam,6.17,ENSG00000086991,NADPH oxidase 4,0.0869
+KDM1A,2,quercetin; rutin,Salam,5.9,ENSG00000004487,lysine demethylase 1A,0.0782
+CA7,2,kaempferol; naringenin,Mahkota dewa,8.37,ENSG00000168748,carbonic anhydrase 7,0.0739
+PPARA,1,berberine,Brotowali,6.24,ENSG00000186951,peroxisome proliferator activated receptor alpha,0.6216
+GAA,1,rutin,Salam,5.5,ENSG00000171298,alpha glucosidase,0.5837
+AGTR1,1,caffeic acid,Salam,6.9,ENSG00000144891,angiotensin II receptor type 1,0.5684
+IGF1R,1,quercetin,Salam,6.52,ENSG00000140443,insulin like growth factor 1 receptor,0.5067
+CAMK2B,1,quercetin,Salam,5.52,ENSG00000058404,calcium/calmodulin dependent protein kinase II beta,0.4664
+PTGS2,1,quercetin,Salam,5.97,ENSG00000073756,prostaglandin-endoperoxide synthase 2,0.42
+PNLIP,1,quercetin,Salam,5.82,ENSG00000175535,pancreatic lipase,0.417
+SHBG,1,naringenin,Mahkota dewa,6.02,ENSG00000129214,sex hormone binding globulin,0.3791
+CA4,1,naringenin,Mahkota dewa,7.1,ENSG00000167434,carbonic anhydrase 4,0.3656
+HMGB1,1,rutin,Salam,6.58,ENSG00000189403,high mobility group box 1,0.3309
+DYRK2,1,curcumin,Kunyit,8.6,ENSG00000127334,dual specificity tyrosine phosphorylation regulated kinase 2,0.3267
+MMP1,1,caffeic acid,Salam,6.62,ENSG00000196611,matrix metallopeptidase 1,0.318
+EP300,1,palmatine,Brotowali,5.98,ENSG00000100393,EP300 lysine acetyltransferase,0.1442
+HSD11B1,1,curcumin,Kunyit,5.64,ENSG00000117594,hydroxysteroid 11-beta dehydrogenase 1,0.1358
+PTPN1,1,caffeic acid,Salam,5.51,ENSG00000196396,protein tyrosine phosphatase non-receptor type 1,0.1244
+FABP4,1,andrographolide,Sambiloto,6.05,ENSG00000170323,fatty acid binding protein 4,0.1225
+GSK3B,1,quercetin,Salam,5.7,ENSG00000082701,glycogen synthase kinase 3 beta,0.1201
+NFKB1,1,caffeic acid,Salam,6.85,ENSG00000109320,nuclear factor kappa B subunit 1,0.1181
+TP53,1,quercetin,Salam,6.0,ENSG00000141510,tumor protein p53,0.1104
+AHR,1,kaempferol,Mahkota dewa,7.55,ENSG00000106546,aryl hydrocarbon receptor,0.096
+SNCA,1,curcumin,Kunyit,6.66,ENSG00000145335,synuclein alpha,0.0954
+MMP2,1,caffeic acid,Salam,7.62,ENSG00000087245,matrix metallopeptidase 2,0.0902
+HSD17B1,1,kaempferol,Mahkota dewa,5.98,ENSG00000108786,hydroxysteroid 17-beta dehydrogenase 1,0.0889
+IDO1,1,berberine,Brotowali,6.58,ENSG00000131203,"indoleamine 2,3-dioxygenase 1",0.0876
+EGFR,1,quercetin,Salam,6.05,ENSG00000146648,epidermal growth factor receptor,0.0848
+BCHE,1,berberine,Brotowali,5.96,ENSG00000114200,butyrylcholinesterase,0.083
+CSNK2A1,1,quercetin,Salam,5.93,ENSG00000101266,casein kinase 2 alpha 1,0.0754
+TTR,1,naringenin,Mahkota dewa,5.79,ENSG00000118271,transthyretin,0.071
+SIRT6,1,quercetin,Salam,5.72,ENSG00000077463,sirtuin 6,0.0707
+KDR,1,quercetin,Salam,6.55,ENSG00000128052,kinase insert domain receptor,0.0685

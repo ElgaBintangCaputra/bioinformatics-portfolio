@@ -1,0 +1,23 @@
+# Jangan unggah platform belajar, file panduan belajar internal, environment lokal, cache API, atau file data mentah raksasa
+platform-belajar/
+**/BELAJAR.md
+BELAJAR.md
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Project 1: data mentah & matriks besar (bisa diunduh ulang via 01_download_data.py)
+project1-tb-signature/data/raw/
+project1-tb-signature/data/processed/
+project1-tb-signature/results/models/*.joblib
+
+# Project 2: cache GenBank, alignment mentah, binary tools Windows, & model joblib
+project2-nusantara-barcode/data/raw/
+project2-nusantara-barcode/data/processed/
+project2-nusantara-barcode/tools/
+project2-nusantara-barcode/results/models/*.joblib
+
+# Project 3: cache JSON API (hasil tabel & grafik tetap ikut terunggah)
+project3-jamunet/data/cache/

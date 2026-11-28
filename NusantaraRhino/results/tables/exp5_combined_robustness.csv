@@ -1,0 +1,16 @@
+Uncertainty_Regime,Scenario,Mean_Final_N,Quasi_Ext_Prob_Pct,Extinction_Prob_Pct,Mean_Final_He
+"Optimis (B=0.5, Cat=0.01)",A_Baseline_UKNP,33.06,25.0,2.5,0.4792
+"Optimis (B=0.5, Cat=0.01)",B_Managed_UKNP,94.26,0.0,0.0,0.5311
+"Optimis (B=0.5, Cat=0.01)",C_Metapop_Uncorrelated,96.64,0.0,0.0,0.5194
+"Optimis (B=0.5, Cat=0.01)",C_Metapop_Correlated,99.4,0.0,0.0,0.5206
+"Optimis (B=0.5, Cat=0.01)",D_Integrated_Managed_Metapop,143.65,0.0,0.0,0.534
+"Moderat (B=1.57, Cat=0.02)",A_Baseline_UKNP,19.12,56.25,5.0,0.4532
+"Moderat (B=1.57, Cat=0.02)",B_Managed_UKNP,81.36,0.0,0.0,0.5203
+"Moderat (B=1.57, Cat=0.02)",C_Metapop_Uncorrelated,59.44,10.0,1.25,0.5031
+"Moderat (B=1.57, Cat=0.02)",C_Metapop_Correlated,62.95,6.25,0.0,0.5033
+"Moderat (B=1.57, Cat=0.02)",D_Integrated_Managed_Metapop,104.1,0.0,0.0,0.521
+"Pesimis (B=3.14, Cat=0.03)",A_Baseline_UKNP,9.19,82.5,25.0,0.3396
+"Pesimis (B=3.14, Cat=0.03)",B_Managed_UKNP,61.0,6.25,1.25,0.5121
+"Pesimis (B=3.14, Cat=0.03)",C_Metapop_Uncorrelated,29.84,32.5,2.5,0.4817
+"Pesimis (B=3.14, Cat=0.03)",C_Metapop_Correlated,30.49,33.75,5.0,0.4698
+"Pesimis (B=3.14, Cat=0.03)",D_Integrated_Managed_Metapop,72.53,1.25,0.0,0.5152

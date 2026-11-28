@@ -1,0 +1,6 @@
+Scenario,label,n_sites,initial_n_site1,k_site1,chronic_survival_drag,management_surv_boost,catastrophe_prob,catastrophe_severity,catastrophe_corr,founding_year,founder_size,k_site2,translocation_mortality,migrant_interval,migrants_per_event
+A_Baseline_UKNP,Skenario A: Ujung Kulon Baseline (Populasi Tunggal),1,76,80,0.008,0.0,0.02,0.35,0.0,,0,0,0.0,,0
+B_Managed_UKNP,Skenario B: Ujung Kulon Pengelolaan Intensif (In Situ),1,76,105,0.0,0.015,0.018,0.3,0.0,,0,0,0.0,,0
+C_Metapop_Uncorrelated,Skenario C1: Metapopulasi Moderat (Korelasi Bencana rho=0.0),2,76,90,0.003,0.008,0.02,0.35,0.0,5.0,14,70,0.05,10.0,2
+C_Metapop_Correlated,Skenario C2: Metapopulasi Moderat (Korelasi Bencana Regional rho=0.6),2,76,90,0.003,0.008,0.02,0.35,0.6,5.0,14,70,0.05,10.0,2
+D_Integrated_Managed_Metapop,Skenario D: Strategi Terintegrasi Penuh (Intensif UKNP + Metapopulasi rho=0.0),2,76,105,0.0,0.015,0.018,0.3,0.0,5.0,14,70,0.05,10.0,2

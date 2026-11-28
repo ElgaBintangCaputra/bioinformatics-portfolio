@@ -1,0 +1,31 @@
+parameter_name,value,unit,source,source_year,method,uncertainty_distribution,confidence_level,assumption_type
+initial_population_uknp,76,individuals,"IUCN SSC Asian Rhino Specialist Group / KLHK public range (~70-80s)",2023,"Reported monitoring range midpoint; sensitivity tested 58-85","Uniform(58,85)",Medium,Estimated
+initial_population_2015_anchor,60,individuals,"CPSG Javan Rhino PHVA Report (58-61 individuals)",2015,"Historical PHVA baseline anchor for validation","Uniform(58,61)",High,Literature-derived
+carrying_capacity_uknp_baseline,80,individuals,"CPSG PHVA 2015 / UKNP habitat saturation discussion",2015,"Literature ecological saturation range","Uniform(65,95)",Medium,Literature-derived
+carrying_capacity_uknp_managed,105,individuals,"Hypothetical Arenga palm & habitat restoration scenario",2026,"Scenario intervention assumption","Uniform(90,120)",Low,Scenario-defined
+carrying_capacity_site2,70,individuals,"Hypothetical second-site ecological capacity",2026,"Scenario-defined comparative capacity","Uniform(50,90)",Low,Scenario-defined
+gestation_months,15.5,months,"IUCN SSC Asian Rhino Specialist Group (15-16 months)",2023,"Biological constraint literature range","Uniform(15,16)",High,Literature-derived
+min_interbirth_interval_years,3.5,years,"Derived from 15-16 mo gestation + ~2 yr calf dependency",2023,"Biological interval constraint (ceil 4 yrs in discrete annual steps for >=3.5 yr IBI)","Uniform(3,5)",Medium,Estimated
+female_maturity_age,6,years,"CPSG PHVA 2015 / Asian rhino life-history",2015,"Literature reproductive onset","Uniform(5,7)",Medium,Literature-derived
+male_maturity_age,8,years,"CPSG PHVA 2015 / Asian rhino life-history",2015,"Literature reproductive onset","Uniform(7,10)",Medium,Literature-derived
+max_reproductive_age,32,years,"CPSG PHVA 2015 / longevity ~35-40 yrs",2015,"Literature senescence threshold","Uniform(28,35)",Medium,Literature-derived
+max_age,40,years,"CPSG PHVA 2015",2015,"Maximum lifespan ceiling","Uniform(35,45)",Medium,Literature-derived
+sex_ratio_at_birth,0.5,proportion_female,"Mendelian chromosomal expectation",2015,"Standard 1:1 birth sex ratio","Beta(50,50)",High,Assumed
+calf_survival_annual,0.88,proportion_per_year,"CPSG PHVA 2015 baseline range (~0.85-0.90)",2015,"Literature demographic rate","Beta(44,6)",Medium,Literature-derived
+subadult_survival_annual,0.95,proportion_per_year,"CPSG PHVA 2015 baseline range",2015,"Literature demographic rate","Beta(57,3)",Medium,Literature-derived
+adult_survival_annual,0.97,proportion_per_year,"CPSG PHVA 2015 baseline range",2015,"Literature demographic rate","Beta(97,3)",Medium,Literature-derived
+senescent_survival_annual,0.82,proportion_per_year,"Age > 32 demographic senescence rate",2015,"Assumed late-life decline","Beta(41,9)",Low,Assumed
+annual_conception_prob_receptive,0.45,proportion_per_year,"Calibrated to realistic multi-year breeding among receptive females",2026,"Calibrated to ~3.5-4.5 yr effective IBI","Uniform(0.35,0.55)",Medium,Estimated
+environmental_sd_survival,0.025,sd_proportion,"Annual environmental stochasticity on survival",2015,"Standard PVA environmental noise","Uniform(0.01,0.05)",Low,Assumed
+chronic_habitat_pressure_baseline,0.008,annual_k_or_surv_drag,"Arenga palm encroachment & competition pressure",2015,"Baseline chronic pressure assumption","Uniform(0.0,0.015)",Low,Assumed
+initial_expected_heterozygosity_H0,0.55,proportion,"Simulated nuclear baseline (not directly observed genome-wide)",2026,"Explicit assumed baseline; tested across 0.35-0.75","Uniform(0.35,0.75)",Low,Assumed
+n_unlinked_loci,20,loci,"Simulated diploid neutral/fitness loci",2026,"Model resolution parameter","Fixed(20)",High,Assumed
+initial_alleles_per_locus,6,alleles,"Simulated multi-allelic diversity baseline",2026,"Model resolution parameter","Uniform(4,10)",Low,Assumed
+lethal_equivalents_B,1.57,haploid_lethal_eq,"O'Grady et al. 2006 / Frankham 2014 mammalian PVA benchmark (2B ~ 3.14)",2014,"Literature mammalian inbreeding depression benchmark","Uniform(0.0,3.14)",Medium,Literature-derived
+catastrophe_prob_annual,0.02,per_year,"Sunda Strait tsunami / Krakatau / severe epidemic composite (~1 in 50 yrs)",2015,"Composite catastrophic hazard scenario","Uniform(0.005,0.04)",Low,Assumed
+catastrophe_mortality_severity,0.35,proportion_killed,"Severe catastrophic mortality event (35% instantaneous mortality)",2015,"Scenario catastrophic impact","Uniform(0.20,0.60)",Low,Scenario-defined
+catastrophe_spatial_correlation,0.3,correlation_rho,"Moderate regional correlation (disease/climate/regional event)",2026,"Tested across 0.0, 0.3, 0.6, 0.9","Uniform(0.0,0.9)",Low,Scenario-defined
+founder_size_site2,14,individuals,"Scenario C second-population founder cohort",2026,"Scenario-defined translocation design","Uniform(8,20)",Low,Scenario-defined
+translocation_mortality_risk,0.05,proportion,"IUCN Translocation Guidelines 2025 acute handling risk",2025,"Scenario risk sensitivity","Uniform(0.0,0.12)",Low,Scenario-defined
+migrant_exchange_interval_years,10,years,"Managed genetic rescue (~1-2 migrants per generation)",2014,"Frankham et al. 2014 genetic connectivity rule","Uniform(5,20)",Medium,Scenario-defined
+quasi_extinction_threshold,15,individuals,"Functional demographic/genetic quasi-extinction floor",2026,"Standard conservation PVA threshold","Fixed(15)",High,Scenario-defined

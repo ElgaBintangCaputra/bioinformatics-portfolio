@@ -1,0 +1,2 @@
+Target,N_Senyawa_Unik,N_Scaffold_Unik,CV5_ROC_AUC,GroupCV5_Scaffold_ROC_AUC,ScaffoldSplit_ROC_AUC,ScaffoldSplit_R2,ScaffoldSplit_RMSE,ScaffoldSplit_Pearson_r
+DPP4 (CHEMBL284),392,143,0.935,0.8438,0.9237,0.3231,1.0591,0.6677

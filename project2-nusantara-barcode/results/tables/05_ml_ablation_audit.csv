@@ -1,0 +1,10 @@
+Dataset_Regime,N_Sekuens,Model,CV_Accuracy,Macro_F1
+"1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)",229,1-NN Cosine (Baseline mirip BLAST),0.9607,0.9584
+"1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)",229,Linear SVM (6-mer),0.9214,0.9013
+"1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)",229,Random Forest (6-mer),0.9738,0.9736
+"2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)",227,1-NN Cosine (Baseline mirip BLAST),0.9692,0.9673
+"2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)",227,Linear SVM (6-mer),0.9163,0.8845
+"2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)",227,Random Forest (6-mer),0.9868,0.9861
+3. Post-Audit + Thunnus Complex Resolved (n=227),227,1-NN Cosine (Baseline mirip BLAST),0.9956,0.9947
+3. Post-Audit + Thunnus Complex Resolved (n=227),227,Linear SVM (6-mer),0.837,0.8111
+3. Post-Audit + Thunnus Complex Resolved (n=227),227,Random Forest (6-mer),0.9956,0.9947

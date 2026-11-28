@@ -1,0 +1,6 @@
+Scenario,Mean_Final_He,Mean_Final_Ho,Mean_Final_AR,Mean_Final_F_IBD,Pct_He_Retained
+A_Baseline_UKNP,0.4318,0.4688,2.678,0.1357,78.5
+B_Managed_UKNP,0.5195,0.5317,3.783,0.0336,94.5
+C_Metapop_Uncorrelated,0.5111,0.5213,3.607,0.0479,92.9
+C_Metapop_Correlated,0.4998,0.5097,3.521,0.0671,90.9
+D_Integrated_Managed_Metapop,0.5254,0.5281,3.916,0.0414,95.5

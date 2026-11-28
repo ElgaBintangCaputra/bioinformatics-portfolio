@@ -1,0 +1,544 @@
+IQ-TREE multicore version 2.3.6 for Windows 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    LAPTOP-AF13Q80H (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\iqtree-2.3.6-Windows\bin\iqtree2.exe -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta -m MFP -B 1000 -T AUTO -pre C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full -redo -quiet
+Seed:    782080 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 21 22:09:56 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta ... Fasta format detected
+Reading fasta file: done in 0.0069312 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 229 sequences with 636 columns, 305 distinct patterns
+243 parsimony-informative, 33 singleton sites, 360 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000178 secs
+   1  MN243479.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     24.09%
+   2  MN243478.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     24.09%
+   3  GU673901.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     28.18%
+   4  GU673900.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     24.09%
+   5  PZ298686.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     25.67%
+   6  PZ298685.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     22.32%
+   7  PZ298684.1|Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     24.09%
+   8  PX491277.1|Lutjanus_argentimaculatus|Lutjanidae       2.36%    passed     36.51%
+   9  GU673870.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     78.23%
+  10  GU673869.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     81.54%
+  11  GU673867.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     81.54%
+  12  OR758627.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     80.37%
+  13  OR758626.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     80.37%
+  14  OR758625.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     84.07%
+  15  OR758624.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     80.37%
+  16  OR758623.1|Lutjanus_malabaricus|Lutjanidae            0.00%    passed     80.37%
+  17  GU673841.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     85.37%
+  18  PQ812447.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  19  PQ812446.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  20  PQ812445.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  21  PQ812444.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  22  PQ812443.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  23  PQ812442.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  24  PQ812441.1|Lutjanus_erythropterus|Lutjanidae          0.00%    passed     87.83%
+  25  PX736193.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  26  PX736192.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  27  PX736191.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  28  PX736190.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  29  PX736189.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  30  PX736188.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  31  PX736187.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  32  PX736186.1|Lutjanus_johnii|Lutjanidae                 0.00%    passed     91.86%
+  33  MN870188.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.66%
+  34  HQ564451.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.66%
+  35  PQ804623.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.66%
+  36  PV035006.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.66%
+  37  OQ553263.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     79.98%
+  38  OQ386404.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.66%
+  39  EF609401.1|Lutjanus_sebae|Lutjanidae                  0.16%    passed     84.99%
+  40  EU600106.1|Lutjanus_sebae|Lutjanidae                  0.00%    passed     80.42%
+  41  GU674071.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  42  GU673734.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  43  GU673733.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     86.07%
+  44  MN870581.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  45  MN870575.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  46  MN870401.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     85.04%
+  47  MN870348.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  48  MN869991.1|Lutjanus_gibbus|Lutjanidae                 0.00%    passed     88.08%
+  49  PX738101.1|Lutjanus_bohar|Lutjanidae                  0.00%    passed     65.49%
+  50  PV050458.1|Lutjanus_bohar|Lutjanidae                  0.47%    passed     59.10%
+  51  PP449208.1|Lutjanus_bohar|Lutjanidae                  0.00%    passed     76.40%
+  52  PX117337.1|Lutjanus_bohar|Lutjanidae                  8.49%    passed     66.69%
+  53  PX117336.1|Lutjanus_bohar|Lutjanidae                  8.18%    passed     58.39%
+  54  PX117335.1|Lutjanus_bohar|Lutjanidae                  8.18%    passed     62.51%
+  55  PX117333.1|Lutjanus_bohar|Lutjanidae                  8.18%    passed     62.51%
+  56  PX117332.1|Lutjanus_bohar|Lutjanidae                  8.18%    passed     63.53%
+  57  MN870516.1|Lutjanus_fulvus|Lutjanidae                 0.00%    passed     94.86%
+  58  MN870512.1|Lutjanus_fulvus|Lutjanidae                 0.00%    passed     98.82%
+  59  MN870491.1|Lutjanus_fulvus|Lutjanidae                 0.00%    passed     94.78%
+  60  MN870061.1|Lutjanus_fulvus|Lutjanidae                 0.00%    passed     97.83%
+  61  MN870025.1|Lutjanus_fulvus|Lutjanidae                 0.00%    passed     96.15%
+  62  MN870452.1|Lutjanus_fulvus|Lutjanidae                 2.67%    passed     95.99%
+  63  GU674290.1|Lutjanus_fulvus|Lutjanidae                 0.63%    passed     91.96%
+  64  JN311978.1|Lutjanus_fulvus|Lutjanidae                 1.10%    passed     89.62%
+  65  MN869949.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     98.84%
+  66  HQ564446.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     98.84%
+  67  PQ804624.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     97.80%
+  68  MN623872.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     94.91%
+  69  PP354337.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     99.22%
+  70  OQ553262.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     98.84%
+  71  OQ387794.1|Lutjanus_russellii|Lutjanidae              0.00%    passed     98.84%
+  72  PQ812611.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     96.79%
+  73  PQ812609.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     96.79%
+  74  OQ553265.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     95.75%
+  75  OQ386198.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     95.10%
+  76  OQ385788.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     95.75%
+  77  OQ385741.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     92.62%
+  78  OR918623.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     95.90%
+  79  OR524481.1|Lutjanus_vitta|Lutjanidae                  0.00%    passed     94.59%
+  80  JN311851.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     98.99%
+  81  MN870225.1|Pristipomoides_multidens|Lutjanidae        0.31%    passed     98.99%
+  82  GU674155.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     98.61%
+  83  OR654025.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     96.42%
+  84  OR636715.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     84.11%
+  85  OR636714.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     98.63%
+  86  OR633680.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     93.39%
+  87  OR633679.1|Pristipomoides_multidens|Lutjanidae        0.00%    passed     98.99%
+  88  PZ794527.1|Epinephelus_coioides|Epinephelidae         0.00%    passed     95.79%
+  89  PZ794529.1|Epinephelus_coioides|Epinephelidae         0.00%    passed     95.79%
+  90  PZ794530.1|Epinephelus_coioides|Epinephelidae         0.00%    passed     96.11%
+  91  PZ794528.1|Epinephelus_coioides|Epinephelidae         0.00%    passed     95.79%
+  92  PV877696.1|Epinephelus_coioides|Epinephelidae         8.96%    passed     64.03%
+  93  PV877695.1|Epinephelus_coioides|Epinephelidae         8.96%    passed     64.03%
+  94  PV877694.1|Epinephelus_coioides|Epinephelidae         8.96%    passed     64.03%
+  95  PV877693.1|Epinephelus_coioides|Epinephelidae         8.96%    passed     64.03%
+  96  JN313043.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     97.09%
+  97  PQ813541.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     28.18%
+  98  PQ813508.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     78.54%
+  99  PQ812465.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     95.35%
+ 100  PQ812464.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     70.00%
+ 101  MN708926.1|Epinephelus_malabaricus|Epinephelidae      1.10%    passed     98.10%
+ 102  OQ386702.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     97.09%
+ 103  FJ237599.1|Epinephelus_malabaricus|Epinephelidae      0.00%    passed     96.80%
+ 104  JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     25.22%
+ 105  OM273131.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     21.03%
+ 106  OM273130.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     16.37%
+ 107  OM273129.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     22.81%
+ 108  OM273128.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     19.44%
+ 109  MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     25.22%
+ 110  MN708922.1|Epinephelus_fuscoguttatus|Epinephelidae    1.10%    passed     32.02%
+ 111  EU600140.1|Epinephelus_fuscoguttatus|Epinephelidae    0.63%    passed     39.95%
+ 112  OQ387073.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     88.65%
+ 113  OQ386067.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     84.86%
+ 114  HQ174837.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     84.86%
+ 115  HQ174836.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     84.86%
+ 116  HQ174835.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     84.86%
+ 117  HQ174834.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     88.65%
+ 118  HQ174833.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     86.31%
+ 119  HQ174832.1|Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     85.20%
+ 120  PQ812608.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.45%
+ 121  PQ812607.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     80.69%
+ 122  PQ812606.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.45%
+ 123  OM273116.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.86%
+ 124  OM273115.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.92%
+ 125  OM273114.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     84.00%
+ 126  OM273113.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.92%
+ 127  OM273112.1|Epinephelus_areolatus|Epinephelidae        0.00%    passed     89.92%
+ 128  JN312976.1|Epinephelus_bleekeri|Epinephelidae         0.00%    passed     92.07%
+ 129  MN708865.1|Epinephelus_bleekeri|Epinephelidae         0.00%    passed     95.97%
+ 130  MN708866.1|Epinephelus_bleekeri|Epinephelidae         0.94%    passed     97.37%
+ 131  MN708860.1|Epinephelus_bleekeri|Epinephelidae         0.94%    passed     98.62%
+ 132  MN708863.1|Epinephelus_bleekeri|Epinephelidae         1.26%    passed     96.03%
+ 133  MN708861.1|Epinephelus_bleekeri|Epinephelidae         1.10%    passed     95.89%
+ 134  MN708859.1|Epinephelus_bleekeri|Epinephelidae         0.94%    passed     97.37%
+ 135  PP354710.1|Epinephelus_bleekeri|Epinephelidae         0.00%    passed     97.38%
+ 136  JN313058.1|Plectropomus_leopardus|Epinephelidae       0.00%    passed     69.71%
+ 137  GU674047.1|Plectropomus_leopardus|Epinephelidae       0.63%    passed     71.80%
+ 138  GU673949.1|Plectropomus_leopardus|Epinephelidae       0.63%    passed     72.48%
+ 139  JN313059.1|Plectropomus_leopardus|Epinephelidae       2.99%    passed     80.23%
+ 140  JN313060.1|Plectropomus_leopardus|Epinephelidae       0.94%    passed     57.69%
+ 141  PQ656568.1|Plectropomus_leopardus|Epinephelidae       0.00%    passed     68.79%
+ 142  PQ656567.1|Plectropomus_leopardus|Epinephelidae       0.00%    passed     69.71%
+ 143  PQ656566.1|Plectropomus_leopardus|Epinephelidae       0.00%    passed     69.71%
+ 144  JN313062.1|Plectropomus_maculatus|Epinephelidae       0.00%    passed     71.02%
+ 145  JN313061.1|Plectropomus_maculatus|Epinephelidae       0.00%    passed     71.02%
+ 146  GU673821.1|Plectropomus_maculatus|Epinephelidae       0.63%    passed     74.28%
+ 147  PX905036.1|Plectropomus_maculatus|Epinephelidae      13.68%    passed     27.20%
+ 148  PX905035.1|Plectropomus_maculatus|Epinephelidae      13.68%    passed     27.20%
+ 149  PX905034.1|Plectropomus_maculatus|Epinephelidae      13.68%    passed     27.20%
+ 150  PX905033.1|Plectropomus_maculatus|Epinephelidae      13.68%    passed     27.20%
+ 151  PX905032.1|Plectropomus_maculatus|Epinephelidae      13.68%    passed     27.20%
+ 152  GU673954.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     93.72%
+ 153  JN313065.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     93.61%
+ 154  OP062115.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     87.38%
+ 155  OP062114.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     91.44%
+ 156  PX905051.1|Cromileptes_altivelis|Epinephelidae       13.68%    passed     31.65%
+ 157  PV035021.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     93.72%
+ 158  OQ387738.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     93.72%
+ 159  OQ387630.1|Cromileptes_altivelis|Epinephelidae        0.00%    passed     93.72%
+ 160  GU674361.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 161  GU674280.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 162  MN870587.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 163  MN870577.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 164  MN870379.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 165  MN870343.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 166  MN870181.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 167  JN312973.1|Cephalopholis_miniata|Epinephelidae        0.00%    passed     80.53%
+ 168  PX363004.1|Thunnus_albacares|Scombridae               0.00%    passed     96.93%
+ 169  PX363003.1|Thunnus_albacares|Scombridae               0.00%    passed     97.66%
+ 170  PX363002.1|Thunnus_albacares|Scombridae               0.00%    passed     98.79%
+ 171  PX363001.1|Thunnus_albacares|Scombridae               0.00%    passed     97.66%
+ 172  PX363000.1|Thunnus_albacares|Scombridae               0.00%    passed     97.66%
+ 173  PX362999.1|Thunnus_albacares|Scombridae               0.00%    passed     97.66%
+ 174  PX362998.1|Thunnus_albacares|Scombridae               0.00%    passed     94.79%
+ 175  PX362997.1|Thunnus_albacares|Scombridae               0.00%    passed     98.53%
+ 176  PX363011.1|Thunnus_obesus|Scombridae                  0.00%    passed     96.69%
+ 177  PX363010.1|Thunnus_obesus|Scombridae                  0.00%    passed     96.69%
+ 178  PX363009.1|Thunnus_obesus|Scombridae                  0.00%    passed     96.69%
+ 179  PX363008.1|Thunnus_obesus|Scombridae                  0.00%    passed     97.35%
+ 180  PX363007.1|Thunnus_obesus|Scombridae                  0.00%    passed     96.69%
+ 181  PX363006.1|Thunnus_obesus|Scombridae                  0.00%    passed     96.69%
+ 182  PQ813544.1|Thunnus_obesus|Scombridae                  0.00%    passed     98.42%
+ 183  PQ813543.1|Thunnus_obesus|Scombridae                  0.00%    passed     97.66%
+ 184  PX802357.1|Thunnus_alalunga|Scombridae                0.00%    passed     98.79%
+ 185  OQ385548.1|Thunnus_alalunga|Scombridae                0.00%    passed     98.79%
+ 186  MT889073.1|Thunnus_alalunga|Scombridae                0.00%    passed     96.16%
+ 187  MT889075.1|Thunnus_alalunga|Scombridae                0.16%    passed     98.55%
+ 188  MT889074.1|Thunnus_alalunga|Scombridae                0.31%    passed     99.26%
+ 189  PX481760.1|Thunnus_alalunga|Scombridae                2.83%    passed     94.68%
+ 190  PX397326.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     81.25%
+ 191  PX397325.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     83.58%
+ 192  PX397324.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     83.58%
+ 193  PX397323.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     81.25%
+ 194  PX397322.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     83.58%
+ 195  PX397321.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     83.58%
+ 196  PX397320.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     83.58%
+ 197  PX397319.1|Katsuwonus_pelamis|Scombridae              0.94%    passed     85.18%
+ 198  OQ346137.1|Euthynnus_affinis|Scombridae               0.00%    passed     47.37%
+ 199  OQ346136.1|Euthynnus_affinis|Scombridae               0.00%    passed     55.12%
+ 200  OQ346135.1|Euthynnus_affinis|Scombridae               0.00%    passed     44.56%
+ 201  OQ346134.1|Euthynnus_affinis|Scombridae               0.00%    passed     38.15%
+ 202  OQ346133.1|Euthynnus_affinis|Scombridae               0.00%    passed     48.28%
+ 203  PX397333.1|Euthynnus_affinis|Scombridae               0.94%    passed     61.30%
+ 204  PX397332.1|Euthynnus_affinis|Scombridae               0.94%    passed     54.60%
+ 205  PX397331.1|Euthynnus_affinis|Scombridae               0.94%    passed     54.60%
+ 206  OQ346145.1|Auxis_thazard|Scombridae                   0.00%    passed     95.37%
+ 207  OQ346144.1|Auxis_thazard|Scombridae                   0.00%    passed     95.37%
+ 208  OQ346143.1|Auxis_thazard|Scombridae                   0.00%    passed     96.90%
+ 209  OQ346142.1|Auxis_thazard|Scombridae                   0.00%    passed     95.37%
+ 210  PX501052.1|Auxis_thazard|Scombridae                   4.25%    passed     87.55%
+ 211  PX501051.1|Auxis_thazard|Scombridae                   4.25%    passed     87.56%
+ 212  PX501050.1|Auxis_thazard|Scombridae                   4.25%    passed     87.55%
+ 213  PX501049.1|Auxis_thazard|Scombridae                   4.25%    passed     87.55%
+ 214  PX210229.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     35.33%
+ 215  PX658229.1|Rastrelliger_kanagurta|Scombridae          3.30%    passed     67.58%
+ 216  PP354855.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     61.96%
+ 217  PP354721.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     40.45%
+ 218  PP354719.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     35.33%
+ 219  PP354596.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     41.84%
+ 220  OQ553430.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     35.33%
+ 221  OQ553429.1|Rastrelliger_kanagurta|Scombridae          0.00%    passed     61.96%
+ 222  PX650279.1|Scomberomorus_commerson|Scombridae         2.83%    passed     75.91%
+ 223  PP354787.1|Scomberomorus_commerson|Scombridae         0.00%    passed     90.62%
+ 224  PP354737.1|Scomberomorus_commerson|Scombridae         0.00%    passed     94.59%
+ 225  PP354720.1|Scomberomorus_commerson|Scombridae         0.00%    passed     90.62%
+ 226  PP354642.1|Scomberomorus_commerson|Scombridae         0.00%    passed     95.52%
+ 227  PP354630.1|Scomberomorus_commerson|Scombridae         0.00%    passed     94.59%
+ 228  OQ553461.1|Scomberomorus_commerson|Scombridae         0.00%    passed     94.03%
+ 229  OQ553460.1|Scomberomorus_commerson|Scombridae         0.00%    passed     90.62%
+****  TOTAL                                                 0.95%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MN243478.1|Lutjanus_argentimaculatus|Lutjanidae is identical to MN243479.1|Lutjanus_argentimaculatus|Lutjanidae but kept for subsequent analysis
+NOTE: PQ813541.1|Epinephelus_malabaricus|Epinephelidae is identical to GU673901.1|Lutjanus_argentimaculatus|Lutjanidae but kept for subsequent analysis
+NOTE: GU673867.1|Lutjanus_malabaricus|Lutjanidae is identical to GU673869.1|Lutjanus_malabaricus|Lutjanidae but kept for subsequent analysis
+NOTE: OR758626.1|Lutjanus_malabaricus|Lutjanidae is identical to OR758627.1|Lutjanus_malabaricus|Lutjanidae but kept for subsequent analysis
+NOTE: PQ812445.1|Lutjanus_erythropterus|Lutjanidae is identical to PQ812447.1|Lutjanus_erythropterus|Lutjanidae but kept for subsequent analysis
+NOTE: PQ812442.1|Lutjanus_erythropterus|Lutjanidae is identical to PQ812446.1|Lutjanus_erythropterus|Lutjanidae but kept for subsequent analysis
+NOTE: PX736191.1|Lutjanus_johnii|Lutjanidae is identical to PX736192.1|Lutjanus_johnii|Lutjanidae but kept for subsequent analysis
+NOTE: PQ804623.1|Lutjanus_sebae|Lutjanidae is identical to HQ564451.1|Lutjanus_sebae|Lutjanidae but kept for subsequent analysis
+NOTE: GU673734.1|Lutjanus_gibbus|Lutjanidae is identical to GU674071.1|Lutjanus_gibbus|Lutjanidae but kept for subsequent analysis
+NOTE: PX117333.1|Lutjanus_bohar|Lutjanidae is identical to PX117335.1|Lutjanus_bohar|Lutjanidae but kept for subsequent analysis
+NOTE: HQ564446.1|Lutjanus_russellii|Lutjanidae is identical to MN869949.1|Lutjanus_russellii|Lutjanidae but kept for subsequent analysis
+NOTE: PQ812609.1|Lutjanus_vitta|Lutjanidae is identical to PQ812611.1|Lutjanus_vitta|Lutjanidae but kept for subsequent analysis
+NOTE: OQ385788.1|Lutjanus_vitta|Lutjanidae is identical to OQ553265.1|Lutjanus_vitta|Lutjanidae but kept for subsequent analysis
+NOTE: OR633679.1|Pristipomoides_multidens|Lutjanidae is identical to JN311851.1|Pristipomoides_multidens|Lutjanidae but kept for subsequent analysis
+NOTE: PZ794529.1|Epinephelus_coioides|Epinephelidae is identical to PZ794527.1|Epinephelus_coioides|Epinephelidae but kept for subsequent analysis
+NOTE: PV877695.1|Epinephelus_coioides|Epinephelidae is identical to PV877696.1|Epinephelus_coioides|Epinephelidae but kept for subsequent analysis
+NOTE: OQ386702.1|Epinephelus_malabaricus|Epinephelidae is identical to JN313043.1|Epinephelus_malabaricus|Epinephelidae but kept for subsequent analysis
+NOTE: MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae is identical to JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae but kept for subsequent analysis
+NOTE: HQ174836.1|Epinephelus_lanceolatus|Epinephelidae is identical to OQ386067.1|Epinephelus_lanceolatus|Epinephelidae but kept for subsequent analysis
+NOTE: PQ812606.1|Epinephelus_areolatus|Epinephelidae is identical to PQ812608.1|Epinephelus_areolatus|Epinephelidae but kept for subsequent analysis
+NOTE: OM273113.1|Epinephelus_areolatus|Epinephelidae is identical to OM273115.1|Epinephelus_areolatus|Epinephelidae but kept for subsequent analysis
+NOTE: MN708859.1|Epinephelus_bleekeri|Epinephelidae is identical to MN708866.1|Epinephelus_bleekeri|Epinephelidae but kept for subsequent analysis
+NOTE: PQ656567.1|Plectropomus_leopardus|Epinephelidae is identical to JN313058.1|Plectropomus_leopardus|Epinephelidae but kept for subsequent analysis
+NOTE: JN313061.1|Plectropomus_maculatus|Epinephelidae is identical to JN313062.1|Plectropomus_maculatus|Epinephelidae but kept for subsequent analysis
+NOTE: PX905035.1|Plectropomus_maculatus|Epinephelidae is identical to PX905036.1|Plectropomus_maculatus|Epinephelidae but kept for subsequent analysis
+NOTE: PV035021.1|Cromileptes_altivelis|Epinephelidae is identical to GU673954.1|Cromileptes_altivelis|Epinephelidae but kept for subsequent analysis
+NOTE: GU674280.1|Cephalopholis_miniata|Epinephelidae is identical to GU674361.1|Cephalopholis_miniata|Epinephelidae but kept for subsequent analysis
+NOTE: PX363001.1|Thunnus_albacares|Scombridae is identical to PX363003.1|Thunnus_albacares|Scombridae but kept for subsequent analysis
+NOTE: PX363010.1|Thunnus_obesus|Scombridae is identical to PX363011.1|Thunnus_obesus|Scombridae but kept for subsequent analysis
+NOTE: OQ385548.1|Thunnus_alalunga|Scombridae is identical to PX802357.1|Thunnus_alalunga|Scombridae but kept for subsequent analysis
+NOTE: PX397324.1|Katsuwonus_pelamis|Scombridae is identical to PX397325.1|Katsuwonus_pelamis|Scombridae but kept for subsequent analysis
+NOTE: PX397331.1|Euthynnus_affinis|Scombridae is identical to PX397332.1|Euthynnus_affinis|Scombridae but kept for subsequent analysis
+NOTE: OQ346144.1|Auxis_thazard|Scombridae is identical to OQ346145.1|Auxis_thazard|Scombridae but kept for subsequent analysis
+NOTE: PX501050.1|Auxis_thazard|Scombridae is identical to PX501052.1|Auxis_thazard|Scombridae but kept for subsequent analysis
+NOTE: OQ553430.1|Rastrelliger_kanagurta|Scombridae is identical to PP354719.1|Rastrelliger_kanagurta|Scombridae but kept for subsequent analysis
+NOTE: PP354720.1|Scomberomorus_commerson|Scombridae is identical to PP354787.1|Scomberomorus_commerson|Scombridae but kept for subsequent analysis
+NOTE: PP354630.1|Scomberomorus_commerson|Scombridae is identical to PP354737.1|Scomberomorus_commerson|Scombridae but kept for subsequent analysis
+NOTE: 49 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GU673900.1|Lutjanus_argentimaculatus|Lutjanidae (identical to MN243479.1|Lutjanus_argentimaculatus|Lutjanidae) is ignored but added at the end
+NOTE: PZ298684.1|Lutjanus_argentimaculatus|Lutjanidae (identical to MN243479.1|Lutjanus_argentimaculatus|Lutjanidae) is ignored but added at the end
+NOTE: OR758624.1|Lutjanus_malabaricus|Lutjanidae (identical to OR758627.1|Lutjanus_malabaricus|Lutjanidae) is ignored but added at the end
+NOTE: OR758623.1|Lutjanus_malabaricus|Lutjanidae (identical to OR758627.1|Lutjanus_malabaricus|Lutjanidae) is ignored but added at the end
+NOTE: PQ812444.1|Lutjanus_erythropterus|Lutjanidae (identical to PQ812447.1|Lutjanus_erythropterus|Lutjanidae) is ignored but added at the end
+NOTE: PQ812443.1|Lutjanus_erythropterus|Lutjanidae (identical to PQ812447.1|Lutjanus_erythropterus|Lutjanidae) is ignored but added at the end
+NOTE: PQ812441.1|Lutjanus_erythropterus|Lutjanidae (identical to PQ812447.1|Lutjanus_erythropterus|Lutjanidae) is ignored but added at the end
+NOTE: PX736190.1|Lutjanus_johnii|Lutjanidae (identical to PX736192.1|Lutjanus_johnii|Lutjanidae) is ignored but added at the end
+NOTE: PX736189.1|Lutjanus_johnii|Lutjanidae (identical to PX736192.1|Lutjanus_johnii|Lutjanidae) is ignored but added at the end
+NOTE: PX736188.1|Lutjanus_johnii|Lutjanidae (identical to PX736192.1|Lutjanus_johnii|Lutjanidae) is ignored but added at the end
+NOTE: PX736187.1|Lutjanus_johnii|Lutjanidae (identical to PX736192.1|Lutjanus_johnii|Lutjanidae) is ignored but added at the end
+NOTE: PX736186.1|Lutjanus_johnii|Lutjanidae (identical to PX736192.1|Lutjanus_johnii|Lutjanidae) is ignored but added at the end
+NOTE: PV035006.1|Lutjanus_sebae|Lutjanidae (identical to HQ564451.1|Lutjanus_sebae|Lutjanidae) is ignored but added at the end
+NOTE: OQ386404.1|Lutjanus_sebae|Lutjanidae (identical to HQ564451.1|Lutjanus_sebae|Lutjanidae) is ignored but added at the end
+NOTE: MN870581.1|Lutjanus_gibbus|Lutjanidae (identical to GU674071.1|Lutjanus_gibbus|Lutjanidae) is ignored but added at the end
+NOTE: MN870575.1|Lutjanus_gibbus|Lutjanidae (identical to GU674071.1|Lutjanus_gibbus|Lutjanidae) is ignored but added at the end
+NOTE: MN870348.1|Lutjanus_gibbus|Lutjanidae (identical to GU674071.1|Lutjanus_gibbus|Lutjanidae) is ignored but added at the end
+NOTE: MN869991.1|Lutjanus_gibbus|Lutjanidae (identical to GU674071.1|Lutjanus_gibbus|Lutjanidae) is ignored but added at the end
+NOTE: OQ553262.1|Lutjanus_russellii|Lutjanidae (identical to MN869949.1|Lutjanus_russellii|Lutjanidae) is ignored but added at the end
+NOTE: OQ387794.1|Lutjanus_russellii|Lutjanidae (identical to MN869949.1|Lutjanus_russellii|Lutjanidae) is ignored but added at the end
+NOTE: PZ794528.1|Epinephelus_coioides|Epinephelidae (identical to PZ794527.1|Epinephelus_coioides|Epinephelidae) is ignored but added at the end
+NOTE: PV877694.1|Epinephelus_coioides|Epinephelidae (identical to PV877696.1|Epinephelus_coioides|Epinephelidae) is ignored but added at the end
+NOTE: PV877693.1|Epinephelus_coioides|Epinephelidae (identical to PV877696.1|Epinephelus_coioides|Epinephelidae) is ignored but added at the end
+NOTE: HQ174835.1|Epinephelus_lanceolatus|Epinephelidae (identical to OQ386067.1|Epinephelus_lanceolatus|Epinephelidae) is ignored but added at the end
+NOTE: OM273112.1|Epinephelus_areolatus|Epinephelidae (identical to OM273115.1|Epinephelus_areolatus|Epinephelidae) is ignored but added at the end
+NOTE: PQ656566.1|Plectropomus_leopardus|Epinephelidae (identical to JN313058.1|Plectropomus_leopardus|Epinephelidae) is ignored but added at the end
+NOTE: PX905034.1|Plectropomus_maculatus|Epinephelidae (identical to PX905036.1|Plectropomus_maculatus|Epinephelidae) is ignored but added at the end
+NOTE: PX905033.1|Plectropomus_maculatus|Epinephelidae (identical to PX905036.1|Plectropomus_maculatus|Epinephelidae) is ignored but added at the end
+NOTE: PX905032.1|Plectropomus_maculatus|Epinephelidae (identical to PX905036.1|Plectropomus_maculatus|Epinephelidae) is ignored but added at the end
+NOTE: OQ387738.1|Cromileptes_altivelis|Epinephelidae (identical to GU673954.1|Cromileptes_altivelis|Epinephelidae) is ignored but added at the end
+NOTE: OQ387630.1|Cromileptes_altivelis|Epinephelidae (identical to GU673954.1|Cromileptes_altivelis|Epinephelidae) is ignored but added at the end
+NOTE: MN870587.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: MN870577.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: MN870379.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: MN870343.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: MN870181.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: JN312973.1|Cephalopholis_miniata|Epinephelidae (identical to GU674361.1|Cephalopholis_miniata|Epinephelidae) is ignored but added at the end
+NOTE: PX363000.1|Thunnus_albacares|Scombridae (identical to PX363003.1|Thunnus_albacares|Scombridae) is ignored but added at the end
+NOTE: PX362999.1|Thunnus_albacares|Scombridae (identical to PX363003.1|Thunnus_albacares|Scombridae) is ignored but added at the end
+NOTE: PQ813543.1|Thunnus_obesus|Scombridae (identical to PX363003.1|Thunnus_albacares|Scombridae) is ignored but added at the end
+NOTE: PX363009.1|Thunnus_obesus|Scombridae (identical to PX363011.1|Thunnus_obesus|Scombridae) is ignored but added at the end
+NOTE: PX363007.1|Thunnus_obesus|Scombridae (identical to PX363011.1|Thunnus_obesus|Scombridae) is ignored but added at the end
+NOTE: PX363006.1|Thunnus_obesus|Scombridae (identical to PX363011.1|Thunnus_obesus|Scombridae) is ignored but added at the end
+NOTE: PX397322.1|Katsuwonus_pelamis|Scombridae (identical to PX397325.1|Katsuwonus_pelamis|Scombridae) is ignored but added at the end
+NOTE: PX397321.1|Katsuwonus_pelamis|Scombridae (identical to PX397325.1|Katsuwonus_pelamis|Scombridae) is ignored but added at the end
+NOTE: PX397320.1|Katsuwonus_pelamis|Scombridae (identical to PX397325.1|Katsuwonus_pelamis|Scombridae) is ignored but added at the end
+NOTE: OQ346142.1|Auxis_thazard|Scombridae (identical to OQ346145.1|Auxis_thazard|Scombridae) is ignored but added at the end
+NOTE: PX501049.1|Auxis_thazard|Scombridae (identical to PX501052.1|Auxis_thazard|Scombridae) is ignored but added at the end
+NOTE: OQ553460.1|Scomberomorus_commerson|Scombridae (identical to PP354787.1|Scomberomorus_commerson|Scombridae) is ignored but added at the end
+Alignment was printed to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.035 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+40 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -38559
+Threads: 2 / Time: 5.951 sec / Speedup: 1.347 / Efficiency: 67% / LogL: -38559
+Threads: 3 / Time: 5.154 sec / Speedup: 1.556 / Efficiency: 52% / LogL: -38559
+Threads: 4 / Time: 5.027 sec / Speedup: 1.595 / Efficiency: 40% / LogL: -38559
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -7759.035
+Optimal log-likelihood: -7758.152
+Rate parameters:  A-C: 1.34637  A-G: 11.26098  A-T: 2.34307  C-G: 0.90389  C-T: 12.11166  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.282  G: 0.187  T: 0.288
+Proportion of invariable sites: 0.379
+Gamma shape alpha: 0.496
+Parameters optimization took 1 rounds (0.092 sec)
+Time for fast ML tree search: 0.990 seconds
+
+NOTE: ModelFinder requires 19 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 636 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         9013.532     365 18757.063    19746.619    20383.211
+  2  GTR+F+I       7936.810     366 16605.621    17604.297    18236.223
+  3  GTR+F+G4      7763.764     366 16259.528    17258.204    17890.130
+  4  GTR+F+I+G4    7748.296     367 16230.592    17238.472    17865.650
+  5  GTR+F+R2      7788.778     367 16311.555    17319.436    17946.613
+  6  GTR+F+R3      7752.067     369 16242.134    17268.676    17886.103
+  7  GTR+F+R4      7742.532     371 16227.063    17272.609    17879.942
+  8  GTR+F+R5      7742.178     373 16230.355    17295.256    17892.144
+ 14  GTR+F+I+R2    7752.611     368 16241.221    17258.390    17880.734
+ 15  GTR+F+I+R3    7737.682     370 16215.364    17251.364    17863.787
+ 16  GTR+F+I+R4    7737.593     372 16219.186    17274.364    17876.519
+ 26  SYM+I+G4      7774.572     364 16277.143    17257.660    17898.836
+ 37  SYM+I+R3      7765.987     367 16265.975    17273.855    17901.032
+ 48  TVM+F+I+G4    7749.006     366 16230.013    17228.689    17860.616
+ 59  TVM+F+I+R3    7738.154     369 16214.308    17240.849    17858.276
+ 70  TVMe+I+G4     7795.375     363 16316.749    17288.308    17933.986
+ 81  TVMe+I+R3     7785.823     366 16303.647    17302.323    17934.249
+ 92  TIM3+F+I+G4   7758.315     365 16246.631    17236.186    17872.778
+103  TIM3+F+I+R3   7746.650     368 16229.300    17246.468    17868.813
+114  TIM3e+I+G4    7801.552     362 16327.103    17289.785    17939.885
+125  TIM3e+I+R3    7791.559     365 16313.119    17302.674    17939.266
+136  TIM2+F+I+G4   7753.659     365 16237.318    17226.873    17863.465
+147  TIM2+F+I+R3   7742.664     368 16221.328    17238.497    17860.841
+158  TIM2e+I+G4    7780.490     362 16284.981    17247.662    17897.763
+169  TIM2e+I+R3    7771.608     365 16273.216    17262.771    17899.363
+180  TIM+F+I+G4    7759.895     365 16249.790    17239.346    17875.938
+191  TIM+F+I+R3    7748.143     368 16232.287    17249.455    17871.800
+202  TIMe+I+G4     7803.566     362 16331.131    17293.813    17943.913
+213  TIMe+I+R3     7793.334     365 16316.668    17306.224    17942.816
+224  TPM3u+F+I+G4  7758.779     364 16245.557    17226.074    17867.250
+235  TPM3u+F+I+R3  7747.118     367 16228.236    17236.116    17863.293
+246  TPM3+I+G4     7822.015     361 16366.030    17319.913    17974.357
+257  TPM3+I+R3     7811.320     364 16350.639    17331.156    17972.332
+268  TPM2u+F+I+G4  7754.428     364 16236.856    17217.372    17858.548
+279  TPM2u+F+I+R3  7743.379     367 16220.758    17228.639    17855.816
+290  TPM2+I+G4     7802.091     361 16326.182    17280.066    17934.509
+301  TPM2+I+R3     7792.304     364 16312.607    17293.124    17934.300
+312  K3Pu+F+I+G4   7760.427     364 16248.854    17229.370    17870.546
+323  K3Pu+F+I+R3   7748.697     367 16231.395    17239.275    17866.452
+334  K3P+I+G4      7824.657     361 16371.315    17325.198    17979.642
+345  K3P+I+R3      7813.887     364 16355.773    17336.290    17977.466
+356  TN+F+I+G4     7762.603     364 16253.206    17233.722    17874.898
+367  TN+F+I+R3     7750.844     367 16235.689    17243.569    17870.747
+378  TNe+I+G4      7806.175     361 16334.350    17288.233    17942.677
+389  TNe+I+R3      7796.009     364 16320.019    17300.535    17941.711
+400  HKY+F+I+G4    7763.174     363 16252.348    17223.906    17869.585
+411  HKY+F+I+R3    7751.434     366 16234.869    17233.545    17865.471
+422  K2P+I+G4      7827.383     360 16374.766    17319.930    17978.638
+433  K2P+I+R3      7816.610     363 16359.221    17330.780    17976.458
+444  F81+F+I+G4    8367.681     362 17459.362    18422.043    19072.144
+455  F81+F+I+R3    8353.336     365 17436.671    18426.227    19062.819
+466  JC+I+G4       8449.951     359 17617.902    18554.424    19217.319
+477  JC+I+R3       8434.777     362 17593.553    18556.234    19206.335
+Akaike Information Criterion:           TVM+F+I+R3
+Corrected Akaike Information Criterion: TPM2u+F+I+G4
+Bayesian Information Criterion:         TPM2u+F+I+R3
+Best-fit model: TPM2u+F+I+R3 chosen according to BIC
+
+All model information printed to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.model.gz
+CPU time for ModelFinder: 137.891 seconds (0h:2m:17s)
+Wall-clock time for ModelFinder: 55.011 seconds (0h:0m:55s)
+Generating 1000 samples for ultrafast bootstrap (seed: 782080)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8353.865
+2. Current log-likelihood: -7859.407
+3. Current log-likelihood: -7749.925
+4. Current log-likelihood: -7743.601
+5. Current log-likelihood: -7743.429
+Optimal log-likelihood: -7743.410
+Rate parameters:  A-C: 1.90844  A-G: 12.17559  A-T: 1.90844  C-G: 1.00000  C-T: 12.17559  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.282  G: 0.187  T: 0.288
+Proportion of invariable sites: 0.506
+Site proportion and rates:  (0.186,0.298) (0.182,2.089) (0.126,4.481)
+Parameters optimization took 5 rounds (0.702 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0903812 secs using 311.2% CPU
+Computing ML distances took 0.090914 sec (of wall-clock time) 0.281250 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0013223 secs using 3545% CPU
+Computing RapidNJ tree took 0.003792 sec (of wall-clock time) 0.046875 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7813.868
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.858 second
+Computing log-likelihood of 98 initial trees ... 1.585 seconds
+Current best score: -7743.410
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7736.894
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -7736.441
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -7736.326
+Iteration 10 / LogL: -7736.326 / Time: 0h:1m:13s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -7736.035
+BETTER TREE FOUND at iteration 18: -7736.034
+Iteration 20 / LogL: -7737.624 / Time: 0h:1m:24s
+Finish initializing candidate tree set (20)
+Current best tree score: -7736.034 / CPU time: 28.596
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -7734.976
+Iteration 30 / LogL: -7856.751 / Time: 0h:1m:33s (0h:2m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -7734.113
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -7732.718
+Iteration 40 / LogL: -7737.687 / Time: 0h:1m:43s (0h:1m:57s left)
+Iteration 50 / LogL: -7737.119 / Time: 0h:1m:52s (0h:1m:38s left)
+Log-likelihood cutoff on original alignment: -7771.860
+Iteration 60 / LogL: -7733.650 / Time: 0h:2m:3s (0h:1m:25s left)
+Iteration 70 / LogL: -7734.902 / Time: 0h:2m:13s (0h:1m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -7732.695
+Iteration 80 / LogL: -7732.695 / Time: 0h:2m:23s (0h:1m:51s left)
+Iteration 90 / LogL: -7736.600 / Time: 0h:2m:33s (0h:1m:39s left)
+Iteration 100 / LogL: -7732.728 / Time: 0h:2m:42s (0h:1m:26s left)
+Log-likelihood cutoff on original alignment: -7771.860
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -7735.910 / Time: 0h:2m:55s (0h:1m:39s left)
+Iteration 120 / LogL: -7735.625 / Time: 0h:3m:6s (0h:1m:28s left)
+Iteration 130 / LogL: -7734.459 / Time: 0h:3m:15s (0h:1m:16s left)
+Iteration 140 / LogL: -7743.709 / Time: 0h:3m:26s (0h:1m:5s left)
+Iteration 150 / LogL: -7761.960 / Time: 0h:3m:36s (0h:0m:54s left)
+Log-likelihood cutoff on original alignment: -7771.860
+Iteration 160 / LogL: -7742.678 / Time: 0h:3m:46s (0h:0m:43s left)
+Iteration 170 / LogL: -7732.702 / Time: 0h:3m:54s (0h:0m:31s left)
+Iteration 180 / LogL: -7863.238 / Time: 0h:4m:5s (0h:0m:21s left)
+TREE SEARCH COMPLETED AFTER 181 ITERATIONS / Time: 0h:4m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7732.695
+Optimal log-likelihood: -7732.694
+Rate parameters:  A-C: 1.80428  A-G: 11.86981  A-T: 1.80428  C-G: 1.00000  C-T: 11.86981  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.282  G: 0.187  T: 0.288
+Proportion of invariable sites: 0.508
+Site proportion and rates:  (0.188,0.303) (0.191,2.167) (0.114,4.655)
+Parameters optimization took 1 rounds (0.089 sec)
+BEST SCORE FOUND : -7732.694
+Creating bootstrap support values...
+Split supports printed to NEXUS file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.splits.nex
+Total tree length: 3.921
+
+Total number of iterations: 181
+CPU time used for tree search: 514.391 sec (0h:8m:34s)
+Wall-clock time used for tree search: 190.345 sec (0h:3m:10s)
+Total CPU time used: 658.016 sec (0h:10m:58s)
+Total wall-clock time used: 247.917 sec (0h:4m:7s)
+
+Computing bootstrap consensus tree...
+Reading input file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.splits.nex...
+180 taxa and 1556 splits.
+Consensus tree written to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.contree
+Reading input trees file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.contree
+Log-likelihood of consensus tree: -7732.866
+
+Analysis results written to: 
+  IQ-TREE report:                C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.iqtree
+  Maximum-likelihood tree:       C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.treefile
+  Likelihood distances:          C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.splits.nex
+  Consensus tree:                C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.contree
+  Screen log file:               C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.log
+
+Date and Time: Sat Nov 21 22:14:05 2026

@@ -1,0 +1,2 @@
+Benchmark,Observed_Modern_Range,Python_IBM_Mean_N50,Python_IBM_IQR,Python_IBM_P5_P95,Consistent_With_History
+Ujung Kulon Historical Growth Window (N0=30 -> 50 yrs),58 - 80 individuals (2015-2023),49.0,36.2 - 65.0,16.0 - 75.0,True

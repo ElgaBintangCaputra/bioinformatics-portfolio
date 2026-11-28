@@ -1,0 +1,81 @@
+# =====================================================================
+# Snakefile — Contoh Alur Bio-HPC (Linux / Cluster Slurm)
+# Catatan: Di Windows, gunakan `python run_pipeline.py`.
+# File ini menunjukkan bagaimana pipeline yang sama dijalankan secara
+# paralel dan reprodusibel di server Linux / cluster Bio-HPC dengan Snakemake.
+# =====================================================================
+
+configfile: "config.yaml"
+
+rule all:
+    input:
+        "results/tables/03_barcode_gap_per_species.csv",
+        "results/figures/04_species_tree_ml.png",
+        "results/tables/03b_genbank_audit.csv",
+        "results/tables/05_ml_comparison.csv",
+        "results/figures/06_sampling_map.html"
+
+rule fetch_sequences:
+    output:
+        fasta="data/processed/coi_raw.fasta",
+        meta="results/tables/01_sequence_metadata.csv"
+    shell:
+        "python src/01_fetch_sequences.py"
+
+rule align_and_trim:
+    input:
+        "data/processed/coi_raw.fasta"
+    output:
+        aln="data/processed/coi_aligned_trimmed.fasta",
+        meta="results/tables/02_aligned_metadata.csv"
+    threads: config["alignment"]["mafft_threads"]
+    shell:
+        "python src/02_align.py"
+
+rule distance_and_gap:
+    input:
+        "data/processed/coi_aligned_trimmed.fasta"
+    output:
+        gap="results/tables/03_barcode_gap_per_species.csv",
+        mat="results/tables/03_k2p_distance_matrix.csv"
+    shell:
+        "python src/03_distance_barcode_gap.py"
+
+rule phylogeny:
+    input:
+        aln="data/processed/coi_aligned_trimmed.fasta",
+        mat="results/tables/03_k2p_distance_matrix.csv"
+    output:
+        png="results/figures/04_species_tree_ml.png",
+        tree="results/trees/iqtree_full.treefile"
+    threads: 4
+    shell:
+        "python src/04_phylogeny.py"
+
+rule diversity_and_audit:
+    input:
+        aln="data/processed/coi_aligned_trimmed.fasta",
+        mat="results/tables/03_k2p_distance_matrix.csv",
+        tree="results/trees/iqtree_full.treefile"
+    output:
+        "results/tables/03b_genbank_audit.csv"
+    shell:
+        "python src/03b_diversity_selection.py"
+
+rule ml_species_id:
+    input:
+        meta="results/tables/02_aligned_metadata.csv",
+        audit="results/tables/03b_genbank_audit.csv"
+    output:
+        comp="results/tables/05_ml_comparison.csv",
+        abl="results/tables/05_ml_ablation_audit.csv"
+    shell:
+        "python src/05_ml_species_id.py"
+
+rule sampling_map:
+    input:
+        "results/tables/02_aligned_metadata.csv"
+    output:
+        "results/figures/06_sampling_map.html"
+    shell:
+        "python src/06_map.py"

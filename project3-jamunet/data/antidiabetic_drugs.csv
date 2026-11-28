@@ -1,0 +1,10 @@
+drug,drug_class,mechanism_short
+metformin,biguanida,menekan produksi glukosa di hati (aktivasi AMPK tidak langsung)
+glibenclamide,sulfonilurea,menutup kanal KATP sel beta (ABCC8/KCNJ11) -> sekresi insulin
+glimepiride,sulfonilurea,menutup kanal KATP sel beta -> sekresi insulin
+pioglitazone,tiazolidindion,agonis PPARG -> sensitivitas insulin
+sitagliptin,penghambat DPP-4,menghambat DPP4 -> inkretin (GLP-1) lebih lama aktif
+vildagliptin,penghambat DPP-4,menghambat DPP4
+acarbose,penghambat alfa-glukosidase,menghambat enzim pencerna karbohidrat di usus
+dapagliflozin,penghambat SGLT2,menghambat SLC5A2 di ginjal -> glukosa dibuang lewat urin
+repaglinide,meglitinida,menutup kanal KATP sel beta (kerja cepat)

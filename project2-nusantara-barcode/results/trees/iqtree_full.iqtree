@@ -1,0 +1,1027 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 782080
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 229 sequences with 636 nucleotide sites
+Number of constant sites: 360 (= 56.6038% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 360 (= 56.6038% of all sites)
+Number of parsimony informative sites: 243
+Number of distinct site patterns: 305
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2u+F+I+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2u+F+I+R3      -7743.379   16220.758 -   0.0227   17228.639 -  0.00334   17855.816 +    0.552
+TVM+F+I+R3        -7738.154   16214.308 +    0.571   17240.849 - 7.46e-006   17858.276 +    0.161
+TPM2u+F+I+G4      -7754.428   16236.856 - 7.25e-006   17217.372 +    0.935   17858.548 +    0.141
+TVM+F+I+G4        -7749.006   16230.013 - 0.000222   17228.689 -  0.00326   17860.616 +   0.0501
+TIM2+F+I+R3       -7742.664   16221.328 -   0.0171   17238.497 - 2.42e-005   17860.841 -   0.0447
+TPM3u+F+I+R3      -7747.118   16228.236 -  0.00054   17236.116 - 7.95e-005   17863.293 -   0.0131
+TIM2+F+I+G4       -7753.659   16237.318 - 5.76e-006   17226.873 -  0.00808   17863.465 -   0.0121
+GTR+F+I+R3        -7737.682   16215.364 +    0.337   17251.364 - 3.89e-008   17863.787 -   0.0103
+HKY+F+I+R3        -7751.434   16234.869 - 1.96e-005   17233.545 - 0.000288   17865.471 -  0.00442
+GTR+F+I+G4        -7748.296   16230.592 - 0.000166   17238.472 - 2.45e-005   17865.650 -  0.00404
+K3Pu+F+I+R3       -7748.697   16231.395 - 0.000111   17239.275 - 1.64e-005   17866.452 -  0.00271
+TPM3u+F+I+G4      -7758.779   16245.557 - 9.35e-008   17226.074 -   0.0121   17867.250 -  0.00182
+TIM3+F+I+R3       -7746.650   16229.300 - 0.000317   17246.468 - 4.49e-007   17868.813 - 0.000831
+HKY+F+I+G4        -7763.174   16252.348 - 3.14e-009   17223.906 -   0.0356   17869.585 - 0.000565
+K3Pu+F+I+G4       -7760.427   16248.854 - 1.8e-008   17229.370 -  0.00232   17870.546 - 0.000349
+TN+F+I+R3         -7750.844   16235.689 - 1.3e-005   17243.569 - 1.91e-006   17870.747 - 0.000316
+TIM+F+I+R3        -7748.143   16232.287 - 7.12e-005   17249.455 - 1.01e-007   17871.800 - 0.000187
+TIM3+F+I+G4       -7758.315   16246.631 - 5.47e-008   17236.186 - 7.68e-005   17872.778 - 0.000114
+TN+F+I+G4         -7762.603   16253.206 - 2.04e-009   17233.722 - 0.000263   17874.898 - 3.97e-005
+TIM+F+I+G4        -7759.895   16249.790 - 1.13e-008   17239.346 - 1.58e-005   17875.938 - 2.36e-005
+GTR+F+I+R4        -7737.593   16219.186 -   0.0498   17274.364 - 3.94e-013   17876.519 - 1.76e-005
+GTR+F+R4          -7742.532   16227.063 -  0.00097   17272.609 - 9.47e-013   17879.942 - 3.18e-006
+GTR+F+I+R2        -7752.611   16241.221 - 8.17e-007   17258.390 - 1.16e-009   17880.734 - 2.14e-006
+GTR+F+R3          -7752.067   16242.134 - 5.18e-007   17268.676 - 6.76e-012   17886.103 - 1.46e-007
+GTR+F+G4          -7763.764   16259.528 - 8.66e-011   17258.204 - 1.27e-009   17890.130 - 1.95e-008
+GTR+F+R5          -7742.178   16230.355 - 0.000187   17295.256 - 1.14e-017   17892.144 - 7.14e-009
+TIM2e+I+G4        -7780.490   16284.981 - 2.57e-016   17247.662 - 2.47e-007   17897.763 - 4.3e-010
+SYM+I+G4          -7774.572   16277.143 - 1.29e-014   17257.660 - 1.67e-009   17898.836 - 2.51e-010
+TIM2e+I+R3        -7771.608   16273.216 - 9.22e-014   17262.771 - 1.3e-010   17899.363 - 1.93e-010
+SYM+I+R3          -7765.987   16265.975 - 3.45e-012   17273.855 - 5.08e-013   17901.032 - 8.38e-011
+TVMe+I+G4         -7795.375   16316.749 - 3.25e-023   17288.308 - 3.69e-016   17933.986 - 5.85e-018
+TVMe+I+R3         -7785.823   16303.647 - 2.28e-020   17302.323 - 3.34e-019   17934.249 - 5.13e-018
+TPM2+I+R3         -7792.304   16312.607 - 2.58e-022   17293.124 - 3.32e-017   17934.300 - 5.01e-018
+TPM2+I+G4         -7802.091   16326.182 - 2.91e-025   17280.066 - 2.27e-014   17934.509 - 4.51e-018
+TIM3e+I+R3        -7791.559   16313.119 -   2e-022   17302.674 - 2.8e-019   17939.266 - 4.18e-019
+TIM3e+I+G4        -7801.552   16327.103 - 1.83e-025   17289.785 - 1.76e-016   17939.885 - 3.07e-019
+TNe+I+R3          -7796.009   16320.019 - 6.34e-024   17300.535 - 8.17e-019   17941.711 - 1.23e-019
+TNe+I+G4          -7806.175   16334.350 - 4.9e-027   17288.233 - 3.83e-016   17942.677 - 7.59e-020
+TIMe+I+R3         -7793.334   16316.668 - 3.38e-023   17306.224 - 4.75e-020   17942.816 - 7.08e-020
+TIMe+I+G4         -7803.566   16331.131 - 2.45e-026   17293.813 - 2.35e-017   17943.913 - 4.09e-020
+GTR+F+R2          -7788.778   16311.555 - 4.36e-022   17319.436 - 6.42e-023   17946.613 - 1.06e-020
+TPM3+I+R3         -7811.320   16350.639 - 1.42e-030   17331.156 - 1.83e-025   17972.332 - 2.76e-026
+TPM3+I+G4         -7822.015   16366.030 - 6.47e-034   17319.913 - 5.06e-023   17974.357 -   1e-026
+K2P+I+R3          -7816.610   16359.221 - 1.95e-032   17330.780 - 2.21e-025   17976.458 - 3.51e-027
+K3P+I+R3          -7813.887   16355.773 - 1.09e-031   17336.290 - 1.41e-026   17977.466 - 2.12e-027
+K2P+I+G4          -7827.383   16374.766 - 8.2e-036   17319.930 - 5.02e-023   17978.638 - 1.18e-027
+K3P+I+G4          -7824.657   16371.315 - 4.6e-035   17325.198 - 3.6e-024   17979.642 - 7.14e-028
+GTR+F+I           -7936.810   16605.621 - 6.08e-086   17604.297 - 8.93e-085   18236.223 - 1.37e-083
+F81+F+I+R3        -8353.336   17436.671 - 2.11e-266   18426.227 - 2.96e-263   19062.819 - 4.41e-263
+F81+F+I+G4        -8367.681   17459.362 - 2.49e-271   18422.043 - 2.4e-262   19072.144 - 4.17e-265
+JC+I+R3           -8434.777   17593.553 - 1.81e-300   18556.234 - 1.74e-291   19206.335 - 3.02e-294
+JC+I+G4           -8449.951   17617.902 - 9.33e-306   18554.424 - 4.3e-291   19217.319 - 1.25e-296
+GTR+F             -9013.532   18757.063 -        0   19746.619 -        0   20383.211 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2u+F+I+R3
+
+Rate parameter R:
+
+  A-C: 1.8043
+  A-G: 11.8698
+  A-T: 1.8043
+  C-G: 1.0000
+  C-T: 11.8698
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2435
+  pi(C) = 0.2822
+  pi(G) = 0.1867
+  pi(T) = 0.2876
+
+Rate matrix Q:
+
+  A   -0.8722    0.1369    0.5958    0.1395
+  C    0.1181    -1.086    0.0502    0.9179
+  G     0.777   0.07587   -0.9302   0.07733
+  T    0.1181    0.9006    0.0502    -1.069
+
+Model of rate heterogeneity: Invar+FreeRate with 3 categories
+Proportion of invariable sites: 0.5076
+Site proportion and rates:  (0.1878,0.3028) (0.1908,2.167) (0.1138,4.655)
+
+ Category  Relative_rate  Proportion
+  0         0              0.5076
+  1         0.3028         0.1878
+  2         2.167          0.1908
+  3         4.655          0.1138
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7732.6943 (s.e. 350.3613)
+Unconstrained log-likelihood (without tree): -2709.7777
+Number of free parameters (#branches + #model parameters): 367
+Akaike information criterion (AIC) score: 16199.3887
+Corrected Akaike information criterion (AICc) score: 17207.2693
+Bayesian information criterion (BIC) score: 17834.4466
+
+Total tree length (sum of branch lengths): 3.9209
+Sum of internal branch lengths: 3.2937 (84.0030% of tree length)
+
+WARNING: 89 near-zero internal branches (<0.0016) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MN243479.1|Lutjanus_argentimaculatus|Lutjanidae' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**MN243479.1|Lutjanus_argentimaculatus|Lutjanidae
+|
++**MN243478.1|Lutjanus_argentimaculatus|Lutjanidae
+|
+|           +**GU673901.1|Lutjanus_argentimaculatus|Lutjanidae
+|        +**| (69)
+|        |  +**PQ813541.1|Epinephelus_malabaricus|Epinephelidae
+|     +--| (98)
+|     |  +**PX491277.1|Lutjanus_argentimaculatus|Lutjanidae
+|  +**| (47)
+|  |  +--PZ298685.1|Lutjanus_argentimaculatus|Lutjanidae
++**| (71)
+   |  +**PZ298686.1|Lutjanus_argentimaculatus|Lutjanidae
+   +--| (90)
+      |                                     +--GU673870.1|Lutjanus_malabaricus|Lutjanidae
+      |                                  +--| (97)
+      |                                  |  |  +**GU673869.1|Lutjanus_malabaricus|Lutjanidae
+      |                                  |  +**| (100)
+      |                                  |     +**GU673867.1|Lutjanus_malabaricus|Lutjanidae
+      |                              +---| (100)
+      |                              |   |     +**OR758627.1|Lutjanus_malabaricus|Lutjanidae
+      |                              |   |  +**| (88)
+      |                              |   |  |  +**OR758626.1|Lutjanus_malabaricus|Lutjanidae
+      |                              |   +--| (96)
+      |                              |      +--OR758625.1|Lutjanus_malabaricus|Lutjanidae
+      |                           +--| (98)
+      |                           |  |     +**GU673841.1|Lutjanus_erythropterus|Lutjanidae
+      |                           |  +-----| (100)
+      |                           |        |     +**PQ812447.1|Lutjanus_erythropterus|Lutjanidae
+      |                           |        |  +--| (100)
+      |                           |        |  |  +**PQ812445.1|Lutjanus_erythropterus|Lutjanidae
+      |                           |        +**| (86)
+      |                           |           |  +**PQ812446.1|Lutjanus_erythropterus|Lutjanidae
+      |                           |           +**| (87)
+      |                           |              +**PQ812442.1|Lutjanus_erythropterus|Lutjanidae
+      |                     +-----| (100)
+      |                     |     |          +**MN870188.1|Lutjanus_sebae|Lutjanidae
+      |                     |     +----------| (100)
+      |                     |                |        +**HQ564451.1|Lutjanus_sebae|Lutjanidae
+      |                     |                |     +**| (75)
+      |                     |                |     |  +**PQ804623.1|Lutjanus_sebae|Lutjanidae
+      |                     |                |  +--| (99)
+      |                     |                |  |  +**EF609401.1|Lutjanus_sebae|Lutjanidae
+      |                     |                +--| (99)
+      |                     |                   |  +**OQ553263.1|Lutjanus_sebae|Lutjanidae
+      |                     |                   +**| (82)
+      |                     |                      +--EU600106.1|Lutjanus_sebae|Lutjanidae
+      |                 +---| (57)
+      |                 |   |                  +**GU674071.1|Lutjanus_gibbus|Lutjanidae
+      |                 |   |               +**| (89)
+      |                 |   |               |  +**GU673734.1|Lutjanus_gibbus|Lutjanidae
+      |                 |   |            +--| (71)
+      |                 |   |            |  +--GU673733.1|Lutjanus_gibbus|Lutjanidae
+      |                 |   |     +------| (100)
+      |                 |   |     |      +**MN870401.1|Lutjanus_gibbus|Lutjanidae
+      |                 |   |  +--| (99)
+      |                 |   |  |  |           +**PX738101.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |        +**| (88)
+      |                 |   |  |  |        |  +**PV050458.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |     +**| (87)
+      |                 |   |  |  |     |  |        +--PX117337.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |     |  |     +**| (81)
+      |                 |   |  |  |     |  |     |  +--PX117336.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |     |  |  +--| (99)
+      |                 |   |  |  |     |  |  |  |  +**PX117335.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |     |  |  |  +**| (89)
+      |                 |   |  |  |     |  |  |     +**PX117333.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  |     |  +**| (84)
+      |                 |   |  |  |     |     +**PX117332.1|Lutjanus_bohar|Lutjanidae
+      |                 |   |  |  +-----| (100)
+      |                 |   |  |        +--PP449208.1|Lutjanus_bohar|Lutjanidae
+      |                 |   +--| (52)
+      |                 |      |                                 +**JN311851.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                              +**| (12)
+      |                 |      |                              |  +**MN870225.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                           +**| (59)
+      |                 |      |                           |  +**OR633679.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                        +**| (67)
+      |                 |      |                        |  |     +--OR636715.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                        |  |  +--| (98)
+      |                 |      |                        |  |  |  +--OR633680.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                        |  +**| (62)
+      |                 |      |                        |     +--OR636714.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      |                     +--| (47)
+      |                 |      |                     |  +--OR654025.1|Pristipomoides_multidens|Lutjanidae
+      |                 |      +---------------------| (100)
+      |                 |                            +**GU674155.1|Pristipomoides_multidens|Lutjanidae
+      |              +--| (47)
+      |              |  |            +**MN869949.1|Lutjanus_russellii|Lutjanidae
+      |              |  |         +**| (95)
+      |              |  |         |  +**HQ564446.1|Lutjanus_russellii|Lutjanidae
+      |              |  |      +--| (99)
+      |              |  |      |  +--PQ804624.1|Lutjanus_russellii|Lutjanidae
+      |              |  |   +--| (94)
+      |              |  |   |  +--PP354337.1|Lutjanus_russellii|Lutjanidae
+      |              |  +---| (100)
+      |              |      +--MN623872.1|Lutjanus_russellii|Lutjanidae
+      |           +--| (57)
+      |           |  |              +**PQ812611.1|Lutjanus_vitta|Lutjanidae
+      |           |  |           +**| (75)
+      |           |  |           |  +**PQ812609.1|Lutjanus_vitta|Lutjanidae
+      |           |  |        +--| (92)
+      |           |  |        |  |     +**OQ386198.1|Lutjanus_vitta|Lutjanidae
+      |           |  |        |  |  +--| (100)
+      |           |  |        |  |  |  +--OQ385741.1|Lutjanus_vitta|Lutjanidae
+      |           |  |        |  +**| (77)
+      |           |  |        |     +--OR918623.1|Lutjanus_vitta|Lutjanidae
+      |           |  |     +**| (78)
+      |           |  |     |  |  +**OQ553265.1|Lutjanus_vitta|Lutjanidae
+      |           |  |     |  +**| (74)
+      |           |  |     |     +**OQ385788.1|Lutjanus_vitta|Lutjanidae
+      |           |  |  +--| (100)
+      |           |  |  |  +--OR524481.1|Lutjanus_vitta|Lutjanidae
+      |           |  +--| (94)
+      |           |     +---PQ812464.1|Epinephelus_malabaricus|Epinephelidae
+      |        +--| (51)
+      |        |  |          +**PX736193.1|Lutjanus_johnii|Lutjanidae
+      |        |  +----------| (100)
+      |        |             |  +**PX736192.1|Lutjanus_johnii|Lutjanidae
+      |        |             +--| (100)
+      |        |                +**PX736191.1|Lutjanus_johnii|Lutjanidae
+      |     +--| (52)
+      |     |  |      +**MN870516.1|Lutjanus_fulvus|Lutjanidae
+      |     |  +------| (100)
+      |     |         |              +**MN870512.1|Lutjanus_fulvus|Lutjanidae
+      |     |         |           +--| (99)
+      |     |         |           |  +--MN870452.1|Lutjanus_fulvus|Lutjanidae
+      |     |         |        +**| (27)
+      |     |         |        |  |  +**MN870025.1|Lutjanus_fulvus|Lutjanidae
+      |     |         |        |  +--| (100)
+      |     |         |        |     +**JN311978.1|Lutjanus_fulvus|Lutjanidae
+      |     |         |     +**| (13)
+      |     |         |     |  +--MN870061.1|Lutjanus_fulvus|Lutjanidae
+      |     |         |  +**| (18)
+      |     |         |  |  +**GU674290.1|Lutjanus_fulvus|Lutjanidae
+      |     |         +--| (83)
+      |     |            +--MN870491.1|Lutjanus_fulvus|Lutjanidae
+      +-----| (99)
+            |                                                            +**PZ794527.1|Epinephelus_coioides|Epinephelidae
+            |                                                         +**| (59)
+            |                                                         |  +**PZ794529.1|Epinephelus_coioides|Epinephelidae
+            |                                                      +**| (78)
+            |                                                      |  +--PZ794530.1|Epinephelus_coioides|Epinephelidae
+            |                                                   +**| (42)
+            |                                                   |  +**PV877695.1|Epinephelus_coioides|Epinephelidae
+            |                                                +--| (99)
+            |                                                |  +**PV877696.1|Epinephelus_coioides|Epinephelidae
+            |                                             +--| (99)
+            |                                             |  |           +**JN313043.1|Epinephelus_malabaricus|Epinephelidae
+            |                                             |  |        +**| (76)
+            |                                             |  |        |  +**OQ386702.1|Epinephelus_malabaricus|Epinephelidae
+            |                                             |  |     +**| (56)
+            |                                             |  |     |  +**MN708926.1|Epinephelus_malabaricus|Epinephelidae
+            |                                             |  |  +**| (59)
+            |                                             |  |  |  +--FJ237599.1|Epinephelus_malabaricus|Epinephelidae
+            |                                             |  +--| (99)
+            |                                             |     +--PQ812465.1|Epinephelus_malabaricus|Epinephelidae
+            |                                          +--| (79)
+            |                                          |  +----PQ813508.1|Epinephelus_malabaricus|Epinephelidae
+            |                                       +--| (92)
+            |                                       |  |                      +--OQ387073.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  |                   +**| (37)
+            |                                       |  |                   |  +--HQ174837.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  |                +**| (19)
+            |                                       |  |                |  |  +**OQ386067.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  |                |  +**| (58)
+            |                                       |  |                |     +**HQ174836.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  |             +**| (40)
+            |                                       |  |             |  +--HQ174834.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  |          +**| (77)
+            |                                       |  |          |  +--HQ174832.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                       |  +----------| (100)
+            |                                       |             +**HQ174833.1|Epinephelus_lanceolatus|Epinephelidae
+            |                                    +--| (88)
+            |                                    |  |                 +**JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |              +**| (88)
+            |                                    |  |              |  +**MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |           +--| (100)
+            |                                    |  |           |  |  +**MN708922.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |           |  +**| (70)
+            |                                    |  |           |     +--EU600140.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |        +**| (25)
+            |                                    |  |        |  +--OM273131.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |     +**| (10)
+            |                                    |  |     |  +**OM273128.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  |  +**| (86)
+            |                                    |  |  |  +--OM273129.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                                    |  +--| (100)
+            |                                    |     +**OM273130.1|Epinephelus_fuscoguttatus|Epinephelidae
+            |                               +----| (100)
+            |                               |    |             +**GU673954.1|Cromileptes_altivelis|Epinephelidae
+            |                               |    |          +**| (58)
+            |                               |    |          |  |     +**JN313065.1|Cromileptes_altivelis|Epinephelidae
+            |                               |    |          |  |  +**| (81)
+            |                               |    |          |  |  |  +**PX905051.1|Cromileptes_altivelis|Epinephelidae
+            |                               |    |          |  +**| (7)
+            |                               |    |          |     +**PV035021.1|Cromileptes_altivelis|Epinephelidae
+            |                               |    |       +--| (97)
+            |                               |    |       |  +--OP062114.1|Cromileptes_altivelis|Epinephelidae
+            |                               |    +-------| (100)
+            |                               |            +**OP062115.1|Cromileptes_altivelis|Epinephelidae
+            |                            +--| (67)
+            |                            |  |                   +**GU674361.1|Cephalopholis_miniata|Epinephelidae
+            |                            |  +-------------------| (100)
+            |                            |                      +**GU674280.1|Cephalopholis_miniata|Epinephelidae
+            |                         +--| (62)
+            |                         |  |  +**JN312976.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |  +--| (99)
+            |                         |     |     +**MN708865.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     |  +**| (86)
+            |                         |     |  |  |           +**MN708866.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     |  |  |        +**| (28)
+            |                         |     |  |  |        |  +**MN708861.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     |  |  |     +**| (46)
+            |                         |     |  |  |     |  +**MN708859.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     |  |  |  +**| (40)
+            |                         |     |  |  |  |  +**PP354710.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     |  |  +--| (99)
+            |                         |     |  |     +--MN708860.1|Epinephelus_bleekeri|Epinephelidae
+            |                         |     +--| (98)
+            |                         |        +--MN708863.1|Epinephelus_bleekeri|Epinephelidae
+            |              +----------| (89)
+            |              |          |             +**PQ812608.1|Epinephelus_areolatus|Epinephelidae
+            |              |          |          +**| (74)
+            |              |          |          |  +**PQ812606.1|Epinephelus_areolatus|Epinephelidae
+            |              |          |       +--| (99)
+            |              |          |       |  +--PQ812607.1|Epinephelus_areolatus|Epinephelidae
+            |              |          |    +--| (99)
+            |              |          |    |  +**OM273116.1|Epinephelus_areolatus|Epinephelidae
+            |              |          +----| (98)
+            |              |               |     +**OM273115.1|Epinephelus_areolatus|Epinephelidae
+            |              |               |  +**| (76)
+            |              |               |  |  +**OM273113.1|Epinephelus_areolatus|Epinephelidae
+            |              |               +--| (99)
+            |              |                  +--OM273114.1|Epinephelus_areolatus|Epinephelidae
+            |    +---------| (96)
+            |    |         |                                 +**JN313058.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                              +**| (47)
+            |    |         |                              |  +**PQ656567.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                           +**| (60)
+            |    |         |                           |  +**JN313060.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                        +--| (76)
+            |    |         |                        |  |  +**GU673949.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                        |  +**| (85)
+            |    |         |                        |     +**JN313059.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                     +--| (49)
+            |    |         |                     |  |  +**GU674047.1|Plectropomus_leopardus|Epinephelidae
+            |    |         |                     |  +**| (77)
+            |    |         |                     |     +**PQ656568.1|Plectropomus_leopardus|Epinephelidae
+            |    |         +---------------------| (100)
+            |    |                               |     +**JN313062.1|Plectropomus_maculatus|Epinephelidae
+            |    |                               |  +**| (86)
+            |    |                               |  |  |  +**JN313061.1|Plectropomus_maculatus|Epinephelidae
+            |    |                               |  |  +**| (10)
+            |    |                               |  |     +**GU673821.1|Plectropomus_maculatus|Epinephelidae
+            |    |                               +--| (96)
+            |    |                                  |  +**PX905036.1|Plectropomus_maculatus|Epinephelidae
+            |    |                                  +**| (56)
+            |    |                                     +**PX905035.1|Plectropomus_maculatus|Epinephelidae
+            +----| (52)
+                 |                             +--PX363004.1|Thunnus_albacares|Scombridae
+                 |                          +**| (11)
+                 |                          |  +--PX362997.1|Thunnus_albacares|Scombridae
+                 |                       +**| (26)
+                 |                       |  |     +**PX363003.1|Thunnus_albacares|Scombridae
+                 |                       |  |  +**| (12)
+                 |                       |  |  |  |  +--PX362998.1|Thunnus_albacares|Scombridae
+                 |                       |  |  |  +**| (56)
+                 |                       |  |  |     |     +**PX363011.1|Thunnus_obesus|Scombridae
+                 |                       |  |  |     |  +**| (87)
+                 |                       |  |  |     |  |  +**PX363010.1|Thunnus_obesus|Scombridae
+                 |                       |  |  |     +--| (99)
+                 |                       |  |  |        +--PX363008.1|Thunnus_obesus|Scombridae
+                 |                       |  +**| (14)
+                 |                       |     +**PX363001.1|Thunnus_albacares|Scombridae
+                 |                    +**| (83)
+                 |                    |  +--PQ813544.1|Thunnus_obesus|Scombridae
+                 |                 +--| (70)
+                 |                 |  +--PX363002.1|Thunnus_albacares|Scombridae
+                 |             +---| (99)
+                 |             |   |           +**PX802357.1|Thunnus_alalunga|Scombridae
+                 |             |   |        +**| (20)
+                 |             |   |        |  |  +**MT889075.1|Thunnus_alalunga|Scombridae
+                 |             |   |        |  +**| (33)
+                 |             |   |        |     +--MT889074.1|Thunnus_alalunga|Scombridae
+                 |             |   |     +**| (34)
+                 |             |   |     |  +**OQ385548.1|Thunnus_alalunga|Scombridae
+                 |             |   |  +**| (67)
+                 |             |   |  |  +--MT889073.1|Thunnus_alalunga|Scombridae
+                 |             |   +--| (94)
+                 |             |      +**PX481760.1|Thunnus_alalunga|Scombridae
+                 |         +---| (66)
+                 |         |   |              +--PX397326.1|Katsuwonus_pelamis|Scombridae
+                 |         |   |           +--| (98)
+                 |         |   |           |  |     +**PX397325.1|Katsuwonus_pelamis|Scombridae
+                 |         |   |           |  |  +**| (81)
+                 |         |   |           |  |  |  +**PX397324.1|Katsuwonus_pelamis|Scombridae
+                 |         |   |           |  +**| (52)
+                 |         |   |           |     +--PX397323.1|Katsuwonus_pelamis|Scombridae
+                 |         |   |        +--| (100)
+                 |         |   |        |  +**PX397319.1|Katsuwonus_pelamis|Scombridae
+                 |         |   |     +--| (88)
+                 |         |   |     |  |         +**OQ346145.1|Auxis_thazard|Scombridae
+                 |         |   |     |  |      +**| (78)
+                 |         |   |     |  |      |  +**OQ346144.1|Auxis_thazard|Scombridae
+                 |         |   |     |  |   +**| (63)
+                 |         |   |     |  |   |  |     +**PX501052.1|Auxis_thazard|Scombridae
+                 |         |   |     |  |   |  |  +**| (52)
+                 |         |   |     |  |   |  |  |  +**PX501050.1|Auxis_thazard|Scombridae
+                 |         |   |     |  |   |  +**| (68)
+                 |         |   |     |  |   |     +--PX501051.1|Auxis_thazard|Scombridae
+                 |         |   |     |  +---| (100)
+                 |         |   |     |      +**OQ346143.1|Auxis_thazard|Scombridae
+                 |         |   |  +--| (82)
+                 |         |   |  |  |           +**OQ346137.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |        +**| (22)
+                 |         |   |  |  |        |  +**OQ346135.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |     +**| (15)
+                 |         |   |  |  |     |  |  +**OQ346133.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |     |  +**| (24)
+                 |         |   |  |  |     |     |  +**PX397333.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |     |     +**| (28)
+                 |         |   |  |  |     |        |  +**PX397332.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |     |        +**| (73)
+                 |         |   |  |  |     |           +**PX397331.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  |  +**| (98)
+                 |         |   |  |  |  |  +--OQ346134.1|Euthynnus_affinis|Scombridae
+                 |         |   |  |  +--| (100)
+                 |         |   |  |     +**OQ346136.1|Euthynnus_affinis|Scombridae
+                 |         |   +--| (65)
+                 |         |      |                      +--PX210229.1|Rastrelliger_kanagurta|Scombridae
+                 |         |      |                   +--| (95)
+                 |         |      |                   |  |     +**PP354721.1|Rastrelliger_kanagurta|Scombridae
+                 |         |      |                   |  |  +**| (87)
+                 |         |      |                   |  |  |  |  +**PP354719.1|Rastrelliger_kanagurta|Scombridae
+                 |         |      |                   |  |  |  +**| (100)
+                 |         |      |                   |  |  |     +**OQ553430.1|Rastrelliger_kanagurta|Scombridae
+                 |         |      |                   |  +**| (72)
+                 |         |      |                   |     +--PP354596.1|Rastrelliger_kanagurta|Scombridae
+                 |         |      +-------------------| (100)
+                 |         |                          |     +**PX658229.1|Rastrelliger_kanagurta|Scombridae
+                 |         |                          |  +--| (99)
+                 |         |                          |  |  +**PP354855.1|Rastrelliger_kanagurta|Scombridae
+                 |         |                          +**| (74)
+                 |         |                             +**OQ553429.1|Rastrelliger_kanagurta|Scombridae
+                 +---------| (99)
+                           |          +--PX650279.1|Scomberomorus_commerson|Scombridae
+                           |       +--| (98)
+                           |       |  |  +**PP354787.1|Scomberomorus_commerson|Scombridae
+                           |       |  +**| (62)
+                           |       |     +**PP354720.1|Scomberomorus_commerson|Scombridae
+                           +-------| (99)
+                                   |     +**PP354737.1|Scomberomorus_commerson|Scombridae
+                                   |  +**| (80)
+                                   |  |  +**PP354630.1|Scomberomorus_commerson|Scombridae
+                                   +--| (71)
+                                      |  +**PP354642.1|Scomberomorus_commerson|Scombridae
+                                      +**| (96)
+                                         +**OQ553461.1|Scomberomorus_commerson|Scombridae
+
+Tree in newick format:
+
+(MN243479.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000010013,MN243478.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000010013,((((GU673901.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000010013,PQ813541.1|Epinephelus_malabaricus|Epinephelidae:0.0000010013)69:0.0000025628,PX491277.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000025929)98:0.0015750771,PZ298685.1|Lutjanus_argentimaculatus|Lutjanidae:0.0015748835)47:0.0000029001,(PZ298686.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000020224,((((((((((GU673870.1|Lutjanus_malabaricus|Lutjanidae:0.0032482737,(GU673869.1|Lutjanus_malabaricus|Lutjanidae:0.0000010013,GU673867.1|Lutjanus_malabaricus|Lutjanidae:0.0000010013)100:0.0015145051)97:0.0089238682,((OR758627.1|Lutjanus_malabaricus|Lutjanidae:0.0000010013,OR758626.1|Lutjanus_malabaricus|Lutjanidae:0.0000010013)88:0.0000010013,OR758625.1|Lutjanus_malabaricus|Lutjanidae:0.0015799050)96:0.0026668854)100:0.0529706322,(GU673841.1|Lutjanus_erythropterus|Lutjanidae:0.0015657654,((PQ812447.1|Lutjanus_erythropterus|Lutjanidae:0.0000026028,PQ812445.1|Lutjanus_erythropterus|Lutjanidae:0.0000026029)100:0.0031451028,(PQ812446.1|Lutjanus_erythropterus|Lutjanidae:0.0000010013,PQ812442.1|Lutjanus_erythropterus|Lutjanidae:0.0000025754)87:0.0000023603)86:0.0000025904)100:0.0705799510)98:0.0417938842,(MN870188.1|Lutjanus_sebae|Lutjanidae:0.0000023692,(((HQ564451.1|Lutjanus_sebae|Lutjanidae:0.0000010013,PQ804623.1|Lutjanus_sebae|Lutjanidae:0.0000010013)75:0.0000010013,EF609401.1|Lutjanus_sebae|Lutjanidae:0.0000010013)99:0.0015766274,(OQ553263.1|Lutjanus_sebae|Lutjanidae:0.0000010013,EU600106.1|Lutjanus_sebae|Lutjanidae:0.0015772166)82:0.0000010013)99:0.0015751457)100:0.1251123253)100:0.0747207143,(((((GU674071.1|Lutjanus_gibbus|Lutjanidae:0.0000010013,GU673734.1|Lutjanus_gibbus|Lutjanidae:0.0000010013)89:0.0000010013,GU673733.1|Lutjanus_gibbus|Lutjanidae:0.0015852873)71:0.0015834787,MN870401.1|Lutjanus_gibbus|Lutjanidae:0.0000028751)100:0.0775152262,(((PX738101.1|Lutjanus_bohar|Lutjanidae:0.0000010013,PV050458.1|Lutjanus_bohar|Lutjanidae:0.0000010013)88:0.0000010013,(((PX117337.1|Lutjanus_bohar|Lutjanidae:0.0069298678,PX117336.1|Lutjanus_bohar|Lutjanidae:0.0034204539)81:0.0000010013,(PX117335.1|Lutjanus_bohar|Lutjanidae:0.0000010013,PX117333.1|Lutjanus_bohar|Lutjanidae:0.0000010013)89:0.0000010013)99:0.0017017772,PX117332.1|Lutjanus_bohar|Lutjanidae:0.0000010013)84:0.0000010013)87:0.0000020465,PP449208.1|Lutjanus_bohar|Lutjanidae:0.0080814695)100:0.0677463314)99:0.0230033577,(((((JN311851.1|Pristipomoides_multidens|Lutjanidae:0.0000010013,MN870225.1|Pristipomoides_multidens|Lutjanidae:0.0000010013)12:0.0000010013,OR633679.1|Pristipomoides_multidens|Lutjanidae:0.0000010013)59:0.0000010013,((OR636715.1|Pristipomoides_multidens|Lutjanidae:0.0098631923,OR633680.1|Pristipomoides_multidens|Lutjanidae:0.0031430712)98:0.0064155710,OR636714.1|Pristipomoides_multidens|Lutjanidae:0.0047676222)62:0.0000020362)67:0.0000028362,OR654025.1|Pristipomoides_multidens|Lutjanidae:0.0131838873)47:0.0015742553,GU674155.1|Pristipomoides_multidens|Lutjanidae:0.0000024518)100:0.2468066395)52:0.0199006167)57:0.0526237744,((((MN869949.1|Lutjanus_russellii|Lutjanidae:0.0000010013,HQ564446.1|Lutjanus_russellii|Lutjanidae:0.0000010013)95:0.0000026792,PQ804624.1|Lutjanus_russellii|Lutjanidae:0.0015727827)99:0.0141842587,PP354337.1|Lutjanus_russellii|Lutjanidae:0.0103339009)94:0.0063218659,MN623872.1|Lutjanus_russellii|Lutjanidae:0.0293671706)100:0.0485840446)47:0.0073167841,(((((PQ812611.1|Lutjanus_vitta|Lutjanidae:0.0000010013,PQ812609.1|Lutjanus_vitta|Lutjanidae:0.0000010013)75:0.0000029123,((OQ386198.1|Lutjanus_vitta|Lutjanidae:0.0000022632,OQ385741.1|Lutjanus_vitta|Lutjanidae:0.0015768481)100:0.0015774461,OR918623.1|Lutjanus_vitta|Lutjanidae:0.0015775955)77:0.0000023436)92:0.0015811962,(OQ553265.1|Lutjanus_vitta|Lutjanidae:0.0000010013,OQ385788.1|Lutjanus_vitta|Lutjanidae:0.0000010013)74:0.0000010013)78:0.0000010013,OR524481.1|Lutjanus_vitta|Lutjanidae:0.0015784762)100:0.0399367391,PQ812464.1|Epinephelus_malabaricus|Epinephelidae:0.0450320102)94:0.0199319246)57:0.0298323628,(PX736193.1|Lutjanus_johnii|Lutjanidae:0.0014411439,(PX736192.1|Lutjanus_johnii|Lutjanidae:0.0000010013,PX736191.1|Lutjanus_johnii|Lutjanidae:0.0000010013)100:0.0017308969)100:0.1196693973)51:0.0157206279,(MN870516.1|Lutjanus_fulvus|Lutjanidae:0.0000028676,(((((MN870512.1|Lutjanus_fulvus|Lutjanidae:0.0000025156,MN870452.1|Lutjanus_fulvus|Lutjanidae:0.0032666162)99:0.0031587192,(MN870025.1|Lutjanus_fulvus|Lutjanidae:0.0000010013,JN311978.1|Lutjanus_fulvus|Lutjanidae:0.0000010013)100:0.0031612051)27:0.0000024154,MN870061.1|Lutjanus_fulvus|Lutjanidae:0.0015741350)13:0.0000010013,GU674290.1|Lutjanus_fulvus|Lutjanidae:0.0000010013)18:0.0000022106,MN870491.1|Lutjanus_fulvus|Lutjanidae:0.0015743766)83:0.0015727422)100:0.0853750792)52:0.0162358564,((((((((((((((PZ794527.1|Epinephelus_coioides|Epinephelidae:0.0000010013,PZ794529.1|Epinephelus_coioides|Epinephelidae:0.0000010013)59:0.0000020023,PZ794530.1|Epinephelus_coioides|Epinephelidae:0.0015934898)78:0.0000010013,PV877695.1|Epinephelus_coioides|Epinephelidae:0.0000010013)42:0.0000010013,PV877696.1|Epinephelus_coioides|Epinephelidae:0.0000010013)99:0.0191461950,((((JN313043.1|Epinephelus_malabaricus|Epinephelidae:0.0000010013,OQ386702.1|Epinephelus_malabaricus|Epinephelidae:0.0000010013)76:0.0000010013,MN708926.1|Epinephelus_malabaricus|Epinephelidae:0.0000010013)56:0.0000010013,FJ237599.1|Epinephelus_malabaricus|Epinephelidae:0.0015765208)59:0.0000020124,PQ812465.1|Epinephelus_malabaricus|Epinephelidae:0.0015756408)99:0.0192866983)99:0.0402169983,PQ813508.1|Epinephelus_malabaricus|Epinephelidae:0.0600532624)79:0.0147081084,(((((OQ387073.1|Epinephelus_lanceolatus|Epinephelidae:0.0015724350,HQ174837.1|Epinephelus_lanceolatus|Epinephelidae:0.0031569088)37:0.0000010013,(OQ386067.1|Epinephelus_lanceolatus|Epinephelidae:0.0000010013,HQ174836.1|Epinephelus_lanceolatus|Epinephelidae:0.0000010013)58:0.0000010013)19:0.0000010013,HQ174834.1|Epinephelus_lanceolatus|Epinephelidae:0.0015724409)40:0.0000010013,HQ174832.1|Epinephelus_lanceolatus|Epinephelidae:0.0031604846)77:0.0015712971,HQ174833.1|Epinephelus_lanceolatus|Epinephelidae:0.0000024810)100:0.1270450633)92:0.0162072188,((((((JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000010013,MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000022625)88:0.0000010013,(MN708922.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000010013,EU600140.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0131159403)70:0.0000029597)100:0.0096205552,OM273131.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0204735897)25:0.0000022605,OM273128.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000028217)10:0.0000020337,OM273129.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0015725037)86:0.0015721887,OM273130.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025529)100:0.0397709781)88:0.0054855351,(((GU673954.1|Cromileptes_altivelis|Epinephelidae:0.0000010013,((JN313065.1|Cromileptes_altivelis|Epinephelidae:0.0014342670,PX905051.1|Cromileptes_altivelis|Epinephelidae:0.0000010013)81:0.0001443877,PV035021.1|Cromileptes_altivelis|Epinephelidae:0.0000010013)7:0.0000022337)58:0.0000010013,OP062114.1|Cromileptes_altivelis|Epinephelidae:0.0015781285)97:0.0019459199,OP062115.1|Cromileptes_altivelis|Epinephelidae:0.0012252454)100:0.0922605073)100:0.0624348536,(GU674361.1|Cephalopholis_miniata|Epinephelidae:0.0000010013,GU674280.1|Cephalopholis_miniata|Epinephelidae:0.0000010013)100:0.2232181272)67:0.0262126661,(JN312976.1|Epinephelus_bleekeri|Epinephelidae:0.0000020225,((MN708865.1|Epinephelus_bleekeri|Epinephelidae:0.0000010013,((((MN708866.1|Epinephelus_bleekeri|Epinephelidae:0.0000010013,MN708861.1|Epinephelus_bleekeri|Epinephelidae:0.0000010013)28:0.0000010013,MN708859.1|Epinephelus_bleekeri|Epinephelidae:0.0000010013)46:0.0000010013,PP354710.1|Epinephelus_bleekeri|Epinephelidae:0.0000010013)40:0.0000010013,MN708860.1|Epinephelus_bleekeri|Epinephelidae:0.0032172247)99:0.0031612589)86:0.0000022122,MN708863.1|Epinephelus_bleekeri|Epinephelidae:0.0016068816)98:0.0031607340)99:0.0403595019)62:0.0306086437,((((PQ812608.1|Epinephelus_areolatus|Epinephelidae:0.0000010013,PQ812606.1|Epinephelus_areolatus|Epinephelidae:0.0000010013)74:0.0000021031,PQ812607.1|Epinephelus_areolatus|Epinephelidae:0.0218748662)99:0.0047768798,OM273116.1|Epinephelus_areolatus|Epinephelidae:0.0000026793)99:0.0137894726,((OM273115.1|Epinephelus_areolatus|Epinephelidae:0.0000010013,OM273113.1|Epinephelus_areolatus|Epinephelidae:0.0000010013)76:0.0000010013,OM273114.1|Epinephelus_areolatus|Epinephelidae:0.0048079460)99:0.0189799250)98:0.0641200509)89:0.1196667429,(((((JN313058.1|Plectropomus_leopardus|Epinephelidae:0.0000010013,PQ656567.1|Plectropomus_leopardus|Epinephelidae:0.0000010013)47:0.0000010013,JN313060.1|Plectropomus_leopardus|Epinephelidae:0.0000010013)60:0.0000010013,(GU673949.1|Plectropomus_leopardus|Epinephelidae:0.0000010013,JN313059.1|Plectropomus_leopardus|Epinephelidae:0.0000010013)85:0.0000010013)76:0.0015803708,(GU674047.1|Plectropomus_leopardus|Epinephelidae:0.0000010013,PQ656568.1|Plectropomus_leopardus|Epinephelidae:0.0000022879)77:0.0000029548)49:0.0170425320,((JN313062.1|Plectropomus_maculatus|Epinephelidae:0.0000010013,(JN313061.1|Plectropomus_maculatus|Epinephelidae:0.0000010013,GU673821.1|Plectropomus_maculatus|Epinephelidae:0.0000010013)10:0.0000010013)86:0.0000010013,(PX905036.1|Plectropomus_maculatus|Epinephelidae:0.0000010013,PX905035.1|Plectropomus_maculatus|Epinephelidae:0.0000010013)56:0.0000010013)96:0.0309788792)100:0.2418396047)96:0.1117460385,(((((((PX363004.1|Thunnus_albacares|Scombridae:0.0015844956,PX362997.1|Thunnus_albacares|Scombridae:0.0015763973)11:0.0000010013,((PX363003.1|Thunnus_albacares|Scombridae:0.0000010013,(PX362998.1|Thunnus_albacares|Scombridae:0.0031631239,((PX363011.1|Thunnus_obesus|Scombridae:0.0000010013,PX363010.1|Thunnus_obesus|Scombridae:0.0000010013)87:0.0000021231,PX363008.1|Thunnus_obesus|Scombridae:0.0015782740)99:0.0031917532)56:0.0000028573)12:0.0000026774,PX363001.1|Thunnus_albacares|Scombridae:0.0000010013)14:0.0000010013)26:0.0000010013,PQ813544.1|Thunnus_obesus|Scombridae:0.0015764643)83:0.0015243819,PX363002.1|Thunnus_albacares|Scombridae:0.0016441592)70:0.0092426153,((((PX802357.1|Thunnus_alalunga|Scombridae:0.0000010013,(MT889075.1|Thunnus_alalunga|Scombridae:0.0000010013,MT889074.1|Thunnus_alalunga|Scombridae:0.0015824062)33:0.0000010013)20:0.0000010013,OQ385548.1|Thunnus_alalunga|Scombridae:0.0000010013)34:0.0000010013,MT889073.1|Thunnus_alalunga|Scombridae:0.0047631508)67:0.0000023159,PX481760.1|Thunnus_alalunga|Scombridae:0.0000010013)94:0.0022026780)99:0.0447836348,(((((PX397326.1|Katsuwonus_pelamis|Scombridae:0.0015775575,((PX397325.1|Katsuwonus_pelamis|Scombridae:0.0000010013,PX397324.1|Katsuwonus_pelamis|Scombridae:0.0000010013)81:0.0000010013,PX397323.1|Katsuwonus_pelamis|Scombridae:0.0015776025)52:0.0000010013)98:0.0015771086,PX397319.1|Katsuwonus_pelamis|Scombridae:0.0000024786)100:0.0353652998,(((OQ346145.1|Auxis_thazard|Scombridae:0.0000010013,OQ346144.1|Auxis_thazard|Scombridae:0.0000010013)78:0.0000010013,((PX501052.1|Auxis_thazard|Scombridae:0.0000010013,PX501050.1|Auxis_thazard|Scombridae:0.0000010013)52:0.0000010013,PX501051.1|Auxis_thazard|Scombridae:0.0016310115)68:0.0000024427)63:0.0000010013,OQ346143.1|Auxis_thazard|Scombridae:0.0015693897)100:0.0440686714)88:0.0188411767,((((OQ346137.1|Euthynnus_affinis|Scombridae:0.0015633444,OQ346135.1|Euthynnus_affinis|Scombridae:0.0015690910)22:0.0000010013,(OQ346133.1|Euthynnus_affinis|Scombridae:0.0000010013,(PX397333.1|Euthynnus_affinis|Scombridae:0.0015703922,(PX397332.1|Euthynnus_affinis|Scombridae:0.0000010013,PX397331.1|Euthynnus_affinis|Scombridae:0.0000010013)73:0.0000010013)28:0.0000010013)24:0.0000010013)15:0.0000010013,OQ346134.1|Euthynnus_affinis|Scombridae:0.0031389313)98:0.0015631258,OQ346136.1|Euthynnus_affinis|Scombridae:0.0000026068)100:0.0398635321)82:0.0262949349,((PX210229.1|Rastrelliger_kanagurta|Scombridae:0.0032244028,((PP354721.1|Rastrelliger_kanagurta|Scombridae:0.0000025572,(PP354719.1|Rastrelliger_kanagurta|Scombridae:0.0000028578,OQ553430.1|Rastrelliger_kanagurta|Scombridae:0.0000026866)100:0.0015640771)87:0.0000027546,PP354596.1|Rastrelliger_kanagurta|Scombridae:0.0063277531)72:0.0015060542)95:0.0080768962,((PX658229.1|Rastrelliger_kanagurta|Scombridae:0.0000010013,PP354855.1|Rastrelliger_kanagurta|Scombridae:0.0015664108)99:0.0031714162,OQ553429.1|Rastrelliger_kanagurta|Scombridae:0.0015640580)74:0.0000029721)100:0.2160872752)65:0.0120043720)66:0.0472918944,((PX650279.1|Scomberomorus_commerson|Scombridae:0.0015950443,(PP354787.1|Scomberomorus_commerson|Scombridae:0.0000010013,PP354720.1|Scomberomorus_commerson|Scombridae:0.0000010013)62:0.0000025339)98:0.0067285868,((PP354737.1|Scomberomorus_commerson|Scombridae:0.0000010013,PP354630.1|Scomberomorus_commerson|Scombridae:0.0000020471)80:0.0000025844,(PP354642.1|Scomberomorus_commerson|Scombridae:0.0015649065,OQ553461.1|Scomberomorus_commerson|Scombridae:0.0000022399)96:0.0015650208)71:0.0028424616)99:0.0866429702)99:0.1165506598)52:0.0633182349)99:0.0675099991)90:0.0015746702)71:0.0000022693);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7732.866091
+Robinson-Foulds distance between ML tree and consensus tree: 38
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**MN243479.1|Lutjanus_argentimaculatus|Lutjanidae
+|
+|     +--MN243478.1|Lutjanus_argentimaculatus|Lutjanidae
+|  +--|
+|  |  |           +--GU673901.1|Lutjanus_argentimaculatus|Lutjanidae
+|  |  |        +--| (69)
+|  |  |        |  +--PQ813541.1|Epinephelus_malabaricus|Epinephelidae
+|  |  |     +--| (98)
+|  |  |     |  +--PX491277.1|Lutjanus_argentimaculatus|Lutjanidae
+|  |  |  +--| (47)
+|  |  |  |  +--PZ298685.1|Lutjanus_argentimaculatus|Lutjanidae
+|  |  +--| (71)
+|  |     |  +--PZ298686.1|Lutjanus_argentimaculatus|Lutjanidae
+|  |     +--| (90)
+|  |        |                                      +--GU673870.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                                   +--| (97)
+|  |        |                                   |  |  +--GU673869.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                                   |  +--| (100)
+|  |        |                                   |     +--GU673867.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                               +---| (100)
+|  |        |                               |   |           +**OR758627.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                               |   |        +**|
+|  |        |                               |   |        |  +**OR758623.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                               |   |     +--|
+|  |        |                               |   |     |  +**OR758624.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                               |   |  +--| (88)
+|  |        |                               |   |  |  +--OR758626.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                               |   +--| (96)
+|  |        |                               |      +--OR758625.1|Lutjanus_malabaricus|Lutjanidae
+|  |        |                            +--| (98)
+|  |        |                            |  |     +--GU673841.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |  +-----| (100)
+|  |        |                            |        |              +**PQ812447.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |        |           +**|
+|  |        |                            |        |           |  +**PQ812444.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |        |        +**|
+|  |        |                            |        |        |  +**PQ812443.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |        |     +--|
+|  |        |                            |        |     |  +**PQ812441.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |        |  +--| (100)
+|  |        |                            |        |  |  +--PQ812445.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |        +--| (86)
+|  |        |                            |           |  +--PQ812446.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                            |           +--| (87)
+|  |        |                            |              +--PQ812442.1|Lutjanus_erythropterus|Lutjanidae
+|  |        |                     +------| (100)
+|  |        |                     |      |          +--MN870188.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |      +----------| (100)
+|  |        |                     |                 |              +**HQ564451.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                 |           +**|
+|  |        |                     |                 |           |  +**OQ386404.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                 |        +--|
+|  |        |                     |                 |        |  +**PV035006.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                 |     +--| (75)
+|  |        |                     |                 |     |  +--PQ804623.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                 |  +--| (99)
+|  |        |                     |                 |  |  +--EF609401.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                 +--| (99)
+|  |        |                     |                    |  +--OQ553263.1|Lutjanus_sebae|Lutjanidae
+|  |        |                     |                    +--| (82)
+|  |        |                     |                       +--EU600106.1|Lutjanus_sebae|Lutjanidae
+|  |        |                 +---| (57)
+|  |        |                 |   |                              +**GU674071.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |                           +**|
+|  |        |                 |   |                           |  +**MN870581.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |                        +**|
+|  |        |                 |   |                        |  +**MN870575.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |                     +**|
+|  |        |                 |   |                     |  +**MN870348.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |                  +--|
+|  |        |                 |   |                  |  +**MN869991.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |               +--| (89)
+|  |        |                 |   |               |  +--GU673734.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |            +--| (71)
+|  |        |                 |   |            |  +--GU673733.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |     +------| (100)
+|  |        |                 |   |     |      +--MN870401.1|Lutjanus_gibbus|Lutjanidae
+|  |        |                 |   |  +--| (99)
+|  |        |                 |   |  |  |           +--PX738101.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |        +--| (88)
+|  |        |                 |   |  |  |        |  +--PV050458.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |     +--| (87)
+|  |        |                 |   |  |  |     |  |        +--PX117337.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |     |  |     +--| (81)
+|  |        |                 |   |  |  |     |  |     |  +--PX117336.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |     |  |  +--| (99)
+|  |        |                 |   |  |  |     |  |  |  |  +--PX117335.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |     |  |  |  +--| (89)
+|  |        |                 |   |  |  |     |  |  |     +--PX117333.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  |     |  +--| (84)
+|  |        |                 |   |  |  |     |     +--PX117332.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   |  |  +-----| (100)
+|  |        |                 |   |  |        +--PP449208.1|Lutjanus_bohar|Lutjanidae
+|  |        |                 |   +--| (52)
+|  |        |                 |      |                                 +--JN311851.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                              +--| (55)
+|  |        |                 |      |                              |  +--OR633679.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                           +--| (59)
+|  |        |                 |      |                           |  +--MN870225.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                        +--| (67)
+|  |        |                 |      |                        |  |     +--OR636715.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                        |  |  +--| (98)
+|  |        |                 |      |                        |  |  |  +--OR633680.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                        |  +--| (62)
+|  |        |                 |      |                        |     +--OR636714.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      |                     +--| (51)
+|  |        |                 |      |                     |  +--GU674155.1|Pristipomoides_multidens|Lutjanidae
+|  |        |                 |      +---------------------| (100)
+|  |        |                 |                            +--OR654025.1|Pristipomoides_multidens|Lutjanidae
+|  |        |              +--| (47)
+|  |        |              |  |                  +**MN869949.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  |               +**|
+|  |        |              |  |               |  +**OQ387794.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  |            +--|
+|  |        |              |  |            |  +**OQ553262.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  |         +--| (95)
+|  |        |              |  |         |  +--HQ564446.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  |      +--| (99)
+|  |        |              |  |      |  +--PQ804624.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  |   +--| (94)
+|  |        |              |  |   |  +--PP354337.1|Lutjanus_russellii|Lutjanidae
+|  |        |              |  +---| (100)
+|  |        |              |      +--MN623872.1|Lutjanus_russellii|Lutjanidae
+|  |        |           +--| (57)
+|  |        |           |  |              +--PQ812611.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |           +--| (75)
+|  |        |           |  |           |  +--PQ812609.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |        +--| (92)
+|  |        |           |  |        |  |     +--OQ386198.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |        |  |  +--| (100)
+|  |        |           |  |        |  |  |  +--OQ385741.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |        |  +--| (77)
+|  |        |           |  |        |     +--OR918623.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |     +--| (78)
+|  |        |           |  |     |  |  +--OQ553265.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |     |  +--| (74)
+|  |        |           |  |     |     +--OQ385788.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  |  +--| (100)
+|  |        |           |  |  |  +--OR524481.1|Lutjanus_vitta|Lutjanidae
+|  |        |           |  +--| (94)
+|  |        |           |     +---PQ812464.1|Epinephelus_malabaricus|Epinephelidae
+|  |        |        +--| (51)
+|  |        |        |  |          +--PX736193.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |  +----------| (100)
+|  |        |        |             |                 +**PX736192.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             |              +**|
+|  |        |        |             |              |  +**PX736189.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             |           +**|
+|  |        |        |             |           |  +**PX736187.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             |        +**|
+|  |        |        |             |        |  +**PX736188.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             |     +**|
+|  |        |        |             |     |  +**PX736190.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             |  +--|
+|  |        |        |             |  |  +**PX736186.1|Lutjanus_johnii|Lutjanidae
+|  |        |        |             +--| (100)
+|  |        |        |                +--PX736191.1|Lutjanus_johnii|Lutjanidae
+|  |        |     +--| (52)
+|  |        |     |  |      +--MN870516.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |  +------| (100)
+|  |        |     |         |     +--MN870512.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |         |  +--| (99)
+|  |        |     |         |  |  +--MN870452.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |         +--| (83)
+|  |        |     |            |        +--MN870491.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |            |     +--| (19)
+|  |        |     |            |     |  |  +--MN870025.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |            |     |  +--| (100)
+|  |        |     |            |     |     +--JN311978.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |            |  +--| (17)
+|  |        |     |            |  |  +--GU674290.1|Lutjanus_fulvus|Lutjanidae
+|  |        |     |            +--| (35)
+|  |        |     |               +--MN870061.1|Lutjanus_fulvus|Lutjanidae
+|  |        +-----| (99)
+|  |              |                                                               +**PZ794527.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                            +--|
+|  |              |                                                            |  +**PZ794528.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                         +--| (59)
+|  |              |                                                         |  +--PZ794529.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                      +--| (78)
+|  |              |                                                      |  +--PZ794530.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                   +--| (44)
+|  |              |                                                   |  |     +**PV877696.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                   |  |  +**|
+|  |              |                                                   |  |  |  +**PV877693.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                   |  +--|
+|  |              |                                                   |     +**PV877694.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                                +--| (99)
+|  |              |                                                |  +--PV877695.1|Epinephelus_coioides|Epinephelidae
+|  |              |                                             +--| (99)
+|  |              |                                             |  |           +--JN313043.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                             |  |        +--| (76)
+|  |              |                                             |  |        |  +--OQ386702.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                             |  |     +--| (56)
+|  |              |                                             |  |     |  +--MN708926.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                             |  |  +--| (59)
+|  |              |                                             |  |  |  +--FJ237599.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                             |  +--| (99)
+|  |              |                                             |     +--PQ812465.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                          +--| (79)
+|  |              |                                          |  +----PQ813508.1|Epinephelus_malabaricus|Epinephelidae
+|  |              |                                       +--| (92)
+|  |              |                                       |  |                      +--OQ387073.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |                   +--| (37)
+|  |              |                                       |  |                   |  +--HQ174837.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |                +--| (19)
+|  |              |                                       |  |                |  |     +**OQ386067.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |                |  |  +--|
+|  |              |                                       |  |                |  |  |  +**HQ174835.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |                |  +--| (58)
+|  |              |                                       |  |                |     +--HQ174836.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |             +--| (40)
+|  |              |                                       |  |             |  +--HQ174834.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  |          +--| (77)
+|  |              |                                       |  |          |  +--HQ174832.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                       |  +----------| (100)
+|  |              |                                       |             +--HQ174833.1|Epinephelus_lanceolatus|Epinephelidae
+|  |              |                                    +--| (88)
+|  |              |                                    |  |                 +--JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |              +--| (88)
+|  |              |                                    |  |              |  +--MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |           +--| (100)
+|  |              |                                    |  |           |  |  +--MN708922.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |           |  +--| (70)
+|  |              |                                    |  |           |     +--EU600140.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |        +--| (31)
+|  |              |                                    |  |        |  +--OM273129.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |     +--| (46)
+|  |              |                                    |  |     |  +--OM273128.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  |  +--| (86)
+|  |              |                                    |  |  |  +--OM273131.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                                    |  +--| (100)
+|  |              |                                    |     +--OM273130.1|Epinephelus_fuscoguttatus|Epinephelidae
+|  |              |                               +----| (100)
+|  |              |                               |    |                      +**GU673954.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |                   +**|
+|  |              |                               |    |                   |  +**OQ387630.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |                +--|
+|  |              |                               |    |                |  +**OQ387738.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |             +--| (74)
+|  |              |                               |    |             |  +--PV035021.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |          +--| (58)
+|  |              |                               |    |          |  |  +--JN313065.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |          |  +--| (81)
+|  |              |                               |    |          |     +--PX905051.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    |       +--| (97)
+|  |              |                               |    |       |  +--OP062114.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                               |    +-------| (100)
+|  |              |                               |            +--OP062115.1|Cromileptes_altivelis|Epinephelidae
+|  |              |                            +--| (67)
+|  |              |                            |  |                                     +**GU674361.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                                  +**|
+|  |              |                            |  |                                  |  +**MN870577.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                               +**|
+|  |              |                            |  |                               |  +**MN870379.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                            +**|
+|  |              |                            |  |                            |  +**MN870587.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                         +**|
+|  |              |                            |  |                         |  +**MN870181.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                      +**|
+|  |              |                            |  |                      |  +**MN870343.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  |                   +--|
+|  |              |                            |  |                   |  +**JN312973.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                            |  +-------------------| (100)
+|  |              |                            |                      +--GU674280.1|Cephalopholis_miniata|Epinephelidae
+|  |              |                         +--| (62)
+|  |              |                         |  |  +--JN312976.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |  +--| (99)
+|  |              |                         |     |     +--MN708865.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     |  +--| (86)
+|  |              |                         |     |  |  |           +--MN708866.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     |  |  |        +--| (29)
+|  |              |                         |     |  |  |        |  +--MN708859.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     |  |  |     +--| (46)
+|  |              |                         |     |  |  |     |  +--MN708861.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     |  |  |  +--| (41)
+|  |              |                         |     |  |  |  |  +--MN708860.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     |  |  +--| (99)
+|  |              |                         |     |  |     +--PP354710.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |                         |     +--| (98)
+|  |              |                         |        +--MN708863.1|Epinephelus_bleekeri|Epinephelidae
+|  |              |              +----------| (89)
+|  |              |              |          |             +--PQ812608.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |          |          +--| (74)
+|  |              |              |          |          |  +--PQ812606.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |          |       +--| (99)
+|  |              |              |          |       |  +--PQ812607.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |          |    +--| (99)
+|  |              |              |          |    |  +--OM273116.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |          +----| (98)
+|  |              |              |               |        +**OM273115.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |               |     +--|
+|  |              |              |               |     |  +**OM273112.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |               |  +--| (76)
+|  |              |              |               |  |  +--OM273113.1|Epinephelus_areolatus|Epinephelidae
+|  |              |              |               +--| (99)
+|  |              |              |                  +--OM273114.1|Epinephelus_areolatus|Epinephelidae
+|  |              |    +---------| (96)
+|  |              |    |         |                                    +**JN313058.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                                 +--|
+|  |              |    |         |                                 |  +**PQ656566.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                              +--| (47)
+|  |              |    |         |                              |  +--PQ656567.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                           +--| (60)
+|  |              |    |         |                           |  +--JN313060.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                        +--| (76)
+|  |              |    |         |                        |  |  +--GU673949.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                        |  +--| (85)
+|  |              |    |         |                        |     +--JN313059.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                     +--| (49)
+|  |              |    |         |                     |  |  +--GU674047.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         |                     |  +--| (77)
+|  |              |    |         |                     |     +--PQ656568.1|Plectropomus_leopardus|Epinephelidae
+|  |              |    |         +---------------------| (100)
+|  |              |    |                               |        +--JN313062.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                               |     +--| (74)
+|  |              |    |                               |     |  +--JN313061.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                               |  +--| (86)
+|  |              |    |                               |  |  +--GU673821.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                               +--| (96)
+|  |              |    |                                  |           +**PX905036.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                                  |        +**|
+|  |              |    |                                  |        |  +**PX905034.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                                  |     +**|
+|  |              |    |                                  |     |  +**PX905033.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                                  |  +--|
+|  |              |    |                                  |  |  +**PX905032.1|Plectropomus_maculatus|Epinephelidae
+|  |              |    |                                  +--| (56)
+|  |              |    |                                     +--PX905035.1|Plectropomus_maculatus|Epinephelidae
+|  |              +----| (52)
+|  |                   |                             +--PX363004.1|Thunnus_albacares|Scombridae
+|  |                   |                          +--| (17)
+|  |                   |                          |  |              +**PX363003.1|Thunnus_albacares|Scombridae
+|  |                   |                          |  |           +**|
+|  |                   |                          |  |           |  +**PX362999.1|Thunnus_albacares|Scombridae
+|  |                   |                          |  |        +**|
+|  |                   |                          |  |        |  +**PQ813543.1|Thunnus_obesus|Scombridae
+|  |                   |                          |  |     +--|
+|  |                   |                          |  |     |  +**PX363000.1|Thunnus_albacares|Scombridae
+|  |                   |                          |  |  +--| (37)
+|  |                   |                          |  |  |  +--PX363001.1|Thunnus_albacares|Scombridae
+|  |                   |                          |  +--| (14)
+|  |                   |                          |     |  +--PX362998.1|Thunnus_albacares|Scombridae
+|  |                   |                          |     +--| (56)
+|  |                   |                          |        |              +**PX363011.1|Thunnus_obesus|Scombridae
+|  |                   |                          |        |           +**|
+|  |                   |                          |        |           |  +**PX363006.1|Thunnus_obesus|Scombridae
+|  |                   |                          |        |        +**|
+|  |                   |                          |        |        |  +**PX363009.1|Thunnus_obesus|Scombridae
+|  |                   |                          |        |     +--|
+|  |                   |                          |        |     |  +**PX363007.1|Thunnus_obesus|Scombridae
+|  |                   |                          |        |  +--| (87)
+|  |                   |                          |        |  |  +--PX363010.1|Thunnus_obesus|Scombridae
+|  |                   |                          |        +--| (99)
+|  |                   |                          |           +--PX363008.1|Thunnus_obesus|Scombridae
+|  |                   |                       +--| (26)
+|  |                   |                       |  +--PX362997.1|Thunnus_albacares|Scombridae
+|  |                   |                    +--| (83)
+|  |                   |                    |  +--PQ813544.1|Thunnus_obesus|Scombridae
+|  |                   |                 +--| (70)
+|  |                   |                 |  +--PX363002.1|Thunnus_albacares|Scombridae
+|  |                   |             +---| (99)
+|  |                   |             |   |        +--PX802357.1|Thunnus_alalunga|Scombridae
+|  |                   |             |   |     +--| (45)
+|  |                   |             |   |     |  +--OQ385548.1|Thunnus_alalunga|Scombridae
+|  |                   |             |   |  +--| (67)
+|  |                   |             |   |  |  |     +--MT889073.1|Thunnus_alalunga|Scombridae
+|  |                   |             |   |  |  |  +--| (42)
+|  |                   |             |   |  |  |  |  +--MT889074.1|Thunnus_alalunga|Scombridae
+|  |                   |             |   |  |  +--| (33)
+|  |                   |             |   |  |     +--MT889075.1|Thunnus_alalunga|Scombridae
+|  |                   |             |   +--| (94)
+|  |                   |             |      +--PX481760.1|Thunnus_alalunga|Scombridae
+|  |                   |         +---| (66)
+|  |                   |         |   |              +--PX397326.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           +--| (98)
+|  |                   |         |   |           |  |              +**PX397325.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           |  |           +**|
+|  |                   |         |   |           |  |           |  +**PX397320.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           |  |        +**|
+|  |                   |         |   |           |  |        |  +**PX397322.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           |  |     +--|
+|  |                   |         |   |           |  |     |  +**PX397321.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           |  |  +--| (81)
+|  |                   |         |   |           |  |  |  +--PX397324.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |           |  +--| (52)
+|  |                   |         |   |           |     +--PX397323.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |        +--| (100)
+|  |                   |         |   |        |  +--PX397319.1|Katsuwonus_pelamis|Scombridae
+|  |                   |         |   |     +--| (88)
+|  |                   |         |   |     |  |            +**OQ346145.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |         +--|
+|  |                   |         |   |     |  |         |  +**OQ346142.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |      +--| (78)
+|  |                   |         |   |     |  |      |  +--OQ346144.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |   +--| (63)
+|  |                   |         |   |     |  |   |  |        +**PX501052.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |   |  |     +--|
+|  |                   |         |   |     |  |   |  |     |  +**PX501049.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |   |  |  +--| (52)
+|  |                   |         |   |     |  |   |  |  |  +--PX501050.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  |   |  +--| (68)
+|  |                   |         |   |     |  |   |     +--PX501051.1|Auxis_thazard|Scombridae
+|  |                   |         |   |     |  +---| (100)
+|  |                   |         |   |     |      +--OQ346143.1|Auxis_thazard|Scombridae
+|  |                   |         |   |  +--| (82)
+|  |                   |         |   |  |  |           +--OQ346137.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |        +--| (40)
+|  |                   |         |   |  |  |        |  +--OQ346134.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |     +--| (17)
+|  |                   |         |   |  |  |     |  +--OQ346135.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |  +--| (98)
+|  |                   |         |   |  |  |  |  |  +--OQ346133.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |  |  +--| (24)
+|  |                   |         |   |  |  |  |     |  +--PX397333.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |  |     +--| (28)
+|  |                   |         |   |  |  |  |        |  +--PX397332.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  |  |        +--| (73)
+|  |                   |         |   |  |  |  |           +--PX397331.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   |  |  +--| (100)
+|  |                   |         |   |  |     +--OQ346136.1|Euthynnus_affinis|Scombridae
+|  |                   |         |   +--| (65)
+|  |                   |         |      |                      +--PX210229.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |      |                   +--| (95)
+|  |                   |         |      |                   |  |     +--PP354721.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |      |                   |  |  +--| (87)
+|  |                   |         |      |                   |  |  |  |  +--PP354719.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |      |                   |  |  |  +--| (100)
+|  |                   |         |      |                   |  |  |     +--OQ553430.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |      |                   |  +--| (72)
+|  |                   |         |      |                   |     +--PP354596.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |      +-------------------| (100)
+|  |                   |         |                          |     +--PX658229.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |                          |  +--| (99)
+|  |                   |         |                          |  |  +--PP354855.1|Rastrelliger_kanagurta|Scombridae
+|  |                   |         |                          +--| (74)
+|  |                   |         |                             +--OQ553429.1|Rastrelliger_kanagurta|Scombridae
+|  |                   +---------| (99)
+|  |                             |          +--PX650279.1|Scomberomorus_commerson|Scombridae
+|  |                             |       +--| (98)
+|  |                             |       |  |     +**PP354787.1|Scomberomorus_commerson|Scombridae
+|  |                             |       |  |  +--|
+|  |                             |       |  |  |  +**OQ553460.1|Scomberomorus_commerson|Scombridae
+|  |                             |       |  +--| (62)
+|  |                             |       |     +--PP354720.1|Scomberomorus_commerson|Scombridae
+|  |                             +-------| (99)
+|  |                                     |     +--PP354737.1|Scomberomorus_commerson|Scombridae
+|  |                                     |  +--| (80)
+|  |                                     |  |  +--PP354630.1|Scomberomorus_commerson|Scombridae
+|  |                                     +--| (71)
+|  |                                        |  +--PP354642.1|Scomberomorus_commerson|Scombridae
+|  |                                        +--| (96)
+|  |                                           +--OQ553461.1|Scomberomorus_commerson|Scombridae
++**|
+|  +**PZ298684.1|Lutjanus_argentimaculatus|Lutjanidae
+|
++**GU673900.1|Lutjanus_argentimaculatus|Lutjanidae
+
+
+Consensus tree in newick format: 
+
+(MN243479.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000000000,((MN243478.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000025378,((((GU673901.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000025378,PQ813541.1|Epinephelus_malabaricus|Epinephelidae:0.0000025378)69:0.0000025378,PX491277.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000025378)98:0.0015745902,PZ298685.1|Lutjanus_argentimaculatus|Lutjanidae:0.0015743948)47:0.0000025378,(PZ298686.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000025378,((((((((((GU673870.1|Lutjanus_malabaricus|Lutjanidae:0.0032470679,(GU673869.1|Lutjanus_malabaricus|Lutjanidae:0.0000025378,GU673867.1|Lutjanus_malabaricus|Lutjanidae:0.0000025378)100:0.0015135975)97:0.0089238770,((((OR758627.1|Lutjanus_malabaricus|Lutjanidae:0.0000000000,OR758623.1|Lutjanus_malabaricus|Lutjanidae:0.0000000000):0.0000000000,OR758624.1|Lutjanus_malabaricus|Lutjanidae:0.0000000000):0.0000025378,OR758626.1|Lutjanus_malabaricus|Lutjanidae:0.0000025378)88:0.0000025378,OR758625.1|Lutjanus_malabaricus|Lutjanidae:0.0015775595)96:0.0026647665)100:0.0529540743,(GU673841.1|Lutjanus_erythropterus|Lutjanidae:0.0015645648,(((((PQ812447.1|Lutjanus_erythropterus|Lutjanidae:0.0000000000,PQ812444.1|Lutjanus_erythropterus|Lutjanidae:0.0000000000):0.0000000000,PQ812443.1|Lutjanus_erythropterus|Lutjanidae:0.0000000000):0.0000000000,PQ812441.1|Lutjanus_erythropterus|Lutjanidae:0.0000000000):0.0000025378,PQ812445.1|Lutjanus_erythropterus|Lutjanidae:0.0000025378)100:0.0031440705,(PQ812446.1|Lutjanus_erythropterus|Lutjanidae:0.0000025378,PQ812442.1|Lutjanus_erythropterus|Lutjanidae:0.0000025378)87:0.0000025378)86:0.0000021534)100:0.0706097673)98:0.0418421757,(MN870188.1|Lutjanus_sebae|Lutjanidae:0.0000025378,(((((HQ564451.1|Lutjanus_sebae|Lutjanidae:0.0000000000,OQ386404.1|Lutjanus_sebae|Lutjanidae:0.0000000000):0.0000000000,PV035006.1|Lutjanus_sebae|Lutjanidae:0.0000000000):0.0000025378,PQ804623.1|Lutjanus_sebae|Lutjanidae:0.0000025378)75:0.0000025378,EF609401.1|Lutjanus_sebae|Lutjanidae:0.0000025378)99:0.0015744118,(OQ553263.1|Lutjanus_sebae|Lutjanidae:0.0000025378,EU600106.1|Lutjanus_sebae|Lutjanidae:0.0015749991)82:0.0000025378)99:0.0015728305)100:0.1251116461)100:0.0752071965,(((((((((GU674071.1|Lutjanus_gibbus|Lutjanidae:0.0000000000,MN870581.1|Lutjanus_gibbus|Lutjanidae:0.0000000000):0.0000000000,MN870575.1|Lutjanus_gibbus|Lutjanidae:0.0000000000):0.0000000000,MN870348.1|Lutjanus_gibbus|Lutjanidae:0.0000000000):0.0000000000,MN869991.1|Lutjanus_gibbus|Lutjanidae:0.0000000000):0.0000025378,GU673734.1|Lutjanus_gibbus|Lutjanidae:0.0000025378)89:0.0000025378,GU673733.1|Lutjanus_gibbus|Lutjanidae:0.0015831786)71:0.0015815460,MN870401.1|Lutjanus_gibbus|Lutjanidae:0.0000025378)100:0.0778095736,(((PX738101.1|Lutjanus_bohar|Lutjanidae:0.0000025378,PV050458.1|Lutjanus_bohar|Lutjanidae:0.0000025378)88:0.0000025378,(((PX117337.1|Lutjanus_bohar|Lutjanidae:0.0069292596,PX117336.1|Lutjanus_bohar|Lutjanidae:0.0034196422)81:0.0000025378,(PX117335.1|Lutjanus_bohar|Lutjanidae:0.0000025378,PX117333.1|Lutjanus_bohar|Lutjanidae:0.0000025378)89:0.0000025378)99:0.0017006256,PX117332.1|Lutjanus_bohar|Lutjanidae:0.0000025378)84:0.0000025378)87:0.0000024346,PP449208.1|Lutjanus_bohar|Lutjanidae:0.0080802145)100:0.0676329035)99:0.0235990629,(((((JN311851.1|Pristipomoides_multidens|Lutjanidae:0.0000025378,OR633679.1|Pristipomoides_multidens|Lutjanidae:0.0000025378)55:0.0000025378,MN870225.1|Pristipomoides_multidens|Lutjanidae:0.0000025378)59:0.0000025378,((OR636715.1|Pristipomoides_multidens|Lutjanidae:0.0098612683,OR633680.1|Pristipomoides_multidens|Lutjanidae:0.0031422117)98:0.0064147684,OR636714.1|Pristipomoides_multidens|Lutjanidae:0.0047661178)62:0.0000025378)67:0.0000025378,GU674155.1|Pristipomoides_multidens|Lutjanidae:0.0015744886)51:0.0009327698,OR654025.1|Pristipomoides_multidens|Lutjanidae:0.0122752105)100:0.2464286016)52:0.0195279290)57:0.0522390380,((((((MN869949.1|Lutjanus_russellii|Lutjanidae:0.0000000000,OQ387794.1|Lutjanus_russellii|Lutjanidae:0.0000000000):0.0000000000,OQ553262.1|Lutjanus_russellii|Lutjanidae:0.0000000000):0.0000025378,HQ564446.1|Lutjanus_russellii|Lutjanidae:0.0000025378)95:0.0000025066,PQ804624.1|Lutjanus_russellii|Lutjanidae:0.0015718913)99:0.0141797189,PP354337.1|Lutjanus_russellii|Lutjanidae:0.0103332372)94:0.0063283859,MN623872.1|Lutjanus_russellii|Lutjanidae:0.0293519985)100:0.0484770037)47:0.0073509282,(((((PQ812611.1|Lutjanus_vitta|Lutjanidae:0.0000025378,PQ812609.1|Lutjanus_vitta|Lutjanidae:0.0000025378)75:0.0000025378,((OQ386198.1|Lutjanus_vitta|Lutjanidae:0.0000025378,OQ385741.1|Lutjanus_vitta|Lutjanidae:0.0015761171)100:0.0015767175,OR918623.1|Lutjanus_vitta|Lutjanidae:0.0015768667)77:0.0000025378)92:0.0015804677,(OQ553265.1|Lutjanus_vitta|Lutjanidae:0.0000025378,OQ385788.1|Lutjanus_vitta|Lutjanidae:0.0000025378)74:0.0000025378)78:0.0000025378,OR524481.1|Lutjanus_vitta|Lutjanidae:0.0015775665)100:0.0399138862,PQ812464.1|Epinephelus_malabaricus|Epinephelidae:0.0450243940)94:0.0198140869)57:0.0299243667,(PX736193.1|Lutjanus_johnii|Lutjanidae:0.0014399188,((((((PX736192.1|Lutjanus_johnii|Lutjanidae:0.0000000000,PX736189.1|Lutjanus_johnii|Lutjanidae:0.0000000000):0.0000000000,PX736187.1|Lutjanus_johnii|Lutjanidae:0.0000000000):0.0000000000,PX736188.1|Lutjanus_johnii|Lutjanidae:0.0000000000):0.0000000000,PX736190.1|Lutjanus_johnii|Lutjanidae:0.0000000000):0.0000000000,PX736186.1|Lutjanus_johnii|Lutjanidae:0.0000000000):0.0000025378,PX736191.1|Lutjanus_johnii|Lutjanidae:0.0000025378)100:0.0017313373)100:0.1196849812)51:0.0157469728,(MN870516.1|Lutjanus_fulvus|Lutjanidae:0.0000025378,((MN870512.1|Lutjanus_fulvus|Lutjanidae:0.0000025378,MN870452.1|Lutjanus_fulvus|Lutjanidae:0.0032656462)99:0.0031577904,(((MN870491.1|Lutjanus_fulvus|Lutjanidae:0.0015736907,(MN870025.1|Lutjanus_fulvus|Lutjanidae:0.0000025378,JN311978.1|Lutjanus_fulvus|Lutjanidae:0.0000025378)100:0.0031602637)19:0.0000025378,GU674290.1|Lutjanus_fulvus|Lutjanidae:0.0000025378)17:0.0000025378,MN870061.1|Lutjanus_fulvus|Lutjanidae:0.0015734656)35:0.0000025378)83:0.0015722491)100:0.0853578811)52:0.0162497088,(((((((((((((((PZ794527.1|Epinephelus_coioides|Epinephelidae:0.0000000000,PZ794528.1|Epinephelus_coioides|Epinephelidae:0.0000000000):0.0000025378,PZ794529.1|Epinephelus_coioides|Epinephelidae:0.0000025378)59:0.0000025378,PZ794530.1|Epinephelus_coioides|Epinephelidae:0.0015913440)78:0.0000025415,((PV877696.1|Epinephelus_coioides|Epinephelidae:0.0000000000,PV877693.1|Epinephelus_coioides|Epinephelidae:0.0000000000):0.0000000000,PV877694.1|Epinephelus_coioides|Epinephelidae:0.0000000000):0.0000025378)44:0.0000025415,PV877695.1|Epinephelus_coioides|Epinephelidae:0.0000025378)99:0.0191386944,((((JN313043.1|Epinephelus_malabaricus|Epinephelidae:0.0000025378,OQ386702.1|Epinephelus_malabaricus|Epinephelidae:0.0000025378)76:0.0000025378,MN708926.1|Epinephelus_malabaricus|Epinephelidae:0.0000025378)56:0.0000025378,FJ237599.1|Epinephelus_malabaricus|Epinephelidae:0.0015749949)59:0.0000025378,PQ812465.1|Epinephelus_malabaricus|Epinephelidae:0.0015740733)99:0.0192787606)99:0.0402078929,PQ813508.1|Epinephelus_malabaricus|Epinephelidae:0.0600207131)79:0.0147089890,(((((OQ387073.1|Epinephelus_lanceolatus|Epinephelidae:0.0015717849,HQ174837.1|Epinephelus_lanceolatus|Epinephelidae:0.0031547947)37:0.0000025378,((OQ386067.1|Epinephelus_lanceolatus|Epinephelidae:0.0000000000,HQ174835.1|Epinephelus_lanceolatus|Epinephelidae:0.0000000000):0.0000025378,HQ174836.1|Epinephelus_lanceolatus|Epinephelidae:0.0000025378)58:0.0000025378)19:0.0000025378,HQ174834.1|Epinephelus_lanceolatus|Epinephelidae:0.0015717990)40:0.0000025378,HQ174832.1|Epinephelus_lanceolatus|Epinephelidae:0.0031584104)77:0.0015696125,HQ174833.1|Epinephelus_lanceolatus|Epinephelidae:0.0000025378)100:0.1269869035)92:0.0162056211,((((((JN313141.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025378,MN708920.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025378)88:0.0000025378,(MN708922.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025378,EU600140.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0131108150)70:0.0000025415)100:0.0096156975,OM273129.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0015718661)31:0.0000025378,OM273128.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025378)46:0.0000025378,OM273131.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0204652967)86:0.0015713677,OM273130.1|Epinephelus_fuscoguttatus|Epinephelidae:0.0000025378)100:0.0397520788)88:0.0054800498,((((((GU673954.1|Cromileptes_altivelis|Epinephelidae:0.0000000000,OQ387630.1|Cromileptes_altivelis|Epinephelidae:0.0000000000):0.0000000000,OQ387738.1|Cromileptes_altivelis|Epinephelidae:0.0000000000):0.0000025378,PV035021.1|Cromileptes_altivelis|Epinephelidae:0.0000025378)74:0.0000025378,(JN313065.1|Cromileptes_altivelis|Epinephelidae:0.0015764499,PX905051.1|Cromileptes_altivelis|Epinephelidae:0.0000025378)81:0.0000020996)58:0.0000025378,OP062114.1|Cromileptes_altivelis|Epinephelidae:0.0015775041)97:0.0019447839,OP062115.1|Cromileptes_altivelis|Epinephelidae:0.0012238664)100:0.0922246122)100:0.0624144380,(((((((GU674361.1|Cephalopholis_miniata|Epinephelidae:0.0000000000,MN870577.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000000000,MN870379.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000000000,MN870587.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000000000,MN870181.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000000000,MN870343.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000000000,JN312973.1|Cephalopholis_miniata|Epinephelidae:0.0000000000):0.0000025378,GU674280.1|Cephalopholis_miniata|Epinephelidae:0.0000025378)100:0.2231121944)67:0.0262152226,(JN312976.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378,((MN708865.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378,((((MN708866.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378,MN708859.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378)29:0.0000025378,MN708861.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378)46:0.0000025378,MN708860.1|Epinephelus_bleekeri|Epinephelidae:0.0032152300)41:0.0000025378,PP354710.1|Epinephelus_bleekeri|Epinephelidae:0.0000025378)99:0.0031593273)86:0.0000025378,MN708863.1|Epinephelus_bleekeri|Epinephelidae:0.0016061478)98:0.0031584493)99:0.0403440993)62:0.0307714972,((((PQ812608.1|Epinephelus_areolatus|Epinephelidae:0.0000025378,PQ812606.1|Epinephelus_areolatus|Epinephelidae:0.0000025378)74:0.0000025378,PQ812607.1|Epinephelus_areolatus|Epinephelidae:0.0218668366)99:0.0047751092,OM273116.1|Epinephelus_areolatus|Epinephelidae:0.0000025378)99:0.0137896709,(((OM273115.1|Epinephelus_areolatus|Epinephelidae:0.0000000000,OM273112.1|Epinephelus_areolatus|Epinephelidae:0.0000000000):0.0000025378,OM273113.1|Epinephelus_areolatus|Epinephelidae:0.0000025378)76:0.0000025378,OM273114.1|Epinephelus_areolatus|Epinephelidae:0.0048061041)99:0.0189686765)98:0.0639365894)89:0.1197972205,((((((JN313058.1|Plectropomus_leopardus|Epinephelidae:0.0000000000,PQ656566.1|Plectropomus_leopardus|Epinephelidae:0.0000000000):0.0000025378,PQ656567.1|Plectropomus_leopardus|Epinephelidae:0.0000025378)47:0.0000025378,JN313060.1|Plectropomus_leopardus|Epinephelidae:0.0000025378)60:0.0000025378,(GU673949.1|Plectropomus_leopardus|Epinephelidae:0.0000025378,JN313059.1|Plectropomus_leopardus|Epinephelidae:0.0000025378)85:0.0000025378)76:0.0015797965,(GU674047.1|Plectropomus_leopardus|Epinephelidae:0.0000025378,PQ656568.1|Plectropomus_leopardus|Epinephelidae:0.0000025378)77:0.0000025378)49:0.0175565372,(((JN313062.1|Plectropomus_maculatus|Epinephelidae:0.0000025378,JN313061.1|Plectropomus_maculatus|Epinephelidae:0.0000025378)74:0.0000025378,GU673821.1|Plectropomus_maculatus|Epinephelidae:0.0000025378)86:0.0000025415,((((PX905036.1|Plectropomus_maculatus|Epinephelidae:0.0000000000,PX905034.1|Plectropomus_maculatus|Epinephelidae:0.0000000000):0.0000000000,PX905033.1|Plectropomus_maculatus|Epinephelidae:0.0000000000):0.0000000000,PX905032.1|Plectropomus_maculatus|Epinephelidae:0.0000000000):0.0000025378,PX905035.1|Plectropomus_maculatus|Epinephelidae:0.0000025378)56:0.0000025378)96:0.0303360066)100:0.2418003457)96:0.1115987568,(((((((PX363004.1|Thunnus_albacares|Scombridae:0.0015833768,(((((PX363003.1|Thunnus_albacares|Scombridae:0.0000000000,PX362999.1|Thunnus_albacares|Scombridae:0.0000000000):0.0000000000,PQ813543.1|Thunnus_obesus|Scombridae:0.0000000000):0.0000000000,PX363000.1|Thunnus_albacares|Scombridae:0.0000000000):0.0000025378,PX363001.1|Thunnus_albacares|Scombridae:0.0000025378)37:0.0000025378,(PX362998.1|Thunnus_albacares|Scombridae:0.0031620939,(((((PX363011.1|Thunnus_obesus|Scombridae:0.0000000000,PX363006.1|Thunnus_obesus|Scombridae:0.0000000000):0.0000000000,PX363009.1|Thunnus_obesus|Scombridae:0.0000000000):0.0000000000,PX363007.1|Thunnus_obesus|Scombridae:0.0000000000):0.0000025378,PX363010.1|Thunnus_obesus|Scombridae:0.0000025378)87:0.0000025378,PX363008.1|Thunnus_obesus|Scombridae:0.0015771190)99:0.0031907100)56:0.0000025378)14:0.0000025378)17:0.0000025378,PX362997.1|Thunnus_albacares|Scombridae:0.0015752439)26:0.0000025378,PQ813544.1|Thunnus_obesus|Scombridae:0.0015753120)83:0.0015238382,PX363002.1|Thunnus_albacares|Scombridae:0.0016433670)70:0.0092351085,(((PX802357.1|Thunnus_alalunga|Scombridae:0.0000025378,OQ385548.1|Thunnus_alalunga|Scombridae:0.0000025378)45:0.0000025378,((MT889073.1|Thunnus_alalunga|Scombridae:0.0047610663,MT889074.1|Thunnus_alalunga|Scombridae:0.0015812538)42:0.0000025378,MT889075.1|Thunnus_alalunga|Scombridae:0.0000025378)33:0.0000025378)67:0.0000025415,PX481760.1|Thunnus_alalunga|Scombridae:0.0000025378)94:0.0022075895)99:0.0447575906,(((((PX397326.1|Katsuwonus_pelamis|Scombridae:0.0015770005,(((((PX397325.1|Katsuwonus_pelamis|Scombridae:0.0000000000,PX397320.1|Katsuwonus_pelamis|Scombridae:0.0000000000):0.0000000000,PX397322.1|Katsuwonus_pelamis|Scombridae:0.0000000000):0.0000000000,PX397321.1|Katsuwonus_pelamis|Scombridae:0.0000000000):0.0000025378,PX397324.1|Katsuwonus_pelamis|Scombridae:0.0000025378)81:0.0000025378,PX397323.1|Katsuwonus_pelamis|Scombridae:0.0015770479)52:0.0000025378)98:0.0015765269,PX397319.1|Katsuwonus_pelamis|Scombridae:0.0000025378)100:0.0353549952,((((OQ346145.1|Auxis_thazard|Scombridae:0.0000000000,OQ346142.1|Auxis_thazard|Scombridae:0.0000000000):0.0000025378,OQ346144.1|Auxis_thazard|Scombridae:0.0000025378)78:0.0000025378,(((PX501052.1|Auxis_thazard|Scombridae:0.0000000000,PX501049.1|Auxis_thazard|Scombridae:0.0000000000):0.0000025378,PX501050.1|Auxis_thazard|Scombridae:0.0000025378)52:0.0000025378,PX501051.1|Auxis_thazard|Scombridae:0.0016304710)68:0.0000025378)63:0.0000028760,OQ346143.1|Auxis_thazard|Scombridae:0.0015674829)100:0.0440600154)88:0.0188432587,((((OQ346137.1|Euthynnus_affinis|Scombridae:0.0015628017,OQ346134.1|Euthynnus_affinis|Scombridae:0.0031375448)40:0.0000025378,OQ346135.1|Euthynnus_affinis|Scombridae:0.0015685544)17:0.0000025378,(OQ346133.1|Euthynnus_affinis|Scombridae:0.0000025378,(PX397333.1|Euthynnus_affinis|Scombridae:0.0015698633,(PX397332.1|Euthynnus_affinis|Scombridae:0.0000025378,PX397331.1|Euthynnus_affinis|Scombridae:0.0000025378)73:0.0000025378)28:0.0000025378)24:0.0000025378)98:0.0015626137,OQ346136.1|Euthynnus_affinis|Scombridae:0.0000025378)100:0.0398498701)82:0.0262922512,((PX210229.1|Rastrelliger_kanagurta|Scombridae:0.0032229704,((PP354721.1|Rastrelliger_kanagurta|Scombridae:0.0000025378,(PP354719.1|Rastrelliger_kanagurta|Scombridae:0.0000025378,OQ553430.1|Rastrelliger_kanagurta|Scombridae:0.0000025378)100:0.0015629065)87:0.0000025378,PP354596.1|Rastrelliger_kanagurta|Scombridae:0.0063259321)72:0.0015056655)95:0.0080749818,((PX658229.1|Rastrelliger_kanagurta|Scombridae:0.0000025378,PP354855.1|Rastrelliger_kanagurta|Scombridae:0.0015652244)99:0.0031699173,OQ553429.1|Rastrelliger_kanagurta|Scombridae:0.0015634971)74:0.0000025415)100:0.2160142874)65:0.0120185500)66:0.0472716410,((PX650279.1|Scomberomorus_commerson|Scombridae:0.0015945703,((PP354787.1|Scomberomorus_commerson|Scombridae:0.0000000000,OQ553460.1|Scomberomorus_commerson|Scombridae:0.0000000000):0.0000025378,PP354720.1|Scomberomorus_commerson|Scombridae:0.0000025378)62:0.0000025378)98:0.0067087399,((PP354737.1|Scomberomorus_commerson|Scombridae:0.0000025378,PP354630.1|Scomberomorus_commerson|Scombridae:0.0000025378)80:0.0000025378,(PP354642.1|Scomberomorus_commerson|Scombridae:0.0015643288,OQ553461.1|Scomberomorus_commerson|Scombridae:0.0000025378)96:0.0015638346)71:0.0028539974)99:0.0866322073)99:0.1165212999)52:0.0633128267)99:0.0674942693)90:0.0015740456)71:0.0000025378):0.0000025378,PZ298684.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000000000):0.0000000000,GU673900.1|Lutjanus_argentimaculatus|Lutjanidae:0.0000000000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full.treefile -m "TPM2u{1.80428,11.8698}+F{0.243488,0.282196,0.186703,0.287613}+I{0.507588}+R3{0.187781,0.302795,0.190834,2.16659,0.113797,4.65463}" --length 636
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Nov 21 22:14:05 2026
+Total CPU time used: 658.015625 seconds (0h:10m:58s)
+Total wall-clock time used: 248.1562676 seconds (0h:4m:8s)
+

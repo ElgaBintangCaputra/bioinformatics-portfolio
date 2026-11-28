@@ -1,0 +1,10 @@
+{
+  "random_seed": 2026,
+  "horizon_years": 100,
+  "n_replicates": 250,
+  "min_interbirth_years_enforced": 4,
+  "lhs_samples_exp1": 36,
+  "python_version": "3.10.6",
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3"
+}

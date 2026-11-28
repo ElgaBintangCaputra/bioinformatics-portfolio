@@ -1,0 +1,239 @@
+IQ-TREE multicore version 2.3.6 for Windows 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    LAPTOP-AF13Q80H (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\iqtree-2.3.6-Windows\bin\iqtree2.exe -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species_input.fasta -m MFP -B 1000 -T AUTO -pre C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species -redo -quiet
+Seed:    497380 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 21 22:09:12 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species_input.fasta ... Fasta format detected
+Reading fasta file: done in 0.0019391 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 29 sequences with 636 columns, 251 distinct patterns
+222 parsimony-informative, 20 singleton sites, 394 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.57e-005 secs
+   1  Lutjanus_argentimaculatus|Lutjanidae       0.00%    passed     28.01%
+   2  Lutjanus_malabaricus|Lutjanidae            0.00%    passed     85.29%
+   3  Lutjanus_erythropterus|Lutjanidae          0.00%    passed     91.18%
+   4  Lutjanus_johnii|Lutjanidae                 0.00%    passed     92.54%
+   5  Lutjanus_sebae|Lutjanidae                  0.00%    passed     83.83%
+   6  Lutjanus_gibbus|Lutjanidae                 0.00%    passed     86.27%
+   7  Lutjanus_bohar|Lutjanidae                  0.00%    passed     63.27%
+   8  Lutjanus_fulvus|Lutjanidae                 0.00%    passed     94.90%
+   9  Lutjanus_russellii|Lutjanidae              0.00%    passed     98.45%
+  10  Lutjanus_vitta|Lutjanidae                  0.00%    passed     98.28%
+  11  Pristipomoides_multidens|Lutjanidae        0.00%    passed     96.28%
+  12  Epinephelus_coioides|Epinephelidae         0.00%    passed     93.77%
+  13  Epinephelus_malabaricus|Epinephelidae      0.00%    passed     32.52%
+  14  Epinephelus_fuscoguttatus|Epinephelidae    0.00%    passed     21.30%
+  15  Epinephelus_lanceolatus|Epinephelidae      0.00%    passed     82.81%
+  16  Epinephelus_areolatus|Epinephelidae        0.00%    passed     91.03%
+  17  Epinephelus_bleekeri|Epinephelidae         0.00%    passed     88.45%
+  18  Plectropomus_leopardus|Epinephelidae       0.00%    passed     63.93%
+  19  Plectropomus_maculatus|Epinephelidae       0.00%    passed     66.12%
+  20  Cromileptes_altivelis|Epinephelidae        0.00%    passed     83.35%
+  21  Cephalopholis_miniata|Epinephelidae        0.00%    passed     77.08%
+  22  Thunnus_albacares|Scombridae               0.00%    passed     98.42%
+  23  Thunnus_obesus|Scombridae                  0.00%    passed     98.31%
+  24  Thunnus_alalunga|Scombridae                0.00%    passed     99.52%
+  25  Katsuwonus_pelamis|Scombridae              0.94%    passed     79.42%
+  26  Euthynnus_affinis|Scombridae               0.00%    passed     50.20%
+  27  Auxis_thazard|Scombridae                   0.00%    passed     96.73%
+  28  Rastrelliger_kanagurta|Scombridae          0.00%    passed     40.03%
+  29  Scomberomorus_commerson|Scombridae         2.83%    passed     75.49%
+****  TOTAL                                      0.13%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+379 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -7821
+Threads: 2 / Time: 6.333 sec / Speedup: 1.265 / Efficiency: 63% / LogL: -7821
+Threads: 3 / Time: 6.689 sec / Speedup: 1.198 / Efficiency: 40% / LogL: -7821
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -5918.353
+2. Current log-likelihood: -5914.060
+3. Current log-likelihood: -5909.033
+4. Current log-likelihood: -5905.459
+5. Current log-likelihood: -5899.749
+6. Current log-likelihood: -5892.804
+7. Current log-likelihood: -5890.346
+Optimal log-likelihood: -5890.074
+Rate parameters:  A-C: 1.88398  A-G: 18.69126  A-T: 4.72446  C-G: 0.95324  C-T: 26.31985  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.283  G: 0.188  T: 0.286
+Proportion of invariable sites: 0.603
+Gamma shape alpha: 1.278
+Parameters optimization took 7 rounds (0.130 sec)
+Time for fast ML tree search: 0.272 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 636 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         7053.519     63  14233.039    14247.137    14513.716
+  2  GTR+F+I       5990.515     64  12109.030    12123.601    12394.163
+  3  GTR+F+G4      5936.315     64  12000.629    12015.200    12285.762
+  4  GTR+F+I+G4    5890.085     65  11910.170    11925.223    12199.758
+  5  GTR+F+R2      5954.051     65  12038.102    12053.155    12327.690
+  6  GTR+F+R3      5903.130     67  11940.261    11956.303    12238.759
+  7  GTR+F+R4      5890.867     69  11919.734    11936.801    12227.143
+  8  GTR+F+R5      5890.348     71  11922.697    11940.824    12239.016
+ 14  GTR+F+I+R2    5902.130     66  11936.260    11951.803    12230.303
+ 15  GTR+F+I+R3    5886.045     68  11908.090    11924.640    12211.043
+ 16  GTR+F+I+R4    5885.772     70  11911.543    11929.136    12223.407
+ 26  SYM+I+G4      5915.776     62  11955.552    11969.186    12231.775
+ 48  TVM+F+I+G4    5893.522     64  11915.044    11929.615    12200.177
+ 70  TVMe+I+G4     5940.983     61  12003.965    12017.143    12275.732
+ 92  TIM3+F+I+G4   5904.667     63  11935.333    11949.431    12216.011
+114  TIM3e+I+G4    5948.270     60  12016.540    12029.270    12283.852
+136  TIM2+F+I+G4   5896.553     63  11919.106    11933.204    12199.783
+158  TIM2e+I+G4    5922.780     60  11965.560    11978.291    12232.872
+180  TIM+F+I+G4    5906.399     63  11938.799    11952.897    12219.476
+202  TIMe+I+G4     5950.491     60  12020.982    12033.713    12288.294
+224  TPM3u+F+I+G4  5907.898     62  11939.795    11953.429    12216.018
+246  TPM3+I+G4     5974.503     59  12067.007    12079.298    12329.864
+268  TPM2u+F+I+G4  5900.278     62  11924.555    11938.189    12200.777
+290  TPM2+I+G4     5948.898     59  12015.796    12028.088    12278.653
+312  K3Pu+F+I+G4   5909.978     62  11943.955    11957.589    12220.178
+334  K3P+I+G4      5977.960     59  12073.921    12086.213    12336.778
+356  TN+F+I+G4     5910.368     62  11944.736    11958.370    12220.959
+378  TNe+I+G4      5954.283     59  12026.565    12038.857    12289.422
+400  HKY+F+I+G4    5913.881     61  11949.763    11962.940    12221.530
+422  K2P+I+G4      5981.456     58  12078.911    12090.772    12337.313
+444  F81+F+I+G4    6423.811     60  12967.623    12980.353    13234.935
+466  JC+I+G4       6506.365     57  13126.730    13138.169    13380.676
+Akaike Information Criterion:           GTR+F+I+R3
+Corrected Akaike Information Criterion: GTR+F+I+R3
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.model.gz
+CPU time for ModelFinder: 47.047 seconds (0h:0m:47s)
+Wall-clock time for ModelFinder: 25.686 seconds (0h:0m:25s)
+Generating 1000 samples for ultrafast bootstrap (seed: 497380)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 2.513 / Estimate: 0.000, 0.152 / LogL: -5936.351
+Init pinv, alpha: 0.069, 2.513 / Estimate: 0.082, 0.171 / LogL: -5936.040
+Init pinv, alpha: 0.138, 2.513 / Estimate: 0.196, 0.220 / LogL: -5936.097
+Init pinv, alpha: 0.206, 2.513 / Estimate: 0.603, 1.263 / LogL: -5890.116
+Init pinv, alpha: 0.275, 2.513 / Estimate: 0.603, 1.260 / LogL: -5890.144
+Init pinv, alpha: 0.344, 2.513 / Estimate: 0.603, 1.267 / LogL: -5890.091
+Init pinv, alpha: 0.413, 2.513 / Estimate: 0.603, 1.282 / LogL: -5890.060
+Init pinv, alpha: 0.482, 2.513 / Estimate: 0.603, 1.305 / LogL: -5890.042
+Init pinv, alpha: 0.551, 2.513 / Estimate: 0.603, 1.336 / LogL: -5890.093
+Init pinv, alpha: 0.619, 2.513 / Estimate: 0.603, 1.343 / LogL: -5890.122
+Optimal pinv,alpha: 0.603, 1.305 / LogL: -5890.042
+
+Parameters optimization took 1.532 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0061082 secs using 255.8% CPU
+Computing ML distances took 0.007177 sec (of wall-clock time) 0.015625 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0003827 secs
+Computing RapidNJ tree took 0.000913 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5896.587
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.435 second
+Computing log-likelihood of 98 initial trees ... 0.302 seconds
+Current best score: -5890.042
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5889.559
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -5886.700
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -5886.617
+Iteration 10 / LogL: -5886.683 / Time: 0h:0m:28s
+Iteration 20 / LogL: -5892.516 / Time: 0h:0m:28s
+Finish initializing candidate tree set (9)
+Current best tree score: -5886.617 / CPU time: 1.533
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5888.841 / Time: 0h:0m:29s (0h:0m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -5886.446
+Iteration 40 / LogL: -5886.532 / Time: 0h:0m:30s (0h:0m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -5884.515
+Iteration 50 / LogL: -5886.705 / Time: 0h:0m:31s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -5917.679
+Iteration 60 / LogL: -5892.162 / Time: 0h:0m:32s (0h:0m:9s left)
+Iteration 70 / LogL: -5889.444 / Time: 0h:0m:32s (0h:0m:8s left)
+Iteration 80 / LogL: -5886.636 / Time: 0h:0m:33s (0h:0m:6s left)
+Iteration 90 / LogL: -5884.903 / Time: 0h:0m:34s (0h:0m:5s left)
+Iteration 100 / LogL: -5895.034 / Time: 0h:0m:34s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -5917.679
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -5892.378 / Time: 0h:0m:35s (0h:0m:8s left)
+Iteration 120 / LogL: -5885.170 / Time: 0h:0m:36s (0h:0m:7s left)
+Iteration 130 / LogL: -5884.561 / Time: 0h:0m:37s (0h:0m:6s left)
+Iteration 140 / LogL: -5886.456 / Time: 0h:0m:37s (0h:0m:5s left)
+Iteration 150 / LogL: -5885.055 / Time: 0h:0m:38s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -5917.679
+Iteration 160 / LogL: -5884.667 / Time: 0h:0m:39s (0h:0m:3s left)
+Iteration 170 / LogL: -5885.296 / Time: 0h:0m:40s (0h:0m:2s left)
+Iteration 180 / LogL: -5885.166 / Time: 0h:0m:41s (0h:0m:1s left)
+Iteration 190 / LogL: -5884.643 / Time: 0h:0m:41s (0h:0m:0s left)
+Iteration 200 / LogL: -5887.205 / Time: 0h:0m:42s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5917.679
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5884.515
+Optimal log-likelihood: -5884.513
+Rate parameters:  A-C: 1.94290  A-G: 18.84314  A-T: 4.60466  C-G: 0.81491  C-T: 26.03367  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.283  G: 0.188  T: 0.286
+Proportion of invariable sites: 0.604
+Gamma shape alpha: 1.315
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -5884.513
+Creating bootstrap support values...
+Split supports printed to NEXUS file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.splits.nex
+Total tree length: 4.218
+
+Total number of iterations: 200
+CPU time used for tree search: 27.625 sec (0h:0m:27s)
+Wall-clock time used for tree search: 15.343 sec (0h:0m:15s)
+Total CPU time used: 78.047 sec (0h:1m:18s)
+Total wall-clock time used: 42.857 sec (0h:0m:42s)
+
+Computing bootstrap consensus tree...
+Reading input file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.splits.nex...
+29 taxa and 271 splits.
+Consensus tree written to C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.contree
+Reading input trees file C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.contree
+Log-likelihood of consensus tree: -5884.513
+
+Analysis results written to: 
+  IQ-TREE report:                C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.iqtree
+  Maximum-likelihood tree:       C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.treefile
+  Likelihood distances:          C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.splits.nex
+  Consensus tree:                C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.contree
+  Screen log file:               C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species.log
+
+Date and Time: Sat Nov 21 22:09:55 2026

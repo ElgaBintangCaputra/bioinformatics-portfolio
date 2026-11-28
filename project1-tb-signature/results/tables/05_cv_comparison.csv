@@ -1,0 +1,5 @@
+Model,CV_AUC,CV_Accuracy,CV_F1
+RandomForest,0.9358,0.9116,0.8738
+LogisticRegression (L1),0.9309,0.9048,0.8679
+8-Gen Signature (Nested 5x4-Fold CV),0.9265,0.8776,0.8302
+Linear SVM,0.9054,0.8776,0.8235

@@ -1,0 +1,4 @@
+Model,CV_Accuracy,Macro_F1
+Random Forest (6-mer),0.9738,0.9736
+1-NN Cosine (Baseline mirip BLAST),0.9607,0.9584
+Linear SVM (6-mer),0.9214,0.9013

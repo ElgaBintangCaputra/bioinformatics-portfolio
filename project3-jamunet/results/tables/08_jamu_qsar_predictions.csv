@@ -1,0 +1,28 @@
+compound,plants,pred_dpp4_pchembl,pred_dpp4_prob_active,max_tanimoto_dpp4_train,applicability_domain,n_pains_alerts,pains_detail,n_brenk_alerts,brenk_detail
+borapetoside C,Brotowali,5.527,0.332,0.1441,Extrapolation / Natural Product (<0.25),0,Bersih,0,Bersih
+ar-turmerone,Kunyit,5.489,0.216,0.1915,Extrapolation / Natural Product (<0.25),0,Bersih,1,Michael_acceptor_1
+"14-deoxy-11,12-didehydroandrographolide",Sambiloto,5.482,0.304,0.1392,Extrapolation / Natural Product (<0.25),0,Bersih,1,isolated_alkene
+andrograpanin,Sambiloto,5.46,0.3,0.1733,Extrapolation / Natural Product (<0.25),0,Bersih,1,isolated_alkene
+neoandrographolide,Sambiloto,5.434,0.292,0.1429,Extrapolation / Natural Product (<0.25),0,Bersih,1,isolated_alkene
+14-deoxyandrographolide,Sambiloto,5.432,0.292,0.1558,Extrapolation / Natural Product (<0.25),0,Bersih,1,isolated_alkene
+borapetoside A,Brotowali,5.268,0.267,0.1327,Extrapolation / Natural Product (<0.25),0,Bersih,1,saponine_derivative
+demethoxycurcumin,Kunyit,5.267,0.152,0.2581,Inside AD (>=0.25),0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+curcumin,Kunyit,5.267,0.148,0.2759,Inside AD (>=0.25),0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+quercetin,Salam,5.245,0.204,0.1636,Extrapolation / Natural Product (<0.25),1,catechol_A(92),1,catechol
+kaempferol,Mahkota dewa,5.242,0.208,0.1923,Extrapolation / Natural Product (<0.25),0,Bersih,0,Bersih
+eugenol,Kayu manis; Salam,5.201,0.112,0.2456,Extrapolation / Natural Product (<0.25),0,Bersih,1,isolated_alkene
+gallic acid,Mahkota dewa; Salam,5.193,0.14,0.1667,Extrapolation / Natural Product (<0.25),1,catechol_A(92),1,catechol
+N-trans-feruloyltyramine,Brotowali,5.17,0.2,0.2319,Extrapolation / Natural Product (<0.25),0,Bersih,1,Michael_acceptor_1
+rutin,Salam,5.168,0.24,0.1341,Extrapolation / Natural Product (<0.25),1,catechol_A(92),1,catechol
+cinnamic acid,Kayu manis,5.138,0.06,0.2432,Extrapolation / Natural Product (<0.25),0,Bersih,1,Michael_acceptor_1
+bisdemethoxycurcumin,Kunyit,5.138,0.16,0.2619,Inside AD (>=0.25),0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+caffeic acid,Salam,5.106,0.088,0.1591,Extrapolation / Natural Product (<0.25),1,catechol_A(92),2,catechol; Michael_acceptor_1
+berberine,Brotowali,5.071,0.184,0.1781,Extrapolation / Natural Product (<0.25),0,Bersih,1,quaternary_nitrogen_1
+palmatine,Brotowali,5.062,0.172,0.1831,Extrapolation / Natural Product (<0.25),0,Bersih,1,quaternary_nitrogen_1
+coumarin,Kayu manis,5.013,0.152,0.1591,Extrapolation / Natural Product (<0.25),0,Bersih,1,cumarine
+andrographolide,Sambiloto,4.964,0.282,0.1304,Extrapolation / Natural Product (<0.25),0,Bersih,2,isolated_alkene; Michael_acceptor_1
+cinnamaldehyde,Kayu manis,4.964,0.064,0.1842,Extrapolation / Natural Product (<0.25),0,Bersih,2,aldehyde; Michael_acceptor_1
+naringenin,Mahkota dewa,4.864,0.128,0.1964,Extrapolation / Natural Product (<0.25),0,Bersih,0,Bersih
+mangiferin,Mahkota dewa,4.853,0.148,0.1447,Extrapolation / Natural Product (<0.25),1,catechol_A(92),2,catechol; Polycyclic_aromatic_hydrocarbon_2
+catechin,Salam,4.798,0.164,0.1525,Extrapolation / Natural Product (<0.25),1,catechol_A(92),1,catechol
+procyanidin B2,Kayu manis,4.766,0.176,0.125,Extrapolation / Natural Product (<0.25),1,catechol_A(92),1,catechol

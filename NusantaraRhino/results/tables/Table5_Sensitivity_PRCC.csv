@@ -1,0 +1,6 @@
+Parameter,PRCC_QuasiExt,p_val_PRCC_QuasiExt,PRCC_FinalN,p_val_PRCC_FinalN,Spearman_r_QuasiExt,p_val_QuasiExt,Spearman_r_FinalN,p_val_FinalN
+adult_survival,-0.8465,0.0,0.9278,0.0,-0.7274,0.0,0.7557,0.0
+calf_survival,-0.674,0.0,0.8392,0.0,-0.4367,0.0078,0.4988,0.002
+annual_conception_prob,-0.6326,0.0001,0.7359,0.0,-0.1438,0.4028,0.1122,0.5146
+catastrophe_prob,0.407,0.0208,-0.6793,0.0,-0.059,0.7324,0.0165,0.924
+carrying_capacity_K,-0.2782,0.1232,0.3288,0.0661,-0.3064,0.0691,0.2626,0.1218

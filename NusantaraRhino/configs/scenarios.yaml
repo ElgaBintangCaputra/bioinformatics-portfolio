@@ -1,0 +1,88 @@
+project: "NusantaraRhino"
+random_seed: 2026
+horizon_years: 100
+n_replicates: 250
+
+scenarios:
+  A_Baseline_UKNP:
+    label: "Skenario A: Ujung Kulon Baseline (Populasi Tunggal)"
+    n_sites: 1
+    initial_n_site1: 76
+    k_site1: 80
+    chronic_survival_drag: 0.008
+    management_surv_boost: 0.0
+    catastrophe_prob: 0.02
+    catastrophe_severity: 0.35
+    catastrophe_corr: 0.0
+    founding_year: null
+    founder_size: 0
+    k_site2: 0
+    migrant_interval: null
+    migrants_per_event: 0
+
+  B_Managed_UKNP:
+    label: "Skenario B: Ujung Kulon Pengelolaan Intensif (In Situ)"
+    n_sites: 1
+    initial_n_site1: 76
+    k_site1: 105
+    chronic_survival_drag: 0.0
+    management_surv_boost: 0.015
+    catastrophe_prob: 0.018
+    catastrophe_severity: 0.30
+    catastrophe_corr: 0.0
+    founding_year: null
+    founder_size: 0
+    k_site2: 0
+    migrant_interval: null
+    migrants_per_event: 0
+
+  C_Metapop_Uncorrelated:
+    label: "Skenario C1: Metapopulasi Moderat (Korelasi Bencana rho=0.0)"
+    n_sites: 2
+    initial_n_site1: 76
+    k_site1: 90
+    chronic_survival_drag: 0.003
+    management_surv_boost: 0.008
+    catastrophe_prob: 0.02
+    catastrophe_severity: 0.35
+    catastrophe_corr: 0.0
+    founding_year: 5
+    founder_size: 14
+    k_site2: 70
+    translocation_mortality: 0.05
+    migrant_interval: 10
+    migrants_per_event: 2
+
+  C_Metapop_Correlated:
+    label: "Skenario C2: Metapopulasi Moderat (Korelasi Bencana Regional rho=0.6)"
+    n_sites: 2
+    initial_n_site1: 76
+    k_site1: 90
+    chronic_survival_drag: 0.003
+    management_surv_boost: 0.008
+    catastrophe_prob: 0.02
+    catastrophe_severity: 0.35
+    catastrophe_corr: 0.6
+    founding_year: 5
+    founder_size: 14
+    k_site2: 70
+    translocation_mortality: 0.05
+    migrant_interval: 10
+    migrants_per_event: 2
+
+  D_Integrated_Managed_Metapop:
+    label: "Skenario D: Strategi Terintegrasi Penuh (Intensif UKNP + Metapopulasi rho=0.0)"
+    n_sites: 2
+    initial_n_site1: 76
+    k_site1: 105
+    chronic_survival_drag: 0.0
+    management_surv_boost: 0.015
+    catastrophe_prob: 0.018
+    catastrophe_severity: 0.30
+    catastrophe_corr: 0.0
+    founding_year: 5
+    founder_size: 14
+    k_site2: 70
+    translocation_mortality: 0.05
+    migrant_interval: 10
+    migrants_per_event: 2

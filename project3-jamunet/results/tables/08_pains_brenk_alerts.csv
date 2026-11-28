@@ -1,0 +1,28 @@
+compound,n_pains_alerts,pains_detail,n_brenk_alerts,brenk_detail
+"14-deoxy-11,12-didehydroandrographolide",0,Bersih,1,isolated_alkene
+14-deoxyandrographolide,0,Bersih,1,isolated_alkene
+N-trans-feruloyltyramine,0,Bersih,1,Michael_acceptor_1
+andrograpanin,0,Bersih,1,isolated_alkene
+andrographolide,0,Bersih,2,isolated_alkene; Michael_acceptor_1
+ar-turmerone,0,Bersih,1,Michael_acceptor_1
+berberine,0,Bersih,1,quaternary_nitrogen_1
+bisdemethoxycurcumin,0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+borapetoside A,0,Bersih,1,saponine_derivative
+borapetoside C,0,Bersih,0,Bersih
+caffeic acid,1,catechol_A(92),2,catechol; Michael_acceptor_1
+catechin,1,catechol_A(92),1,catechol
+cinnamaldehyde,0,Bersih,2,aldehyde; Michael_acceptor_1
+cinnamic acid,0,Bersih,1,Michael_acceptor_1
+coumarin,0,Bersih,1,cumarine
+curcumin,0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+demethoxycurcumin,0,Bersih,2,beta-keto/anhydride; Michael_acceptor_1
+eugenol,0,Bersih,1,isolated_alkene
+gallic acid,1,catechol_A(92),1,catechol
+kaempferol,0,Bersih,0,Bersih
+mangiferin,1,catechol_A(92),2,catechol; Polycyclic_aromatic_hydrocarbon_2
+naringenin,0,Bersih,0,Bersih
+neoandrographolide,0,Bersih,1,isolated_alkene
+palmatine,0,Bersih,1,quaternary_nitrogen_1
+procyanidin B2,1,catechol_A(92),1,catechol
+quercetin,1,catechol_A(92),1,catechol
+rutin,1,catechol_A(92),1,catechol

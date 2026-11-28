@@ -1,0 +1,12 @@
+dataset,group,jumlah_sampel
+GSE19439,Active_TB,13
+GSE19439,Healthy,12
+GSE19439,Latent_TB,17
+GSE19442,Active_TB,20
+GSE19442,Latent_TB,31
+GSE19444,Active_TB,21
+GSE19444,Healthy,12
+GSE19444,Latent_TB,21
+GSE37250,Active_TB,195
+GSE37250,Latent_TB,167
+GSE37250,Other_Disease,175

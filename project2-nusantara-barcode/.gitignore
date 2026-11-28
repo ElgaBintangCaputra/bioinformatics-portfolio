@@ -1,0 +1,9 @@
+data/raw/
+data/processed/
+results/models/*.joblib
+tools/mafft/
+tools/iqtree-2.3.6-Windows/
+tools/*.zip
+__pycache__/
+*.pyc
+.venv/

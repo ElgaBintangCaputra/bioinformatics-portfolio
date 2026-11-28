@@ -1,0 +1,3 @@
+attractor_id,tipe,interpretasi,ukuran_basin,persen_state_space,Mtb_Load,TLR2_4,IFNG,STAT1,IRF1,GBP1,FCGR1A,SOCS1
+1,Fixed Point,Sehat / Bebas Infeksi (Steady State),144,56.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,Limit Cycle (periode 4),Infeksi Aktif / Osilasi Imun-SOCS1,112,43.8,1.0,1.0,1.0,0.5,1.0,0.5,1.0,0.5

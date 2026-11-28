@@ -1,0 +1,18 @@
+project_name: "TB-Signature"
+discovery_series:
+  - "GSE19444"
+  - "GSE19439"
+  - "GSE19442"
+external_validation_series: "GSE37250"
+platforms:
+  discovery: "GPL6947"
+  validation: "GPL10558"
+preprocessing:
+  variance_keep_fraction: 0.50
+differential_expression:
+  fdr_threshold: 0.05
+  min_abs_log2fc: 0.50
+machine_learning:
+  cv_folds: 5
+  signature_size: 8
+  random_state: 42

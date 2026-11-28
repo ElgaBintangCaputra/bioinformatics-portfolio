@@ -1,0 +1,7 @@
+Scenario,Python_IBM_Mean_Final_N,Python_IBM_Extinction_Pct,Python_IBM_Final_He,Vortex_10_Status,Vortex_10_Extinction_Pct,Vortex_10_Mean_Final_N
+A_Baseline_UKNP,19.3,7.2,0.4318,Template Ready (Vortex 10 binary not installed locally),Pending,Pending
+B_Managed_UKNP,81.2,0.0,0.5195,Template Ready (Vortex 10 binary not installed locally),Pending,Pending
+C_Metapop_Uncorrelated,62.76,0.0,0.5111,Template Ready (Vortex 10 binary not installed locally),Pending,Pending
+C_Metapop_Correlated,61.46,1.6,0.4998,Template Ready (Vortex 10 binary not installed locally),Pending,Pending
+D_Integrated_Managed_Metapop,107.1,0.0,0.5254,Template Ready (Vortex 10 binary not installed locally),Pending,Pending
+A_2015_Anchor_N60 (CPSG 2015 Baseline Sensitivity),20.51,11.33,0.4166,CPSG 2015 Reference Anchor (see PHVA 2015 PDF),Compare externally in Vortex 10,Compare externally in Vortex 10

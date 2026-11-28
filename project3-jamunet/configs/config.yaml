@@ -1,0 +1,17 @@
+project_name: "JamuNet"
+disease:
+  name: "Type 2 diabetes mellitus"
+  mondo_id: "MONDO_0005148"
+  open_targets_max_pages: 6
+  open_targets_min_score: 0.02
+chembl:
+  min_pchembl: 5.5
+  qsar_target_id: "CHEMBL284"   # Human DPP4
+  qsar_max_records: 500
+string_ppi:
+  species_ncbi_taxid: 9606
+  min_combined_score: 400       # 0.4 medium confidence
+scoring_weights:
+  network_target_centrality: 0.45
+  qed_druglikeness: 0.30
+  tanimoto_drug_similarity: 0.25

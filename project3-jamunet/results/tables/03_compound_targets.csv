@@ -1,0 +1,174 @@
+compound,plants,molecule_chembl_id,target_chembl_id,gene_symbol,target_name,max_pchembl,n_assays
+curcumin,Kunyit,CHEMBL140,CHEMBL2487,APP,Amyloid-beta precursor protein,9.68,11
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3397,CYP2C9,Cytochrome P450 2C9,8.9,2
+curcumin,Kunyit,CHEMBL140,CHEMBL4376,DYRK2,Dual specificity tyrosine-phosphorylation-regulated kinase 2,8.6,4
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL1978,CYP19A1,Aromatase,8.54,8
+rutin,Salam,CHEMBL226335,CHEMBL4822,BACE1,Beta-secretase 1,8.42,1
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL2326,CA7,Carbonic anhydrase 7,8.37,1
+curcumin,Kunyit,CHEMBL140,CHEMBL2424,GLO1,Lactoylglutathione lyase,8.3,1
+caffeic acid,Salam,CHEMBL145,CHEMBL321,MMP9,Matrix metalloproteinase-9,8.0,2
+quercetin,Salam,CHEMBL50,CHEMBL1978,CYP19A1,Aromatase,7.92,1
+rutin,Salam,CHEMBL226335,CHEMBL220,ACHE,Acetylcholinesterase,7.92,1
+curcumin,Kunyit,CHEMBL140,CHEMBL4081,F3,Tissue factor,7.88,3
+quercetin,Salam,CHEMBL50,CHEMBL1900,AKR1B1,Aldo-keto reductase family 1 member B1,7.83,6
+quercetin,Salam,CHEMBL50,CHEMBL4878,CYP1B1,Cytochrome P450 1B1,7.64,8
+caffeic acid,Salam,CHEMBL145,CHEMBL333,MMP2,72 kDa type IV collagenase,7.62,1
+quercetin,Salam,CHEMBL50,CHEMBL2147,PIM1,Serine/threonine-protein kinase pim-1,7.6,5
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL2326,CA7,Carbonic anhydrase 7,7.6,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3201,AHR,Aryl hydrocarbon receptor,7.55,1
+quercetin,Salam,CHEMBL50,CHEMBL5393,ABCG2,Broad substrate specificity ATP-binding cassette transporter ABCG2,7.52,3
+berberine,Brotowali,CHEMBL295124,CHEMBL2140,TDO2,"Tryptophan 2,3-dioxygenase",7.52,1
+quercetin,Salam,CHEMBL50,CHEMBL204,F2,Prothrombin,7.41,2
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL4878,CYP1B1,Cytochrome P450 1B1,7.37,2
+berberine,Brotowali,CHEMBL295124,CHEMBL4878,CYP1B1,Cytochrome P450 1B1,7.36,4
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3242,CA12,Carbonic anhydrase 12,7.35,1
+coumarin,Kayu manis,CHEMBL6466,CHEMBL3510,CA14,Carbonic anhydrase 14,7.32,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL4159,HSD17B10,3-hydroxyacyl-CoA dehydrogenase type-2,7.3,1
+bisdemethoxycurcumin,Kunyit,CHEMBL105350,CHEMBL5983,AKR1B10,Aldo-keto reductase family 1 member B10,7.22,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL3596077,FUT7,"Alpha-(1,3)-fucosyltransferase 7",7.22,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3356,CYP1A2,Cytochrome P450 1A2,7.1,2
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3729,CA4,Carbonic anhydrase 4,7.1,1
+berberine,Brotowali,CHEMBL295124,CHEMBL220,ACHE,Acetylcholinesterase,7.0,3
+curcumin,Kunyit,CHEMBL140,CHEMBL1795168,CISD1,CDGSH iron-sulfur domain-containing protein 1,7.0,2
+quercetin,Salam,CHEMBL50,CHEMBL267,SRC,Proto-oncogene tyrosine-protein kinase Src,6.92,1
+quercetin,Salam,CHEMBL50,CHEMBL4159,HSD17B10,3-hydroxyacyl-CoA dehydrogenase type-2,6.9,4
+caffeic acid,Salam,CHEMBL145,CHEMBL227,AGTR1,Type-1 angiotensin II receptor,6.9,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1795168,CISD1,CDGSH iron-sulfur domain-containing protein 1,6.88,2
+caffeic acid,Salam,CHEMBL145,CHEMBL3251,NFKB1,Nuclear factor NF-kappa-B p105 subunit,6.85,2
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3242,CA12,Carbonic anhydrase 12,6.84,1
+curcumin,Kunyit,CHEMBL140,CHEMBL5543,DYRK1B,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,6.83,1
+quercetin,Salam,CHEMBL50,CHEMBL5162,NPSR1,Neuropeptide S receptor,6.8,1
+quercetin,Salam,CHEMBL50,CHEMBL321,MMP9,Matrix metalloproteinase-9,6.76,2
+curcumin,Kunyit,CHEMBL140,CHEMBL5658,PTGES,Prostaglandin E synthase,6.7,5
+quercetin,Salam,CHEMBL50,CHEMBL2392,POLB,DNA polymerase beta,6.7,1
+curcumin,Kunyit,CHEMBL140,CHEMBL6152,SNCA,Alpha-synuclein,6.66,3
+coumarin,Kayu manis,CHEMBL6466,CHEMBL3580487,SOST,Sclerostin,6.64,2
+caffeic acid,Salam,CHEMBL145,CHEMBL332,MMP1,Interstitial collagenase,6.62,1
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL284,DPP4,Dipeptidyl peptidase 4,6.62,1
+mangiferin,Mahkota dewa,CHEMBL464825,CHEMBL321,MMP9,Matrix metalloproteinase-9,6.6,1
+berberine,Brotowali,CHEMBL295124,CHEMBL4685,IDO1,"Indoleamine 2,3-dioxygenase 1",6.58,1
+rutin,Salam,CHEMBL226335,CHEMBL2311236,HMGB1,High mobility group protein B1,6.58,1
+quercetin,Salam,CHEMBL50,CHEMBL1929,XDH,Xanthine dehydrogenase/oxidase,6.55,4
+quercetin,Salam,CHEMBL50,CHEMBL279,KDR,Vascular endothelial growth factor receptor 2,6.55,2
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL1293235,LMNA,Prelamin-A/C,6.55,1
+curcumin,Kunyit,CHEMBL140,CHEMBL2292,DYRK1A,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,6.52,1
+quercetin,Salam,CHEMBL50,CHEMBL1957,IGF1R,Insulin-like growth factor 1 receptor,6.52,1
+quercetin,Salam,CHEMBL50,CHEMBL3356,CYP1A2,Cytochrome P450 1A2,6.5,2
+curcumin,Kunyit,CHEMBL140,CHEMBL5162,NPSR1,Neuropeptide S receptor,6.5,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL1293226,KDM4E,Lysine-specific demethylase 4E,6.45,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL2789,HSD17B2,17-beta-hydroxysteroid dehydrogenase type 2,6.44,2
+curcumin,Kunyit,CHEMBL140,CHEMBL205,CA2,Carbonic anhydrase 2,6.42,1
+quercetin,Salam,CHEMBL50,CHEMBL3687,ALOX12,Polyunsaturated fatty acid lipoxygenase ALOX12,6.36,3
+quercetin,Salam,CHEMBL50,CHEMBL308,CDK1,Cyclin-dependent kinase 1,6.35,1
+quercetin,Salam,CHEMBL50,CHEMBL2073,YES1,Tyrosine-protein kinase Yes,6.33,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL284,DPP4,Dipeptidyl peptidase 4,6.31,1
+curcumin,Kunyit,CHEMBL140,CHEMBL215,ALOX5,Polyunsaturated fatty acid 5-lipoxygenase,6.3,4
+palmatine,Brotowali,CHEMBL206106,CHEMBL1293235,LMNA,Prelamin-A/C,6.3,1
+quercetin,Salam,CHEMBL50,CHEMBL4822,BACE1,Beta-secretase 1,6.26,1
+"14-deoxy-11,12-didehydroandrographolide",Sambiloto,CHEMBL361568,CHEMBL5522,TRPV3,Transient receptor potential cation channel subfamily V member 3,6.25,3
+caffeic acid,Salam,CHEMBL145,CHEMBL1293226,KDM4E,Lysine-specific demethylase 4E,6.25,1
+berberine,Brotowali,CHEMBL295124,CHEMBL239,PPARA,Peroxisome proliferator-activated receptor alpha,6.24,2
+quercetin,Salam,CHEMBL50,CHEMBL3717,MET,Hepatocyte growth factor receptor,6.24,1
+quercetin,Salam,CHEMBL50,CHEMBL1974,FLT3,Receptor-type tyrosine-protein kinase FLT3,6.23,1
+quercetin,Salam,CHEMBL50,CHEMBL1293236,RECQL,ATP-dependent DNA helicase Q1,6.2,7
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL2231,CYP1A1,Cytochrome P450 1A1,6.2,2
+cinnamaldehyde,Kayu manis,CHEMBL293492,CHEMBL1293235,LMNA,Prelamin-A/C,6.2,1
+quercetin,Salam,CHEMBL50,CHEMBL2231,CYP1A1,Cytochrome P450 1A1,6.18,3
+quercetin,Salam,CHEMBL50,CHEMBL1250375,NOX4,NADPH oxidase 4,6.17,1
+quercetin,Salam,CHEMBL50,CHEMBL4523488,IP6K2,Inositol hexakisphosphate kinase 2,6.16,1
+curcumin,Kunyit,CHEMBL140,CHEMBL1951,MAOA,Amine oxidase [flavin-containing] A,6.15,3
+quercetin,Salam,CHEMBL50,CHEMBL215,ALOX5,Polyunsaturated fatty acid 5-lipoxygenase,6.1,3
+bisdemethoxycurcumin,Kunyit,CHEMBL105350,CHEMBL2039,MAOB,Amine oxidase [flavin-containing] B,6.1,2
+quercetin,Salam,CHEMBL50,CHEMBL2903,ALOX15,Polyunsaturated fatty acid lipoxygenase ALOX15,6.1,2
+caffeic acid,Salam,CHEMBL145,CHEMBL1075138,TDP1,Tyrosyl-DNA phosphodiesterase 1,6.1,1
+coumarin,Kayu manis,CHEMBL6466,CHEMBL1293235,LMNA,Prelamin-A/C,6.1,1
+quercetin,Salam,CHEMBL50,CHEMBL2487,APP,Amyloid-beta precursor protein,6.09,2
+quercetin,Salam,CHEMBL50,CHEMBL1865,HDAC6,Protein deacetylase HDAC6,6.09,1
+andrographolide,Sambiloto,CHEMBL186141,CHEMBL2083,FABP4,"Fatty acid-binding protein, adipocyte",6.05,1
+quercetin,Salam,CHEMBL50,CHEMBL203,EGFR,Epidermal growth factor receptor,6.05,1
+demethoxycurcumin,Kunyit,CHEMBL105360,CHEMBL1951,MAOA,Amine oxidase [flavin-containing] A,6.04,1
+quercetin,Salam,CHEMBL50,CHEMBL2185,AURKB,Aurora kinase B,6.04,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL3713355,GALNT2,Polypeptide N-acetylgalactosaminyltransferase 2,6.03,2
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3305,SHBG,Sex hormone-binding globulin,6.02,1
+quercetin,Salam,CHEMBL50,CHEMBL4895,AXL,Tyrosine-protein kinase receptor UFO,6.02,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL1075138,TDP1,Tyrosyl-DNA phosphodiesterase 1,6.0,2
+quercetin,Salam,CHEMBL50,CHEMBL4096,TP53,Cellular tumor antigen p53,6.0,2
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1973,TYR,Tyrosinase,6.0,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3181,HSD17B1,17-beta-hydroxysteroid dehydrogenase type 1,5.98,1
+palmatine,Brotowali,CHEMBL206106,CHEMBL3784,EP300,Histone acetyltransferase p300,5.98,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1929,XDH,Xanthine dehydrogenase/oxidase,5.97,1
+quercetin,Salam,CHEMBL50,CHEMBL230,PTGS2,Prostaglandin G/H synthase 2,5.97,1
+berberine,Brotowali,CHEMBL295124,CHEMBL1914,BCHE,Cholinesterase,5.96,1
+curcumin,Kunyit,CHEMBL140,CHEMBL1075138,TDP1,Tyrosyl-DNA phosphodiesterase 1,5.95,2
+quercetin,Salam,CHEMBL50,CHEMBL2439,MPO,Myeloperoxidase,5.94,4
+quercetin,Salam,CHEMBL50,CHEMBL3629,CSNK2A1,Casein kinase II subunit alpha,5.93,2
+quercetin,Salam,CHEMBL50,CHEMBL3721,CYP2C8,Cytochrome P450 2C8,5.92,2
+curcumin,Kunyit,CHEMBL140,CHEMBL2903,ALOX15,Polyunsaturated fatty acid lipoxygenase ALOX15,5.92,1
+demethoxycurcumin,Kunyit,CHEMBL105360,CHEMBL1900,AKR1B1,Aldo-keto reductase family 1 member B1,5.92,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1250375,NOX4,NADPH oxidase 4,5.92,1
+quercetin,Salam,CHEMBL50,CHEMBL2695,PTK2,Focal adhesion kinase 1,5.92,1
+rutin,Salam,CHEMBL226335,CHEMBL1075144,NMUR2,Neuromedin-U receptor 2,5.92,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL1293224,MAPT,Microtubule-associated protein tau,5.9,2
+quercetin,Salam,CHEMBL50,CHEMBL6136,KDM1A,Lysine-specific histone demethylase 1A,5.9,1
+quercetin,Salam,CHEMBL50,CHEMBL1250379,ELAVL1,ELAV-like protein 1,5.85,1
+quercetin,Salam,CHEMBL50,CHEMBL1951,MAOA,Amine oxidase [flavin-containing] A,5.82,4
+quercetin,Salam,CHEMBL50,CHEMBL1812,PNLIP,Pancreatic triacylglycerol lipase,5.82,1
+demethoxycurcumin,Kunyit,CHEMBL105360,CHEMBL4302,ABCB1,ATP-dependent translocase ABCB1,5.81,2
+quercetin,Salam,CHEMBL50,CHEMBL2789,HSD17B2,17-beta-hydroxysteroid dehydrogenase type 2,5.81,2
+catechin,Salam,CHEMBL311498,CHEMBL3580487,SOST,Sclerostin,5.8,2
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL4261,HIF1A,Hypoxia-inducible factor 1-alpha,5.8,2
+caffeic acid,Salam,CHEMBL145,CHEMBL205,CA2,Carbonic anhydrase 2,5.79,1
+curcumin,Kunyit,CHEMBL140,CHEMBL5393,ABCG2,Broad substrate specificity ATP-binding cassette transporter ABCG2,5.79,1
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3194,TTR,Transthyretin,5.79,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1865,HDAC6,Protein deacetylase HDAC6,5.77,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL2345,RPS6KA3,Ribosomal protein S6 kinase alpha-3,5.77,1
+palmatine,Brotowali,CHEMBL206106,CHEMBL220,ACHE,Acetylcholinesterase,5.77,1
+curcumin,Kunyit,CHEMBL140,CHEMBL2789,HSD17B2,17-beta-hydroxysteroid dehydrogenase type 2,5.76,1
+curcumin,Kunyit,CHEMBL140,CHEMBL1293235,LMNA,Prelamin-A/C,5.75,1
+quercetin,Salam,CHEMBL50,CHEMBL4105924,ELAVL3,ELAV-like protein 3,5.75,1
+curcumin,Kunyit,CHEMBL140,CHEMBL4589,GSTM2,Glutathione S-transferase Mu 2,5.74,1
+quercetin,Salam,CHEMBL50,CHEMBL2163182,SIRT6,NAD-dependent protein deacylase sirtuin-6,5.72,1
+quercetin,Salam,CHEMBL50,CHEMBL5983,AKR1B10,Aldo-keto reductase family 1 member B10,5.72,1
+caffeic acid,Salam,CHEMBL145,CHEMBL4159,HSD17B10,3-hydroxyacyl-CoA dehydrogenase type-2,5.7,1
+coumarin,Kayu manis,CHEMBL6466,CHEMBL3025,CA6,Carbonic anhydrase 6,5.7,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL3577,ALDH1A1,Aldehyde dehydrogenase 1A1,5.7,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1075138,TDP1,Tyrosyl-DNA phosphodiesterase 1,5.7,1
+quercetin,Salam,CHEMBL50,CHEMBL262,GSK3B,Glycogen synthase kinase-3 beta,5.7,1
+quercetin,Salam,CHEMBL50,CHEMBL4426,PLA2G1B,Phospholipase A2,5.7,1
+quercetin,Salam,CHEMBL50,CHEMBL4662,PSMB5,Proteasome Macropain subunit MB1,5.7,1
+quercetin,Salam,CHEMBL50,CHEMBL340,CYP3A4,Cytochrome P450 3A4,5.68,1
+rutin,Salam,CHEMBL226335,CHEMBL6136,KDM1A,Lysine-specific histone demethylase 1A,5.67,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL205,CA2,Carbonic anhydrase 2,5.65,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL2439,MPO,Myeloperoxidase,5.65,1
+curcumin,Kunyit,CHEMBL140,CHEMBL4235,HSD11B1,11-beta-hydroxysteroid dehydrogenase 1,5.64,1
+quercetin,Salam,CHEMBL50,CHEMBL4523401,IPMK,Inositol polyphosphate multikinase,5.64,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL1974,FLT3,Receptor-type tyrosine-protein kinase FLT3,5.63,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL3004,ABCC1,Multidrug resistance-associated protein 1,5.62,2
+caffeic acid,Salam,CHEMBL145,CHEMBL261,CA1,Carbonic anhydrase 1,5.62,1
+curcumin,Kunyit,CHEMBL140,CHEMBL261,CA1,Carbonic anhydrase 1,5.62,1
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3004,ABCC1,Multidrug resistance-associated protein 1,5.62,1
+quercetin,Salam,CHEMBL50,CHEMBL3004,ABCC1,Multidrug resistance-associated protein 1,5.62,1
+demethoxycurcumin,Kunyit,CHEMBL105360,CHEMBL2039,MAOB,Amine oxidase [flavin-containing] B,5.61,1
+berberine,Brotowali,CHEMBL295124,CHEMBL289,CYP2D6,Cytochrome P450 2D6,5.6,2
+berberine,Brotowali,CHEMBL295124,CHEMBL4261,HIF1A,Hypoxia-inducible factor 1-alpha,5.6,2
+quercetin,Salam,CHEMBL50,CHEMBL1293224,MAPT,Microtubule-associated protein tau,5.6,2
+quercetin,Salam,CHEMBL50,CHEMBL5401,STAT6,Signal transducer and activator of transcription 6,5.6,2
+cinnamaldehyde,Kayu manis,CHEMBL293492,CHEMBL3577,ALDH1A1,Aldehyde dehydrogenase 1A1,5.6,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL4523488,IP6K2,Inositol hexakisphosphate kinase 2,5.6,1
+curcumin,Kunyit,CHEMBL140,CHEMBL2039,MAOB,Amine oxidase [flavin-containing] B,5.59,3
+quercetin,Salam,CHEMBL50,CHEMBL205,CA2,Carbonic anhydrase 2,5.59,1
+kaempferol,Mahkota dewa,CHEMBL150,CHEMBL215,ALOX5,Polyunsaturated fatty acid 5-lipoxygenase,5.57,1
+quercetin,Salam,CHEMBL50,CHEMBL261,CA1,Carbonic anhydrase 1,5.57,1
+caffeic acid,Salam,CHEMBL145,CHEMBL1293235,LMNA,Prelamin-A/C,5.55,1
+quercetin,Salam,CHEMBL50,CHEMBL4394,SPHK1,Sphingosine kinase 1,5.55,1
+caffeic acid,Salam,CHEMBL145,CHEMBL3774295,KDM5B,Lysine-specific demethylase 5B,5.54,1
+quercetin,Salam,CHEMBL50,CHEMBL220,ACHE,Acetylcholinesterase,5.54,1
+quercetin,Salam,CHEMBL50,CHEMBL284,DPP4,Dipeptidyl peptidase 4,5.54,1
+curcumin,Kunyit,CHEMBL140,CHEMBL1293224,MAPT,Microtubule-associated protein tau,5.52,3
+quercetin,Salam,CHEMBL50,CHEMBL4121,CAMK2B,Calcium/calmodulin-dependent protein kinase type II subunit beta,5.52,1
+coumarin,Kayu manis,CHEMBL6466,CHEMBL261,CA1,Carbonic anhydrase 1,5.51,9
+caffeic acid,Salam,CHEMBL145,CHEMBL335,PTPN1,Tyrosine-protein phosphatase non-receptor type 1,5.51,1
+gallic acid,Mahkota dewa; Salam,CHEMBL288114,CHEMBL261,CA1,Carbonic anhydrase 1,5.5,1
+naringenin,Mahkota dewa,CHEMBL9352,CHEMBL3356,CYP1A2,Cytochrome P450 1A2,5.5,1
+quercetin,Salam,CHEMBL50,CHEMBL2424,GLO1,Lactoylglutathione lyase,5.5,1
+rutin,Salam,CHEMBL226335,CHEMBL2608,GAA,Lysosomal alpha-glucosidase,5.5,1

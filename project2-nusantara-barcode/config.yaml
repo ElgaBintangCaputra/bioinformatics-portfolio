@@ -1,0 +1,112 @@
+# =====================================================================
+# config.yaml — Pusat pengaturan pipeline NusantaraBarcode
+# ---------------------------------------------------------------------
+# Semua skrip di folder src/ membaca file ini. Kalau ingin mengganti
+# kelompok ikan, gen, atau filter, CUKUP ubah file ini — kode tidak perlu
+# disentuh. Inilah prinsip "config-driven pipeline" yang dipakai di
+# lingkungan Bio-HPC (Snakemake/Nextflow juga memakai file config).
+# =====================================================================
+
+project_name: "NusantaraBarcode"
+
+# --- Pengaturan NCBI Entrez -----------------------------------------
+entrez:
+  # NCBI mewajibkan alamat email. Ganti dengan email Anda sendiri.
+  email: "pelajar.smk@example.com"
+  # Jeda antar-permintaan (detik). Tanpa API key, NCBI membatasi
+  # maksimal 3 permintaan/detik -> 0.4 detik sudah aman.
+  delay_seconds: 0.4
+  # Jumlah ID maksimum yang dicari per spesies
+  retmax_search: 60
+
+# --- Gen penanda (barcode) -------------------------------------------
+gene:
+  name: "COI"
+  # Kata kunci pencarian gen di GenBank (digabung dengan OR)
+  query_terms:
+    - "COI[Gene]"
+    - "COX1[Gene]"
+    - "CO1[Gene]"
+    - "cytochrome oxidase subunit I[Title]"
+    - "cytochrome c oxidase subunit I[Title]"
+  # Rentang panjang record GenBank yang dicari (pasang basa)
+  min_record_length: 500
+  max_record_length: 1600
+
+# --- Filter kualitas sekuens -----------------------------------------
+filters:
+  min_length: 550          # sekuens lebih pendek dari ini dibuang
+  max_ambiguous_frac: 0.01 # maksimal 1% basa ambigu (N, R, Y, ...)
+  max_per_species: 8       # ambil paling banyak 8 sekuens per spesies
+  min_per_species: 3       # spesies dengan < 3 sekuens dikeluarkan
+  prefer_country: "Indonesia" # sampel dari Indonesia diprioritaskan
+
+# --- Pengaturan alignment & trimming ---------------------------------
+alignment:
+  mafft_threads: 2
+  # kolom alignment dipertahankan bila >= 80% sekuens punya basa di situ
+  min_column_occupancy: 0.80
+  # sekuens dibuang bila menutupi < 85% kolom hasil trimming
+  min_seq_coverage: 0.85
+
+# --- Pohon filogenetik -------------------------------------------------
+phylogeny:
+  nj_bootstrap: 100        # jumlah ulangan bootstrap untuk pohon NJ
+  iqtree_model: "MFP"      # MFP = ModelFinder memilih model terbaik
+  iqtree_ufboot: 1000      # ultrafast bootstrap IQ-TREE
+  outgroup_family: "Scombridae"  # famili yang dipakai sebagai akar
+
+# --- Machine learning (identifikasi bebas-alignment) -----------------
+ml:
+  k: 6                     # panjang k-mer
+  cv_folds: 3              # stratified k-fold cross-validation
+  random_state: 42
+
+# --- Lokasi file -------------------------------------------------------
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"
+  models_dir: "results/models"
+  tools_dir: "tools"
+  log_file: "results/pipeline.log"
+
+# --- Daftar takson -----------------------------------------------------
+# 29 spesies ikan konsumsi bernilai ekonomi tinggi di perairan Indonesia
+# (Segitiga Terumbu Karang / Coral Triangle). Ketiga famili ini sering
+# menjadi sasaran pemalsuan label (food fraud), misalnya kakap merah
+# diganti ikan lain, atau tuna sirip kuning dicampur tuna mata besar.
+taxa:
+  Lutjanidae:            # kakap
+    - Lutjanus argentimaculatus   # kakap bakau / mangrove jack
+    - Lutjanus malabaricus        # kakap merah malabar
+    - Lutjanus erythropterus      # kakap merah
+    - Lutjanus johnii             # kakap tanda-tanda
+    - Lutjanus sebae              # kakap merah bendera
+    - Lutjanus gibbus             # kakap paddletail
+    - Lutjanus bohar              # kakap merah bohar
+    - Lutjanus fulvus             # kakap ekor hitam
+    - Lutjanus russellii          # kakap russell
+    - Lutjanus vitta              # kakap garis
+    - Pristipomoides multidens    # kurisi bali / anggoli
+  Epinephelidae:         # kerapu
+    - Epinephelus coioides        # kerapu lumpur
+    - Epinephelus malabaricus     # kerapu malabar
+    - Epinephelus fuscoguttatus   # kerapu macan
+    - Epinephelus lanceolatus     # kerapu kertang
+    - Epinephelus areolatus       # kerapu totol
+    - Epinephelus bleekeri        # kerapu bleeker
+    - Plectropomus leopardus      # kerapu sunu
+    - Plectropomus maculatus      # kerapu sunu totol
+    - Cromileptes altivelis       # kerapu bebek / tikus
+    - Cephalopholis miniata       # kerapu hias merah
+  Scombridae:            # tuna & tongkol
+    - Thunnus albacares           # tuna sirip kuning
+    - Thunnus obesus              # tuna mata besar
+    - Thunnus alalunga            # albakora
+    - Katsuwonus pelamis          # cakalang
+    - Euthynnus affinis           # tongkol komo
+    - Auxis thazard               # tongkol krai
+    - Rastrelliger kanagurta      # kembung lelaki
+    - Scomberomorus commerson     # tenggiri

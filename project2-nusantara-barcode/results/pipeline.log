@@ -1,0 +1,145 @@
+22:02:37 [INFO] == Langkah 1: Mengunduh & Menyaring Sekuens COI dari NCBI GenBank ==
+22:02:39 [INFO]   [unduh] Lutjanus argentimaculatus: 60 catatan ditemukan...
+22:02:43 [INFO]   [unduh] Lutjanus malabaricus: 60 catatan ditemukan...
+22:02:46 [INFO]   [unduh] Lutjanus erythropterus: 60 catatan ditemukan...
+22:02:49 [INFO]   [unduh] Lutjanus johnii: 60 catatan ditemukan...
+22:02:52 [INFO]   [unduh] Lutjanus sebae: 31 catatan ditemukan...
+22:02:56 [INFO]   [unduh] Lutjanus gibbus: 60 catatan ditemukan...
+22:02:59 [INFO]   [unduh] Lutjanus bohar: 60 catatan ditemukan...
+22:03:04 [INFO]   [unduh] Lutjanus fulvus: 60 catatan ditemukan...
+22:03:08 [INFO]   [unduh] Lutjanus russellii: 60 catatan ditemukan...
+22:03:11 [INFO]   [unduh] Lutjanus vitta: 60 catatan ditemukan...
+22:03:14 [INFO]   [unduh] Pristipomoides multidens: 60 catatan ditemukan...
+22:03:17 [INFO]   [unduh] Epinephelus coioides: 60 catatan ditemukan...
+22:03:21 [INFO]   [unduh] Epinephelus malabaricus: 59 catatan ditemukan...
+22:03:25 [INFO]   [unduh] Epinephelus fuscoguttatus: 60 catatan ditemukan...
+22:03:28 [INFO]   [unduh] Epinephelus lanceolatus: 33 catatan ditemukan...
+22:03:31 [INFO]   [unduh] Epinephelus areolatus: 60 catatan ditemukan...
+22:03:34 [INFO]   [unduh] Epinephelus bleekeri: 60 catatan ditemukan...
+22:03:37 [INFO]   [unduh] Plectropomus leopardus: 60 catatan ditemukan...
+22:03:41 [INFO]   [unduh] Plectropomus maculatus: 60 catatan ditemukan...
+22:03:45 [INFO]   [unduh] Cromileptes altivelis: 46 catatan ditemukan...
+22:03:48 [INFO]   [unduh] Cephalopholis miniata: 60 catatan ditemukan...
+22:03:51 [INFO]   [unduh] Thunnus albacares: 60 catatan ditemukan...
+22:03:54 [INFO]   [unduh] Thunnus obesus: 60 catatan ditemukan...
+22:03:58 [INFO]   [unduh] Thunnus alalunga: 60 catatan ditemukan...
+22:04:02 [INFO]   [unduh] Katsuwonus pelamis: 60 catatan ditemukan...
+22:04:05 [INFO]   [unduh] Euthynnus affinis: 60 catatan ditemukan...
+22:04:08 [INFO]   [unduh] Auxis thazard: 60 catatan ditemukan...
+22:04:11 [INFO]   [unduh] Rastrelliger kanagurta: 60 catatan ditemukan...
+22:04:15 [INFO]   [unduh] Scomberomorus commerson: 60 catatan ditemukan...
+22:04:16 [INFO] Selesai Langkah 1: 232 sekuens dari 29 spesies (165 berlabel Indonesia).
+22:04:46 [INFO] [skip] 01_fetch_sequences.py -> 01_sequence_metadata.csv sudah ada.
+22:04:46 [INFO] [run] Menjalankan 02_align.py...
+22:04:49 [INFO] == Langkah 2: Multiple Sequence Alignment (MAFFT) & Trimming ==
+22:04:49 [INFO] Menjalankan MAFFT: cmd.exe /c C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\mafft\mafft-win\mafft.bat --auto --thread 2 C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\data\processed\coi_raw.fasta
+22:06:21 [INFO] == Langkah 2: Multiple Sequence Alignment (MAFFT) & Trimming ==
+22:06:21 [INFO] Menjalankan MAFFT: cmd.exe /c C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\mafft\mafft-win\mafft.bat --auto --thread 2 C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\data\processed\coi_raw.fasta
+22:06:52 [INFO] Alignment awal: 232 sekuens x 1635 kolom
+22:06:54 [INFO] Setelah trimming: 229 sekuens x 636 kolom (dibuang 3 sekuens pendek)
+22:06:54 [INFO] Selesai Langkah 2: 229 sekuens dari 29 spesies siap dianalisis.
+22:07:24 [INFO] == Langkah 3: Jarak Genetik K2P & Barcode Gap ==
+22:07:29 [INFO] 
+                             metrik   nilai
+                     Jumlah Sekuens     229
+                     Jumlah Spesies      29
+Rata-rata Jarak Intraspesifik (K2P)  0.0086
+ Maksimum Jarak Intraspesifik (K2P)  0.2304
+Rata-rata Jarak Interspesifik (K2P)  0.1998
+  Minimum Jarak Interspesifik (K2P)     0.0
+     Spesies dengan Barcode Gap > 0   25/29
+22:07:31 [INFO] Selesai Langkah 3.
+22:07:42 [INFO] == Langkah 5: Identifikasi Spesies Bebas-Alignment (6-mer + ML) ==
+22:07:48 [INFO] 
+                             Model  CV_Accuracy  Macro_F1
+             Random Forest (6-mer)       0.9738    0.9736
+1-NN Cosine (Baseline mirip BLAST)       0.9607    0.9584
+                Linear SVM (6-mer)       0.9214    0.9013
+22:07:53 [INFO] Selesai Langkah 5.
+22:08:02 [INFO] == Langkah 6: Peta Sebaran Geografis Sampel ==
+22:08:07 [INFO] Selesai Langkah 6 (224/229 sekuens terpetakan).
+22:08:51 [INFO] == Langkah 4: Rekonstruksi Pohon Filogenetik ==
+22:09:11 [INFO] Menjalankan IQ-TREE 2: C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\iqtree-2.3.6-Windows\bin\iqtree2.exe -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species_input.fasta -m MFP -B 1000 -T AUTO -pre C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_species -redo -quiet
+22:09:56 [INFO] Menjalankan IQ-TREE 2: C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\tools\iqtree-2.3.6-Windows\bin\iqtree2.exe -s C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full_input.fasta -m MFP -B 1000 -T AUTO -pre C:\Users\asuss\.gemini\antigravity\scratch\portofolio-bioinfo\project2-nusantara-barcode\results\trees\iqtree_full -redo -quiet
+22:14:10 [INFO] IQ-TREE ModelFinder: Best-fit model according to BIC: GTR+F+I+G4
+22:14:10 [INFO] Selesai Langkah 4.
+22:34:38 [INFO] == Langkah 3b: Genetika Populasi, Posisi Kodon, Audit GenBank & Monofili ==
+22:34:38 [INFO]   Rata-rata pi antar-individu per spesies: 0.00802 | Rata-rata Hd: 0.772
+22:34:38 [INFO]   Statistik Posisi Kodon (Bukti Evolusi Molekuler):
+Posisi_Kodon  Jumlah_Situs  Situs_Polimorfik  Persen_Polimorfik  GC_Persen
+    Posisi 1           212                54               25.5       57.9
+    Posisi 2           212                16                7.5       43.8
+    Posisi 3           212               206               97.2       38.9
+22:34:38 [INFO]   Audit GenBank: 20 sekuens anomali terdeteksi.
+22:34:38 [INFO] 
+                                          seq_id           nominal_species nominal_family  mean_dist_to_own_species                                nearest_other_seq  min_dist_to_other                       status_audit
+ GU673901.1|Lutjanus_argentimaculatus|Lutjanidae Lutjanus argentimaculatus     Lutjanidae                    0.0018 PQ813541.1|Epinephelus_malabaricus|Epinephelidae             0.0000      Suspek Mislabel / Kontaminasi
+ PX491277.1|Lutjanus_argentimaculatus|Lutjanidae Lutjanus argentimaculatus     Lutjanidae                    0.0018 PQ813541.1|Epinephelus_malabaricus|Epinephelidae             0.0000      Suspek Mislabel / Kontaminasi
+JN313043.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.0773    PV877696.1|Epinephelus_coioides|Epinephelidae             0.0356 Divergensi Dalam Tinggi (Kriptik?)
+PQ813541.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.2019  GU673901.1|Lutjanus_argentimaculatus|Lutjanidae             0.0000      Suspek Mislabel / Kontaminasi
+PQ813508.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.1332    PZ794527.1|Epinephelus_coioides|Epinephelidae             0.0973 Divergensi Dalam Tinggi (Kriptik?)
+PQ812465.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.0783    PZ794527.1|Epinephelus_coioides|Epinephelidae             0.0373 Divergensi Dalam Tinggi (Kriptik?)
+PQ812464.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.2131             OR918623.1|Lutjanus_vitta|Lutjanidae             0.0697 Divergensi Dalam Tinggi (Kriptik?)
+MN708926.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.0774    PZ794527.1|Epinephelus_coioides|Epinephelidae             0.0344 Divergensi Dalam Tinggi (Kriptik?)
+OQ386702.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.0773    PV877696.1|Epinephelus_coioides|Epinephelidae             0.0356 Divergensi Dalam Tinggi (Kriptik?)
+FJ237599.1|Epinephelus_malabaricus|Epinephelidae   Epinephelus malabaricus  Epinephelidae                    0.0789    PV877696.1|Epinephelus_coioides|Epinephelidae             0.0356 Divergensi Dalam Tinggi (Kriptik?)
+         PX363004.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0027             PQ813543.1|Thunnus_obesus|Scombridae             0.0016      Suspek Mislabel / Kontaminasi
+         PX363003.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0014             PQ813543.1|Thunnus_obesus|Scombridae             0.0000      Suspek Mislabel / Kontaminasi
+         PX363002.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0041             PQ813543.1|Thunnus_obesus|Scombridae             0.0032      Suspek Mislabel / Kontaminasi
+         PX363001.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0014             PQ813543.1|Thunnus_obesus|Scombridae             0.0000      Suspek Mislabel / Kontaminasi
+         PX363000.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0014             PQ813543.1|Thunnus_obesus|Scombridae             0.0000      Suspek Mislabel / Kontaminasi
+         PX362999.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0014             PQ813543.1|Thunnus_obesus|Scombridae             0.0000      Suspek Mislabel / Kontaminasi
+         PX362998.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0041             PQ813543.1|Thunnus_obesus|Scombridae             0.0032      Suspek Mislabel / Kontaminasi
+         PX362997.1|Thunnus_albacares|Scombridae         Thunnus albacares     Scombridae                    0.0027             PQ813543.1|Thunnus_obesus|Scombridae             0.0016      Suspek Mislabel / Kontaminasi
+            PQ813544.1|Thunnus_obesus|Scombridae            Thunnus obesus     Scombridae                    0.0045          PX363003.1|Thunnus_albacares|Scombridae             0.0016      Suspek Mislabel / Kontaminasi
+            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus     Scombridae                    0.0032          PX363003.1|Thunnus_albacares|Scombridae             0.0000      Suspek Mislabel / Kontaminasi
+22:34:38 [INFO]   Uji Monofili Pohon IQ-TREE: 25/29 spesies membentuk klad monofiletik murni.
+22:34:40 [INFO] Selesai Langkah 3b.
+11:40:34 [INFO] == Langkah 3b: Genetika Populasi, Verifikasi ORF, Audit Presisi GenBank & Monofili ==
+11:40:34 [INFO]   Rata-rata pi antar-individu per spesies: 0.00802 | Rata-rata Hd: 0.772
+11:40:34 [INFO]   Statistik Posisi Kodon & Verifikasi ORF Mitokondria:
+Posisi_Kodon  Jumlah_Situs  Situs_Polimorfik  Persen_Polimorfik  GC_Persen  ORF_Frame_Terpilih  Total_Internal_Stop_ORF
+    Posisi 1           212                54               25.5       57.9                   1                        0
+    Posisi 2           212                16                7.5       43.8                   1                        0
+    Posisi 3           212               206               97.2       38.9                   1                        0
+11:40:35 [INFO]   Audit Presisi GenBank: 18 sekuens anomali terdeteksi (2 spesimen salah label/outlier lintas-famili direkomendasikan Exclude_From_Reference).
+11:40:35 [INFO] 
+                                          seq_id  accession         nominal_species nominal_family  mean_dist_to_own_species                               nearest_other_seq     nearest_other_species  min_dist_to_other                                                 status_audit     action_recommended
+JN313043.1|Epinephelus_malabaricus|Epinephelidae JN313043.1 Epinephelus malabaricus  Epinephelidae                    0.0773   PV877696.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0356 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+PQ813541.1|Epinephelus_malabaricus|Epinephelidae PQ813541.1 Epinephelus malabaricus  Epinephelidae                    0.2019 GU673901.1|Lutjanus_argentimaculatus|Lutjanidae Lutjanus argentimaculatus             0.0000         Suspek Kuat Mislabel Spesimen (Identik Spesies Lain) Exclude_From_Reference
+PQ813508.1|Epinephelus_malabaricus|Epinephelidae PQ813508.1 Epinephelus malabaricus  Epinephelidae                    0.1332   PZ794527.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0973 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+PQ812465.1|Epinephelus_malabaricus|Epinephelidae PQ812465.1 Epinephelus malabaricus  Epinephelidae                    0.0783   PZ794527.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0373 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+PQ812464.1|Epinephelus_malabaricus|Epinephelidae PQ812464.1 Epinephelus malabaricus  Epinephelidae                    0.2131            OR918623.1|Lutjanus_vitta|Lutjanidae            Lutjanus vitta             0.0697                      Outlier Lintas-Famili / Suspek Mislabel Exclude_From_Reference
+MN708926.1|Epinephelus_malabaricus|Epinephelidae MN708926.1 Epinephelus malabaricus  Epinephelidae                    0.0774   PZ794527.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0344 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+OQ386702.1|Epinephelus_malabaricus|Epinephelidae OQ386702.1 Epinephelus malabaricus  Epinephelidae                    0.0773   PV877696.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0356 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+FJ237599.1|Epinephelus_malabaricus|Epinephelidae FJ237599.1 Epinephelus malabaricus  Epinephelidae                    0.0789   PV877696.1|Epinephelus_coioides|Epinephelidae      Epinephelus coioides             0.0356 Divergensi Intraspesifik Tinggi (Kriptik / Kompleks Spesies)        Review_Taxonomy
+         PX363004.1|Thunnus_albacares|Scombridae PX363004.1       Thunnus albacares     Scombridae                    0.0027            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0016         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX363003.1|Thunnus_albacares|Scombridae PX363003.1       Thunnus albacares     Scombridae                    0.0014            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0000         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX363002.1|Thunnus_albacares|Scombridae PX363002.1       Thunnus albacares     Scombridae                    0.0041            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0032         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX363001.1|Thunnus_albacares|Scombridae PX363001.1       Thunnus albacares     Scombridae                    0.0014            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0000         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX363000.1|Thunnus_albacares|Scombridae PX363000.1       Thunnus albacares     Scombridae                    0.0014            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0000         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX362999.1|Thunnus_albacares|Scombridae PX362999.1       Thunnus albacares     Scombridae                    0.0014            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0000         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX362998.1|Thunnus_albacares|Scombridae PX362998.1       Thunnus albacares     Scombridae                    0.0041            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0032         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+         PX362997.1|Thunnus_albacares|Scombridae PX362997.1       Thunnus albacares     Scombridae                    0.0027            PQ813543.1|Thunnus_obesus|Scombridae            Thunnus obesus             0.0016         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+            PQ813544.1|Thunnus_obesus|Scombridae PQ813544.1          Thunnus obesus     Scombridae                    0.0045         PX363003.1|Thunnus_albacares|Scombridae         Thunnus albacares             0.0016         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+            PQ813543.1|Thunnus_obesus|Scombridae PQ813543.1          Thunnus obesus     Scombridae                    0.0032         PX363003.1|Thunnus_albacares|Scombridae         Thunnus albacares             0.0000         Introgresi / Divergensi Dangkal Kongenerik (Thunnus) Require_Nuclear_Marker
+11:40:35 [INFO]   Uji Monofili Pohon IQ-TREE: 25/29 spesies membentuk klad monofiletik murni.
+11:40:37 [INFO] Selesai Langkah 3b.
+11:40:48 [INFO] == Langkah 5: Identifikasi Spesies Bebas-Alignment (6-mer + ML & Ablasi Audit) ==
+11:40:55 [INFO] Performa Baseline (n=229):
+                             Model  CV_Accuracy  Macro_F1
+             Random Forest (6-mer)       0.9738    0.9736
+1-NN Cosine (Baseline mirip BLAST)       0.9607    0.9584
+                Linear SVM (6-mer)       0.9214    0.9013
+11:41:07 [INFO] Studi Ablasi Dampak Audit GenBank:
+                                                    Dataset_Regime  N_Sekuens                              Model  CV_Accuracy  Macro_F1
+              1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)        229 1-NN Cosine (Baseline mirip BLAST)       0.9607    0.9584
+              1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)        229                 Linear SVM (6-mer)       0.9214    0.9013
+              1. Raw GenBank (n=229, Sebelum Pembersihan Mislabel)        229              Random Forest (6-mer)       0.9738    0.9736
+2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)        227 1-NN Cosine (Baseline mirip BLAST)       0.9692    0.9673
+2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)        227                 Linear SVM (6-mer)       0.9163    0.8845
+2. Post-Audit Clean (n=227, Tanpa Spesimen Mislabel Lintas-Famili)        227              Random Forest (6-mer)       0.9868    0.9861
+                  3. Post-Audit + Thunnus Complex Resolved (n=227)        227 1-NN Cosine (Baseline mirip BLAST)       0.9956    0.9947
+                  3. Post-Audit + Thunnus Complex Resolved (n=227)        227                 Linear SVM (6-mer)       0.8370    0.8111
+                  3. Post-Audit + Thunnus Complex Resolved (n=227)        227              Random Forest (6-mer)       0.9956    0.9947
+11:41:12 [INFO] Selesai Langkah 5.
